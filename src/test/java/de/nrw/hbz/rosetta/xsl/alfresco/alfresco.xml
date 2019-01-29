@@ -1,0 +1,76 @@
+<record>
+	<header>
+		<identifier>oai:wwu.de:b9d298c9-8281-48e6-b567-cfbdc3df652a
+		</identifier>
+		<datestamp>2017-10-02</datestamp>
+		<setSpec>doc-type:article</setSpec>
+		<setSpec>doc-type:Text</setSpec>
+		<setSpec>status-type:publishedVersion</setSpec>
+		<setSpec>ddc:280</setSpec>
+		<setSpec>ddc:760</setSpec>
+		<setSpec>ddc:900</setSpec>
+		<setSpec>ddc:940</setSpec>
+		<setSpec>driver</setSpec>
+	</header>
+	<metadata>
+		<oai_dc:dc
+			xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+			<dc:title>Як намалювати ворога?:‚Свої’ і ‚чужі’ в ранньомодерній
+				українській іконографії</dc:title>
+			<dc:language>ukr</dc:language>
+			<dc:title>Wie man einen Feind malt.:‚Eigene’ und ‚Fremde’ in der
+				frühneuezeitlichen ukrainischen Ikonographie</dc:title>
+			<dc:creator>Berezhnaya, L. (Liliya)</dc:creator>
+			<dc:contributor>Universitäts- und Landesbibliothek Münster</dc:contributor>
+			<dc:subject>Exzellenzcluster Religion und Politik</dc:subject>
+			<dc:subject>Cluster of Excellence Religion and Politics</dc:subject>
+			<dc:subject>ddc:280</dc:subject>
+			<dc:subject>info:eu-repo/classification/ddc/280</dc:subject>
+			<dc:subject>Denominations and sects of Christian church</dc:subject>
+			<dc:subject>ddc:760</dc:subject>
+			<dc:subject>info:eu-repo/classification/ddc/760</dc:subject>
+			<dc:subject>Printmaking and prints</dc:subject>
+			<dc:subject>ddc:900</dc:subject>
+			<dc:subject>info:eu-repo/classification/ddc/900</dc:subject>
+			<dc:subject>History, geography, and auxiliary disciplines</dc:subject>
+			<dc:subject>ddc:940</dc:subject>
+			<dc:subject>info:eu-repo/classification/ddc/940</dc:subject>
+			<dc:subject>History of Europe</dc:subject>
+			<dc:date>2017-10-02</dc:date>
+			<dc:type>article</dc:type>
+			<dc:type>doc-type:article</dc:type>
+			<dc:type>info:eu-repo/semantics/article</dc:type>
+			<dc:type>Text</dc:type>
+			<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+			<dc:type>publishedVersion</dc:type>
+			<dc:format>application/pdf</dc:format>
+			<dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:6-10299650960</dc:identifier>
+			<dc:identifier>urn:nbn:de:hbz:6-10299650960</dc:identifier>
+			<dc:identifier />
+			<dc:identifier>https://miami.uni-muenster.de/Record/b9d298c9-8281-48e6-b567-cfbdc3df652a</dc:identifier>
+			<dc:identifier>https://repositorium.uni-muenster.de/transfer/miami/b9d298c9-8281-48e6-b567-cfbdc3df652a</dc:identifier>
+			<dc:description>Die radikalen Veränderungen der politischen und
+				interkonfessionellen Situation in der Ukraine, und die darauf
+				folgenden Verschiebungen der Territorialgrenzen im Lauf des 17.
+				Jahrhunderts wirkten sich auch in einer Transformation mentaler
+				Grenzen aus. Das schloss auch die Herausbildung klarerer
+				Vorstellungen darüber ein, wer jeweils Freund, und wer Feind ist.
+				Besonders anschaulich sind diese Prozesse anhand der Geschichte der
+				ukrainischen Gravuren zu verfolgen. Die barocke visuelle Symbolik
+				erlaubte es, die literarischen Metaphern und Allegorien der
+				orthodoxen Theologen in anschauliche Formen umzusetzen. Ebenso wie
+				in den theologisch-polemischen Texten traten hier als Feinde in
+				erster Linie Muslime, katholische Polen und Juden auf, also
+				diejenigen ethnischen Gruppen, mit denen unter der orthodoxen
+				Bevölkerung der Rzeczpospolita am häufigsten Konflikte auftraten.
+				Demgegenüber waren in dieser Gruppe Unierte, Zigeuner oder
+				Moskoviter kaum zu finden. Eine anti-osmanische Symbolik dominierte
+				dabei.</dc:description>
+			<dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+		</oai_dc:dc>
+	</metadata>
+</record>

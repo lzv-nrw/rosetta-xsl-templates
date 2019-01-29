@@ -116,6 +116,14 @@ public class TestXslTransformations {
 		 */
 		test("vlBonn");
 	}
+	
+	@Test
+	public void alfresco() {
+		/**
+		 * http://repositorium.uni-muenster.de/oai/miami?verb=ListRecords&metadataPrefix=oai_dc
+		 */
+		test("alfresco");
+	}
 
 	public void test(String name) {
 		String path = "de/nrw/hbz/rosetta/xsl/" + name + "/" + name;
