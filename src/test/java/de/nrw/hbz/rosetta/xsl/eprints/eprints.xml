@@ -1,0 +1,28 @@
+<record>
+	<header>
+		<identifier>oai:USBKOELN.ub.uni-koeln.de:339</identifier>
+		<datestamp>2018-10-09T08:04:43Z</datestamp>
+	</header>
+	<metadata>
+		<oai_dc:dc
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"
+			xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<dc:relation>https://kups.ub.uni-koeln.de/339/</dc:relation>
+			<dc:title>Mikrostruktur des quantisierten O(2) Gittermodells</dc:title>
+			<dc:creator>Abu Qasem, Khaled</dc:creator>
+			<dc:subject>ddc:570</dc:subject>
+			<dc:date>2002</dc:date>
+			<dc:type>doc-type:doctoralThesis</dc:type>
+			<dc:type>publishedVersion</dc:type>
+			<dc:type>Text</dc:type>
+			<dc:format>application/pdf</dc:format>
+			<dc:language>ger</dc:language>
+			<dc:identifier>https://kups.ub.uni-koeln.de/339/1/11v4456.pdf</dc:identifier>
+			<dc:identifier> Abu Qasem, Khaled (2002). Mikrostruktur des
+				quantisierten O(2) Gittermodells. PhD thesis, Universität zu Köln.      </dc:identifier>
+			<dc:language>ger</dc:language>
+		</oai_dc:dc>
+	</metadata>
+</record>

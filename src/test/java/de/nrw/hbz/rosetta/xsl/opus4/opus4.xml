@@ -1,0 +1,27 @@
+<record>
+      <header >
+        <identifier>oai:hbz.opus:1</identifier>
+        <datestamp>2018-08-15</datestamp>
+        <setSpec>doc-type:report</setSpec>
+        <setSpec>bibliography:false</setSpec>
+        <setSpec>open_access</setSpec>
+        <setSpec>open_access:open_access</setSpec>
+        <setSpec>publikationen</setSpec>
+        <setSpec>publikationen:newsletter</setSpec>
+      </header>
+      <metadata >
+        <oai_dc:dc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dc:title xml:lang="de">Newsletter 2010/1</dc:title>
+          <dc:description xml:lang="de">Newsletter mit dem Berichtszeitraum mit Stand vom Januar 2010</dc:description>
+          <dc:date>2010-01-29</dc:date>
+          <dc:type>report</dc:type>
+          <dc:type>doc-type:report</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:identifier>https://hbz.opus.hbz-nrw.de/frontdoor/index/index/docId/1</dc:identifier>
+          <dc:identifier>https://hbz.opus.hbz-nrw.de/files/1/PDFA_Newsletter_hbz_2010_1.pdf</dc:identifier>
+          <dc:language>deu</dc:language>
+          <dc:rights>https://creativecommons.org/licenses/by-nd/3.0/de/</dc:rights>
+          <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
