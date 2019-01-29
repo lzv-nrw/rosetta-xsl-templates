@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+	<header>
+		<identifier>oai:elpub.bib.uni-wuppertal.de:9080</identifier>
+		<datestamp>2019-01-28</datestamp>
+		<setSpec>DDC:5:53:530</setSpec>
+	</header>
+	<metadata>
+		<oai_dc:dc
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+			xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<dc:title xml:lang="en">Muon density in extensive air showers
+				measured with IceTop</dc:title>
+			<dc:creator>Bindig, Daniel</dc:creator>
+			<dc:date>2019-01-28</dc:date>
+			<dc:identifier>http://elpub.bib.uni-wuppertal.de/edocs/dokumente/fbc/physik/diss2018/bindig</dc:identifier>
+			<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DocumentServlet?id=9080</dc:identifier>
+			<dc:identifier>urn:nbn:de:hbz:468-20190128-120513-9</dc:identifier>
+			<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DerivateServlet/Derivate-8462/dc1822.pdf</dc:identifier>
+			<dc:description xml:lang="de">&lt;p&gt;Die
+				Astroteilchenphysik als relativ junger Forschungsbereich befasst
+				sich mit den Eigenschaften der kosmischen Strahlung, die durch das
+				Universum propagiert und zu einem geringen Bruchteil die Erde
+				erreicht. Kosmische Strahlung setzt sich überwiegend aus Atomkernen
+				verschiedenartiger chemischer Elemente, sowie weiterer Teilchen wie
+				Elektronen, Positronen, Neutrinos und Photonen unterschiedlicher
+				Wellenlängen zusammen. Die Entdeckung der kosmischen Strahlung durch
+				Viktor Franz Hess im Jahre 1912 hat zahlreiche Fragen nach deren
+				Quellen, Propagation, Energiespektrum und Zusammensetzung
+				hervorgebracht, die auch heute noch Gegenstand aktueller Forschung
+				sind. &#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;Seit der Entdeckung kosmischer
+				Strahlung wurden verschiedene
+				Detektortypen zu ihrer Messung
+				entwickelt. Beispielsweise messen auf
+				Satelliten stationierte
+				Detektoren kosmische Strahlung direkt, bevor
+				Wechselwirkungen mit der
+				Erdatmosphäre erfolgen. Da der
+				differentielle Fluss kosmischer
+				Strahlung einem Potenzgesetz folgend
+				mit ungefähr α
+				&lt;i&gt;E&lt;/i&gt; &lt;sup&gt;-2.7&lt;/sup&gt;
+				abnimmt, und
+				satelittengestützte Experimente nur sehr kleine
+				effektive Flächen
+				haben, kann der Nachweis kosmischer Strahlung
+				höherer Energien nur
+				durch erdgebundene Detektoren stattfinden. Dies
+				geschieht indirekt
+				über den Nachweis von Luftschauern. Dabei handelt
+				es sich um
+				Teilchenkaskaden, die entstehen, sobald Teilchen
+				kosmischer Strahlung
+				auf die Erdatmospäre treffen und eine Lawine
+				von physikalischen
+				Prozessen initiieren. Die in Luftschauern
+				produzierten Teilchen sind
+				elektromagnetischer, myonischer, und
+				hadronischer Natur. Insbesondere
+				die Anzahl der Myonen im
+				Luftschauer weist eine starke Abhängigkeit
+				von der Masse des
+				Primärteilchens auf. &#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;Basierend auf gemessenen Detektorsignaturen und
+				Luftschauersimulationen
+				lassen sich Rückschlüsse auf die
+				Eigenschaften des ursprünglichen
+				Teilchens der kosmischen Strahlung
+				ziehen, wie beispielsweise
+				Energie und Masse. Die Kenntnis des
+				Energie- und Massenspektrums
+				wiederum erlaubt das Bestätigen oder
+				Ausschließen verschiedener
+				Modelle, die die Produktion kosmischer
+				Strahlung in Quellen und die
+				Propagation durch das Universum
+				beschreiben, und damit Vorhersagen
+				für das Energie- bzw.
+				Massenspektrum treffen. &#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;Die in dieser
+				Arbeit genutzten Daten stammen von IceTop, die
+				Oberflächenkomponente
+				des am Südpol stationierten IceCube-Detektors.
+				IceTop besteht aus 81
+				Stationen mit jeweils zwei Tanks. Jeder Tank
+				ist mit klarem Eis
+				gefüllt, sowie mit zwei Photomultipliern
+				ausgestattet, die
+				Cherenkovlicht messen, das von geladenen Teilchen
+				beim Durchqueren
+				des Tanks erzeugt wird. &#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;In dieser
+				Arbeit wird die Myondichte auf IceTop-Niveau als Funktion
+				der Energie
+				des Primärteilchens bestimmt. Die dazu genutzte Methode
+				wird zunächst
+				mit Hilfe von Luftschauersimulationen basierend auf
+				dem hadronischen
+				Wechselwirkungsmodell SIBYLL2.1 entwickelt. Diese
+				Simulationen werden
+				genutzt, um in der IceTop-Detektorsimulation
+				Signale zu
+				generieren.&#xD;
+				Die Rekonstruktion des Luftschauers anhand dieser
+				Signale liefert
+				essentielle Charakteristika, wie zum Beispiel die
+				ursprüngliche
+				Richtung des einfallenden Teilchens, der Auftreffpunkt
+				der
+				Schauerachse im Detektor, und eine Schätzung der Energie des
+				einfallenden Teilchens. Nach der Rekonstruktion wird die Anzahl der
+				simulierten Schauer durch ausgewählte Qualitätsschnitte reduziert.
+				Die verbleibenden Luftschauer werden gruppiert nach Bins in
+				Zenithwinkel und Energieschätzer. &#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;Um
+				Myonen im Luftschauer zu isolieren, werden die Detektorsignaturen
+				in
+				IceTop mit Hilfe der Detektosimulation nach Signal und Untergrund
+				aufgetrennt. Ist mindestens ein Myon für das Triggern eines Tanks
+				verantwortlich, wird dieser Tank als Signal klassifiziert,
+				andererseits als Untergrund. Die Signalkomponente wird weiter
+				herausgearbeitet, indem Schnitte auf die gemessene Ladung in einem
+				Tank, und dessen Abstand zur Schauerachse entwickelt werden. Es wird
+				gezeigt, dass sich durch diese Schnitte der Anteil vom Signal an
+				allen aufgezeichneten Ereignissen erhöht.&#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;Basierend auf den Schnitten werden zwei Schätzer für die
+				wahre Anzahl der
+				Myonen im Luftschauer angegeben. Diese beziehen sich
+				auf die
+				laterale Verteilung der Tankladung und die laterale
+				Verteilung der
+				Tankanzahl, d.h. Tanks die eine Ladung registrieren.
+				Gemessen an den
+				systematischen Unsicherheiten ist die laterale
+				Verteilung der
+				Tankanzahl robuster als die Tankladung; deshalb wird
+				nur diese im
+				weiteren Verlauf verwendet.&#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;Das angewandte Verfahren beinhaltet zunächst die Umwandlung
+				des
+				Schätzer für die Myonzahl in einen Schätzer für die Myondichte.
+				Anschließend werden Umrechnungsfaktoren berechnet, die es
+				ermöglichen, den Schätzer für die Myondichte auf die wahre
+				Myondichte zu skalieren, die aus den Luftschauersimulationen bekannt
+				ist. Analog werden aus den gemessenen Daten der Saison 2012 / 2013
+				basierend auf dem mit der Simulation entwickelten Verfahren
+				ebenfalls Schätzer für die Myondichte bestimmt, die schließlich mit
+				Hilfe der Kalibrationsfaktoren auf die Myondichte in den Daten
+				skaliert werden. Das finale Ergebnis ist die Myondichte als Funktion
+				der rekonstruierten Energie, d.h. der Energie des Primärteilchens.
+				&#xD;
+				Da das angewandte Verfahren von den Luftschauersimulationen
+				abhängt,
+				ergeben sich beispielsweise systematische Unsicherheiten
+				aufgrund
+				der hadronischen Wechselwirkungsmodelle, der Masse des
+				simulierten
+				Primärteilchens, oder von Schnee auf dem Detektor.</dc:description>
+			<dc:description xml:lang="en">&lt;p&gt;Cosmic Rays are
+				particles that are accelerated from astrophysical sources and being
+				propagated through the universe. When Cosmic Rays strike particles
+				of the Earth's atmosphere, they undergo interactions which trigger a
+				cascade of particles travelling to the Earth's surface. This air
+				shower carries constituents of different types, such as hadrons,
+				electrons, and muons. Measurements of these constituents can be
+				compared with air shower simulations, in order to draw conclusions
+				on the properties of the initial Cosmic Ray particle, such as
+				nuclear mass, energy, and direction. In particular, the number of
+				muons shows a dependance on the nuclear mass. &#xD;
+				&#xD;
+				&lt;p&gt;&#xD;
+				&#xD;
+				In this work, the detector signatures provided by
+				the IceTop detector
+				are analyzed. &#xD;
+				IceTop is the surface part of
+				the IceCube detector situated at the South
+				Pole. It consists of 81
+				stations ordered in a grid-like structure.
+				Each station comprises two
+				tanks filled with clear ice. Charged
+				particles passing through ice
+				produce Cherenkov light which is
+				detected by photomultiplier tubes.
+				&#xD;
+				&#xD;
+				&lt;p&gt;&#xD;
+				&#xD;
+				In this analysis a method is provided
+				which allows the determination
+				of muon number densities based on
+				measured detector signatures.
+				Initially, this method is developed on
+				air showers simulated with
+				the hadronic interaction model SIBYLL2.1,
+				and having zenith angles
+				between 0° and 36.9°. These air showers are
+				subject to detector
+				simulation and reconstruction, and undergo a
+				selection of quality
+				cuts. The selected set of simulated air showers
+				is separated into
+				bins in zenith angle and estimated energy. For each
+				remaining air
+				shower, the detector signatures are subclassified into
+				signal and
+				background, depending whether they contain muons or
+				not.&#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;The signal content of air showers
+				is carved out by introducing energy
+				and zenith angle dependent cuts
+				on the tank charge and its distance
+				to the shower axis. After the
+				application of these cuts, two muon
+				number estimators are defined
+				basing on lateral charge and hit
+				distributions. Systematic studies
+				show that the latter is more
+				robust against changes in simulation.
+				&#xD;
+				&#xD;
+				&#xD;
+				&#xD;
+				&lt;p&gt;Using a conversion, the muon number
+				estimator is transformed into a muon
+				number density estimator, which
+				is related to the true muon density
+				known from air shower
+				simulations. Finally, the muon number density
+				in experimental data,
+				recorded during the 2012/2013 season, is
+				calculated by applying the
+				conversion derived from simulations, on
+				muon number density
+				estimators derived from data. The result is the
+				muon number density
+				as function of reconstructed primary energy.
+				Since the conversion is
+				derived from air shower simulations,
+				systematic uncertainties such as
+				the hadronic interaction model or
+				the primary mass propagate onto the
+				final result.</dc:description>
+			<dc:subject>500 Naturwissenschaften und Mathematik » 530 Physik » 530
+				Physik</dc:subject>
+			<dc:subject>Fakultät für Mathematik und Naturwissenschaften » Physik
+				» Dissertationen</dc:subject>
+			<dc:type>Wissenschaftliche Abschlussarbeiten » Dissertation</dc:type>
+			<dc:language>eng</dc:language>
+			<dc:format>application/pdf</dc:format>
+			<dc:type>Text</dc:type>
+		</oai_dc:dc>
+	</metadata>
+</record>
+

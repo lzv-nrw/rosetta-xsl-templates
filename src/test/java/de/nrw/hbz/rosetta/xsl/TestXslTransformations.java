@@ -34,7 +34,7 @@ import org.junit.Test;
  *
  */
 public class TestXslTransformations {
-	
+
 	@Test
 	public void testOpus4() {
 		/**
@@ -53,7 +53,7 @@ public class TestXslTransformations {
 		 */
 		test("opus4");
 	}
-	
+
 	@Test
 	public void testEprints() {
 		/**
@@ -64,7 +64,7 @@ public class TestXslTransformations {
 		 */
 		test("eprints");
 	}
-	
+
 	@Test
 	public void testHydra() {
 		/**
@@ -75,21 +75,36 @@ public class TestXslTransformations {
 		 */
 		test("hydra");
 	}
+
+	@Test
+	public void invenio() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>http://juser.fz-juelich.de/oai2d?verb=ListRecords&metadataPrefix=oai_dc&set=OA
+		 * </ul>
+		 */
+		test("invenio");
+	}
 	
-		@Test
-		public void invenio() {
-			/**
-			 * Example call for:
-			 * <ul>
-			 * <li>http://juser.fz-juelich.de/oai2d?verb=ListRecords&metadataPrefix=oai_dc&set=OA
-			 * </ul>
-			 */
-			test("invenio");
-		}
+	@Test
+	public void mycore() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>http://duepublico.uni-duisburg-essen.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://ub-deposit.fernuni-hagen.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>http://elpub.bib.uni-wuppertal.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>
+		 * </ul>
+		 */
+		test("mycore");
+	}
+
 	public void test(String name) {
-		String path="de/nrw/hbz/rosetta/xsl/"+name+"/"+name;
-		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream(path+".xml");
-		InputStream xsl = Thread.currentThread().getContextClassLoader().getResourceAsStream(path+".xsl");
+		String path = "de/nrw/hbz/rosetta/xsl/" + name + "/" + name;
+		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream(path + ".xml");
+		InputStream xsl = Thread.currentThread().getContextClassLoader().getResourceAsStream(path + ".xsl");
 		xsl(xml, new StreamSource(xsl));
 	}
 
@@ -106,5 +121,4 @@ public class TestXslTransformations {
 		}
 	}
 
-	
 }
