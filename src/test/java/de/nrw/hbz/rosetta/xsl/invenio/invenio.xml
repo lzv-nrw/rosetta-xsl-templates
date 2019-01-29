@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+	<header>
+		<identifier>oai:juser.fz-juelich.de:154084</identifier>
+		<datestamp>2018-02-12T11:27:40Z</datestamp>
+		<setSpec>dnbdelivery</setSpec>
+		<setSpec>VDB</setSpec>
+		<setSpec>driver</setSpec>
+		<setSpec>open_access</setSpec>
+		<setSpec>openaire</setSpec>
+		<setSpec>OA</setSpec>
+	</header>
+	<metadata>
+		<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:dcterms="http://purl.org/dc/terms/"
+			xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd http://dublincore.org/schemas/xmls/qdc/dcterms.xsd">
+			<dc:language>ger</dc:language>
+			<dc:creator>Schaefer, Helmut</dc:creator>
+			<dc:creator>Schäfer, Volkmar</dc:creator>
+			<dc:title>Querschnittstechniken - Sektor- und branchenübergreifende
+				Techniken zur Energieumwandlung IKARUS. Instrumente für
+				Klimagas-Reduktionsstrategien: Abschlußbericht Teilprojekt 8
+				&quot;Querschnittstechniken&quot;</dc:title>
+			<dc:description>Die nachhaltige Reduktion von Klimagasemissionen,
+				die mit der Erzeugung, Umwandlung und Nutzung von Energie
+				verbunden sind, wird zusehends zu einer immer wichtigeren Aufgabe
+				der Energie- und Umweltpolitik . Zur Lösung dieser Aufgabe sind
+				unterschiedliche Strategien denkbar. Ziel des IKARUS-Projektes
+				(Instrumente für Klimagas-Reduktionsstrategien) war es, ein
+				Instrumentarium bereitzustellen, mit dem Strategien unter
+				gedanklicher Nutzung unterschiedlicher Technologien entwickelt und
+				nachvollzogen sowie auf ihre innere Widerspruchsfreiheit getestet
+				und ihre ökonomischen Auswirkungen hin untersucht werden können.
+				Entsprechend der großen Komplexität der Aufgabenstellung und der
+				technologischen Vielfalt der Energieanwendungen ist das
+				Instrumentarium sehr umfangreich. Es besteht aus zwei Teilen:
+				einer Datenbank mit umfassender Datensammlung und mehreren
+				Computermodellen unterschiedlicher Art.</dc:description>
+			<dc:source>Jülich : Forschungszentrum Jülich GmbH, Monographien des
+				Forschungszentrums Jülich 21, 128 pp. (1994).</dc:source>
+			<dc:type>info:eu-repo/semantics/report</dc:type>
+			<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+			<dc:publisher>Forschungszentrum Jülich GmbH</dc:publisher>
+			<dc:date>1994</dc:date>
+			<dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+			<dc:coverage>DE</dc:coverage>
+			<dc:identifier>http://juser.fz-juelich.de/record/154084</dc:identifier>
+			<dc:identifier>http://juser.fz-juelich.de/search?p=id:%22FZJ-2014-03486%22</dc:identifier>
+			<dc:identifier>http://juser.fz-juelich.de/record/154084/files/FZJ-2014-03486.pdf</dc:identifier>
+			<dc:audience>Students</dc:audience>
+			<dc:audience>Student Financial Aid Providers</dc:audience>
+			<dc:audience>Teachers</dc:audience>
+			<dc:audience>Researchers</dc:audience>
+			<dc:relation>info:eu-repo/semantics/altIdentifier/isbn/978-3-89336-160-1</dc:relation>
+			<dc:relation>info:eu-repo/semantics/altIdentifier/hdl/2128/6760</dc:relation>
+		</oai_dc:dc>
+	</metadata>
+</record>

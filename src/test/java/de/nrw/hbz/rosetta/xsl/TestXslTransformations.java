@@ -37,20 +37,55 @@ public class TestXslTransformations {
 	
 	@Test
 	public void testOpus4() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>https://opus.bibliothek.fh-aachen.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://pub.h-brs.de/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://opus.bsz-bw.de/fhdo/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://whge.opus.hbz-nrw.de/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://opus4.kobv.de/opus4-rhein-waal/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://publiscologne.th-koeln.de/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://www.hs-owl.de/skim/opus/oai
+		 * <li>https://repositorium.hs-ruhrwest.de/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * <li>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
 		test("opus4");
 	}
 	
 	@Test
 	public void testEprints() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>http://kups.ub.uni-koeln.de/cgi/oai2?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
 		test("eprints");
 	}
 	
 	@Test
 	public void testHydra() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>http://hydra.ub.ruhr-uni-bochum.de/oai/oai2.php?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
 		test("hydra");
 	}
-
-
+	
+		@Test
+		public void invenio() {
+			/**
+			 * Example call for:
+			 * <ul>
+			 * <li>http://juser.fz-juelich.de/oai2d?verb=ListRecords&metadataPrefix=oai_dc&set=OA
+			 * </ul>
+			 */
+			test("invenio");
+		}
 	public void test(String name) {
 		String path="de/nrw/hbz/rosetta/xsl/"+name+"/"+name;
 		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream(path+".xml");
