@@ -1,4 +1,5 @@
-# Collection of XSL scripts for
+# Collection of XSL scripts for various OAI-PMH slangs
+
 
 ## Opus 4
 1. <https://opus.bibliothek.fh-aachen.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc>
@@ -24,3 +25,8 @@
 1. <http://duepublico.uni-duisburg-essen.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc>
 1. <https://ub-deposit.fernuni-hagen.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc>
 1. <http://elpub.bib.uni-wuppertal.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc>
+
+## Visual Library
+
+1. <https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=open_access>
+1. <http://digitale-sammlungen.ulb.uni-bonn.de/oai?verb=ListRecords&metadataPrefix=oai_dc>

@@ -1,0 +1,37 @@
+<record>
+	<header>
+		<identifier>oai:digitale-sammlungen.ulb.uni-bonn.de:2946769
+		</identifier>
+		<datestamp>2013-12-18T07:10:25Z</datestamp>
+		<setSpec>ulbbnhans</setSpec>
+		<setSpec>letter</setSpec>
+	</header>
+	<metadata>
+		<oai_dc:dc
+			xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+			<dc:title>Brief an die Königliche Bibliothek der Universität in Bonn</dc:title>
+			<dc:description>Übersendung eines Druckes der Kriegsbriefe an Felix
+				Heinrich Schoeller, dessen Sohn bereit sei, die Originalbriefe dem
+				Unterrichtsministerium zu schenken, und eines Kriegstagebuches von
+				Franz Dunoyer [=Kriegsbriefe 6]</dc:description>
+			<dc:description>Mit Eingangsvermerk der UB und Bleistiftnotiz</dc:description>
+			<dc:description></dc:description>
+			<dc:publisher>Universitäts- und Landesbibliothek</dc:publisher>
+			<dc:date>1911-12-02</dc:date>
+			<dc:type>Text</dc:type>
+			<dc:type>Letter</dc:type>
+			<dc:format>1 Brief, masch. m. Unterschrift (1 Bl.=2 S.) ; 2°</dc:format>
+			<dc:format>vergilbt, sehr eng gebunden (Textverlust)</dc:format>
+			<dc:identifier>urn:nbn:de:hbz:5:1-66622</dc:identifier>
+			<dc:identifier>https://nbn-resolving.de/urn:nbn:de:hbz:5:1-66622</dc:identifier>
+			<dc:identifier>system:DE-611-HS-2732979</dc:identifier>
+			<dc:relation>vignette :
+				http://digitale-sammlungen.ulb.uni-bonn.de/titlepage/urn/urn:nbn:de:hbz:5:1-66622/128</dc:relation>
+			<dc:language>ger</dc:language>
+		</oai_dc:dc>
+	</metadata>
+</record>

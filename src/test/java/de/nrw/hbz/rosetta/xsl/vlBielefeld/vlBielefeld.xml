@@ -1,0 +1,37 @@
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:1774208</identifier>
+    <datestamp>2018-07-24T12:59:15Z</datestamp>
+    <setSpec>journal_article</setSpec>
+    <setSpec>ddc:540</setSpec>
+    <setSpec>journal_articleFtxt</setSpec>
+    <setSpec>driver</setSpec>
+    <setSpec>open_access</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Concerning the fragmentation of ortho,ortho-dimethyl substituted alkylbenzenes induced by gamma-H migration</dc:title>
+   	<dc:creator>Kuck, Dietmar</dc:creator>
+   	<dc:subject>ddc:540</dc:subject>
+   	<dc:date>1989</dc:date>
+   	<dc:type>info:eu-repo/semantics/article</dc:type>
+   	<dc:type>doc-type:article</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/1774208</dc:identifier>
+   	<dc:identifier>https://pub.uni-bielefeld.de/download/1774208/2311422</dc:identifier>
+   	<dc:source>Kuck D. Concerning the fragmentation of ortho,ortho-dimethyl substituted alkylbenzenes induced by gamma-H migration. &lt;em&gt;Organic Mass Spectrometry&lt;/em&gt;. 1989;24(12):1077-1080.</dc:source>
+   	<dc:language>eng</dc:language>
+   	<dc:relation>info:eu-repo/semantics/altIdentifier/doi/10.1002/oms.1210241209</dc:relation>
+   	<dc:relation>info:eu-repo/semantics/altIdentifier/issn/0030-493X</dc:relation>
+   	<dc:relation>info:eu-repo/semantics/altIdentifier/issn/1096-9888</dc:relation>
+   	<dc:relation>info:eu-repo/semantics/altIdentifier/wos/A1989CC73300007</dc:relation>
+   	<dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>

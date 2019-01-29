@@ -100,6 +100,22 @@ public class TestXslTransformations {
 		 */
 		test("mycore");
 	}
+	
+	@Test
+	public void vlBielefeld() {
+		/**
+		 * https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=open_access
+		 */
+		test("vlBielefeld");
+	}
+	
+	@Test
+	public void vlBonn() {
+		/**
+		 * http://digitale-sammlungen.ulb.uni-bonn.de/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 */
+		test("vlBonn");
+	}
 
 	public void test(String name) {
 		String path = "de/nrw/hbz/rosetta/xsl/" + name + "/" + name;
