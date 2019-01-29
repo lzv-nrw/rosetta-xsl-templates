@@ -1,0 +1,36 @@
+<record>
+   <header>
+    <identifier>oai:RUBochum.de:http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:294-6805</identifier>
+    <datestamp>2003-03-18</datestamp>
+    <setSpec>50</setSpec>
+   </header>
+   <metadata>
+     <oai_dc:dc
+       xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+       xmlns:dc="http://purl.org/dc/elements/1.1/"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+       http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+      <dc:title>Morphologisch-anatomische Grundlagen zur mikrochirurgischen Bandscheibenoperation</dc:title>
+      <dc:creator>Neitzel, Katharina</dc:creator>
+      <dc:subject>Bandscheibenvorfall; Lendenwirbelsäule; Bandscheibenkrankheit; Nukleotomie</dc:subject>
+      <dc:description>Bandscheibenbedingte Erkrankungen sind in der Bevölkerung weit verbreitet. Jeder Mensch weist nach seinem 30.
+Lebensjahr degenerative Veränderungen auf. Diese Veränderungen können zu Bandscheibenvorfällen mit entsprechenden
+klinischen Symptomen führen. Ist die Notwendigkeit zum operativen Eingriff gegeben, werden die besten Ergebnisse mit
+einer mikrochirurgischen Op-Technik erreicht. Durch das geringere Trauma kann das Risiko Op-bedingter Schädigungen
+herabgesetzt und ein Postdiskotomie-Syndrom vermieden werden. Voraussetzung für die Anwendung dieser Technik sind
+genaue anatomische Kenntnisse. In der vorliegenden Arbeit wurden die topographischen Relationen zwischen Bandscheibe und
+ihren benachbarten Strukturen untersucht. Im Messexperiment, welches an 20 formalinfixierten Leichen durchgeführt
+wurde, ergaben sich Richtwerte, die bei der Mikrodiskotomie von Nutzen sind. Untersucht wurden die Bewegungssegmente L3/
+L4, L4/L5 und L5/S1, welche mit 98,6% am häufigsten Prolapse aufweisen.</dc:description>
+      <dc:publisher>Ruhr-Universität Bochum, Universitätsbibliothek</dc:publisher>
+      <dc:contributor>Medizin</dc:contributor>
+      <dc:date>2002-07-16</dc:date>
+      <dc:type>Dissertation</dc:type>
+      <dc:format>application/pdf</dc:format>
+      <dc:identifier>http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:294-6805</dc:identifier>
+      <dc:source>http://www-brs.ub.ruhr-uni-bochum.de/netahtml/HSS/Diss/NeitzelKatharina/diss.pdf</dc:source>
+      <dc:language>ger</dc:language>
+     </oai_dc:dc>
+   </metadata>
+  </record>

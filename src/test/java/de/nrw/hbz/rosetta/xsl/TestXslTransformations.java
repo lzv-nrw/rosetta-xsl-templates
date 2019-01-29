@@ -34,21 +34,29 @@ import org.junit.Test;
  *
  */
 public class TestXslTransformations {
+	
 	@Test
 	public void testOpus4() {
-		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream("de/nrw/hbz/rosetta/xsl/opus4/opus4.xml");
-		InputStream xsl = Thread.currentThread().getContextClassLoader().getResourceAsStream("de/nrw/hbz/rosetta/xsl/opus4/opus4.xsl");
-		xsl(xml, new StreamSource(xsl));
+		test("opus4");
 	}
 	
 	@Test
 	public void testEprints() {
-		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream("de/nrw/hbz/rosetta/xsl/eprints/eprints.xml");
-		InputStream xsl = Thread.currentThread().getContextClassLoader().getResourceAsStream("de/nrw/hbz/rosetta/xsl/eprints/eprints.xsl");
-		xsl(xml, new StreamSource(xsl));
+		test("eprints");
+	}
+	
+	@Test
+	public void testHydra() {
+		test("hydra");
 	}
 
 
+	public void test(String name) {
+		String path="de/nrw/hbz/rosetta/xsl/"+name+"/"+name;
+		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream(path+".xml");
+		InputStream xsl = Thread.currentThread().getContextClassLoader().getResourceAsStream(path+".xsl");
+		xsl(xml, new StreamSource(xsl));
+	}
 
 	public void xsl(InputStream xml, Source xsl) {
 		try {
