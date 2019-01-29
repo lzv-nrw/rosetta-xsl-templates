@@ -30,3 +30,7 @@
 
 1. <https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=open_access>
 1. <http://digitale-sammlungen.ulb.uni-bonn.de/oai?verb=ListRecords&metadataPrefix=oai_dc>
+
+## Alfresco
+
+1. <http://repositorium.uni-muenster.de/oai/miami?verb=ListRecords&metadataPrefix=oai_dc>
