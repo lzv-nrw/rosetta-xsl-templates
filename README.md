@@ -21,16 +21,17 @@
 ## Invenio
 1. <http://juser.fz-juelich.de/oai2d?verb=ListRecords&metadataPrefix=oai_dc&set=OA>
 
+## LibreCat
+1. <https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=open_access>
+
+
 ## Mycore
 1. <http://duepublico.uni-duisburg-essen.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc>
 1. <https://ub-deposit.fernuni-hagen.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc>
 1. <http://elpub.bib.uni-wuppertal.de/servlets/OAIDataProvider?verb=ListRecords&metadataPrefix=oai_dc>
 
 ## Visual Library
-
-1. <https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=open_access>
 1. <http://digitale-sammlungen.ulb.uni-bonn.de/oai?verb=ListRecords&metadataPrefix=oai_dc>
 
 ## Alfresco
-
 1. <http://repositorium.uni-muenster.de/oai/miami?verb=ListRecords&metadataPrefix=oai_dc>
