@@ -7,8 +7,11 @@
 	xmlns:mods="http://www.loc.gov/mods/v3"
 	xmlns:oai="http://www.openarchives.org/OAI/2.0/" version="2.0">
 	<xsl:output method="xml" indent="yes"
-		omit-xml-declaration="no" version="2.0" encoding="UTF-8" />
+		omit-xml-declaration="yes" version="2.0" encoding="UTF-8" />
+
 	<xsl:template match="/">
+	<xsl:for-each select="//dc:identifier">
+	  <xsl:if test="contains(.,'pdf')">
 		<dc:record
 			xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
 			xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -248,5 +251,7 @@
 				</xsl:for-each>
 			</xsl:if>
 		</dc:record>
+		</xsl:if>
+		</xsl:for-each>
 	</xsl:template>
 </xsl:stylesheet>
