@@ -10,7 +10,11 @@
 1. <https://publiscologne.th-koeln.de/oai?verb=ListRecords&metadataPrefix=oai_dc>
 1. <https://www.hs-owl.de/skim/opus/oai?verb=ListRecords&metadataPrefix=oai_dc>
 1. <https://repositorium.hs-ruhrwest.de/oai?verb=ListRecords&metadataPrefix=oai_dc>
+
+## Opus 4 Bochum
 1. <https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc>
+
+Example where Content is harvested with separate script, due to restrictions of Rosetta OAI-Harvester functionality 
 
 ## Eprints
 1. <http://kups.ub.uni-koeln.de/cgi/oai2?verb=ListRecords&metadataPrefix=oai_dc>
