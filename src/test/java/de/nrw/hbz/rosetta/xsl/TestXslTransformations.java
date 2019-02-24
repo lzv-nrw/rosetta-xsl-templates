@@ -48,12 +48,22 @@ public class TestXslTransformations {
 		 * <li>https://publiscologne.th-koeln.de/oai?verb=ListRecords&metadataPrefix=oai_dc
 		 * <li>https://www.hs-owl.de/skim/opus/oai
 		 * <li>https://repositorium.hs-ruhrwest.de/oai?verb=ListRecords&metadataPrefix=oai_dc
-		 * <li>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
 		 * </ul>
 		 */
 		test("opus4");
 	}
 
+	@Test
+	public void testOpus4Bochum() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
+		test("opus4bochum");
+	}
+	
 	@Test
 	public void testEprints() {
 		/**

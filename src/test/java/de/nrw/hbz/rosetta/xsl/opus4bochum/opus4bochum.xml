@@ -1,0 +1,51 @@
+<record>
+	<header>
+		<identifier>oai:hss-opus.ub.ruhr-uni-bochum.de:1</identifier>
+		<datestamp>2018-11-26</datestamp>
+		<setSpec>doc-type:doctoralthesis</setSpec>
+		<setSpec>bibliography:false</setSpec>
+		<setSpec>ddc</setSpec>
+		<setSpec>ddc:610</setSpec>
+	</header>
+	<metadata>
+		<oai_dc:dc  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+			<dc:title xml:lang="de">Morphologisch-anatomische Grundlagen zur
+				mikrochirurgischen Bandscheibenoperation</dc:title>
+			<dc:creator>Neitzel, Katharina</dc:creator>
+			<dc:subject>Bandscheibenvorfall</dc:subject>
+			<dc:subject>Lendenwirbelsäule</dc:subject>
+			<dc:subject>Bandscheibenkrankheit</dc:subject>
+			<dc:subject>Nukleotomie</dc:subject>
+			<dc:subject>ddc:610</dc:subject>
+			<dc:description xml:lang="de">Bandscheibenbedingte
+				Erkrankungen sind in der Bevölkerung weit verbreitet. Jeder Mensch
+				weist nach seinem 30. Lebensjahr degenerative Veränderungen auf.
+				Diese Veränderungen können zu Bandscheibenvorfällen mit
+				entsprechenden klinischen Symptomen führen. Ist die Notwendigkeit
+				zum operativen Eingriff gegeben, werden die besten Ergebnisse mit
+				einer mikrochirurgischen Op-Technik erreicht. Durch das geringere
+				Trauma kann das Risiko Op-bedingter Schädigungen herabgesetzt und
+				ein Postdiskotomie-Syndrom vermieden werden.&#13;
+				Voraussetzung für die Anwendung dieser Technik sind genaue anatomische
+				Kenntnisse. In der vorliegenden Arbeit wurden die topographischen
+				Relationen zwischen Bandscheibe und ihren benachbarten Strukturen
+				untersucht.&#13;
+				Im Messexperiment, welches an 20 formalinfixierten Leichen
+				durchgeführt wurde, ergaben sich Richtwerte, die bei der
+				Mikrodiskotomie von Nutzen sind. Untersucht wurden die
+				Bewegungssegmente L3/L4, L4/L5 und L5/S1, welche mit 98,6% am
+				häufigsten Prolapse aufweisen.</dc:description>
+			<dc:date>2003-03-18</dc:date>
+			<dc:type>doctoralthesis</dc:type>
+			<dc:type>doc-type:doctoralThesis</dc:type>
+			<dc:identifier>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/frontdoor/index/index/docId/1</dc:identifier>
+			<dc:identifier>urn:nbn:de:hbz:294-6805</dc:identifier>
+			<dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:294-6805</dc:identifier>
+			<dc:language>deu</dc:language>
+			<dc:rights>http://hss-opus.ub.ruhr-uni-bochum.de/opus4/default/license/index/licId/3</dc:rights>
+			<dc:rights>info:eu-repo/semantics/restrictedAccess</dc:rights>
+		</oai_dc:dc>
+	</metadata>
+</record>
