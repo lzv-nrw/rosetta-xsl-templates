@@ -35,7 +35,7 @@ import org.junit.Test;
  */
 public class TestXslTransformations {
 
-	@Test
+	// @Test
 	public void testOpus4() {
 		/**
 		 * Example call for:
@@ -54,6 +54,17 @@ public class TestXslTransformations {
 	}
 
 	@Test
+	public void testUsbAlff() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
+		test("usbalff");
+	}
+
+	// @Test
 	public void testOpus4Bochum() {
 		/**
 		 * Example call for:
@@ -64,7 +75,7 @@ public class TestXslTransformations {
 		test("opus4bochum");
 	}
 	
-	@Test
+	// @Test
 	public void testEprints() {
 		/**
 		 * Example call for:
@@ -75,7 +86,7 @@ public class TestXslTransformations {
 		test("eprints");
 	}
 
-	@Test
+	// @Test
 	public void testHydra() {
 		/**
 		 * Example call for:
@@ -86,7 +97,7 @@ public class TestXslTransformations {
 		test("hydra");
 	}
 
-	@Test
+	// @Test
 	public void invenio() {
 		/**
 		 * Example call for:
@@ -97,7 +108,7 @@ public class TestXslTransformations {
 		test("invenio");
 	}
 	
-	@Test
+	// @Test
 	public void mycore() {
 		/**
 		 * Example call for:
@@ -111,7 +122,7 @@ public class TestXslTransformations {
 		test("mycore");
 	}
 	
-	@Test
+	// @Test
 	public void vlBielefeld() {
 		/**
 		 * https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=open_access
@@ -119,7 +130,7 @@ public class TestXslTransformations {
 		test("vlBielefeld");
 	}
 	
-	@Test
+	// @Test
 	public void vlBonn() {
 		/**
 		 * http://digitale-sammlungen.ulb.uni-bonn.de/oai?verb=ListRecords&metadataPrefix=oai_dc
@@ -127,7 +138,7 @@ public class TestXslTransformations {
 		test("vlBonn");
 	}
 	
-	@Test
+	// @Test
 	public void alfresco() {
 		/**
 		 * http://repositorium.uni-muenster.de/oai/miami?verb=ListRecords&metadataPrefix=oai_dc
