@@ -41,11 +41,12 @@
 				mode="ie" />
 			<xsl:apply-templates
 				select="mets:fileSec[mets:fileGrp]" />
-			<xsl:apply-templates
+			<!-- Select which fileSecs will be represented by its own structMap -->  
+<!-- 		<xsl:apply-templates
 				select="mets:structMap[@TYPE=&apos;PHYSICAL&apos;]">
 				<xsl:with-param name="rep_num" select="1" />
-			</xsl:apply-templates>
-			<xsl:apply-templates select="mets:structMap">
+			</xsl:apply-templates> -->
+ 	 		<xsl:apply-templates select="mets:structMap">
 				<xsl:with-param name="rep_num" select="2" />
 			</xsl:apply-templates>
 		</mets:mets>
@@ -55,7 +56,7 @@
 		<xsl:for-each select="mets:fileGrp">
 			<xsl:variable name="group" select="./@USE" />
 			<xsl:variable name="pos" select="position()" />
-			<xsl:if test="position()=1 or position()=2">
+			<xsl:if test="position()=2">
 				<mets:amdSec>
 					<xsl:attribute name="ID">
             <xsl:value-of
@@ -290,13 +291,14 @@
       <xsl:variable name="CONTENTdm_ID"
 			select="substring-after(.,&apos;CISOPTR=&apos;)" />
       <xsl:choose>
-        <xsl:when test="$group = &apos;MAX&apos;">
-          <xsl:value-of select="." />
-          <!--         <xsl:value-of select="concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/tif/&apos;, document(string(concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,translate(substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,&apos;-&apos;),&apos;_tif_matching&apos;,&apos;.xml&apos;)))/lines/entry[@key=$CONTENTdm_ID])" /> -->
-        </xsl:when>
         <xsl:when test="$group = &apos;DEFAULT&apos;">
           <xsl:value-of
-			select="concat(&apos;file:///deposit_storage/oai_harvester/usb/alff/&apos;,$CONTENTdm_ID,&apos;.jpg&apos;)" />
+			select="concat($CONTENTdm_ID,&apos;.jpg&apos;)" />
+          <!-- <xsl:value-of select="concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/jpg/&apos;, document(string(concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,translate(substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,&apos;-&apos;),&apos;_jpg_matching&apos;,&apos;.xml&apos;)))/lines/entry[@key=substring-before($CONTENTdm_ID,&apos;&amp;&apos;)])" /> -->
+        </xsl:when>
+        <xsl:when test="$group = &apos;MAX&apos;">
+          <xsl:value-of
+			select="concat($CONTENTdm_ID,&apos;.jpg&apos;)" />
           <!-- <xsl:value-of select="concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/jpg/&apos;, document(string(concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,translate(substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,&apos;-&apos;),&apos;_jpg_matching&apos;,&apos;.xml&apos;)))/lines/entry[@key=substring-before($CONTENTdm_ID,&apos;&amp;&apos;)])" /> -->
         </xsl:when>
       </xsl:choose>
@@ -314,7 +316,7 @@
 		</xsl:element>
 	</xsl:template>
 	<!-- Struct section -->
-	<xsl:template
+  	<xsl:template
 		match="mets:structMap[@TYPE=&apos;PHYSICAL&apos;]">
 		<xsl:param name="rep_num" />
 		<xsl:element name="{name()}">
