@@ -1,282 +1,528 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record>
-	<header>
-		<identifier>oai:elpub.bib.uni-wuppertal.de:9080</identifier>
-		<datestamp>2019-01-28</datestamp>
-		<setSpec>DDC:5:53:530</setSpec>
-	</header>
-	<metadata>
-		<oai_dc:dc
-			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-			xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
-			xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-			xmlns:dc="http://purl.org/dc/elements/1.1/">
-			<dc:title xml:lang="en">Muon density in extensive air showers
-				measured with IceTop</dc:title>
-			<dc:creator>Bindig, Daniel</dc:creator>
-			<dc:date>2019-01-28</dc:date>
-			<dc:identifier>http://elpub.bib.uni-wuppertal.de/edocs/dokumente/fbc/physik/diss2018/bindig</dc:identifier>
-			<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DocumentServlet?id=9080</dc:identifier>
-			<dc:identifier>urn:nbn:de:hbz:468-20190128-120513-9</dc:identifier>
-			<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DerivateServlet/Derivate-8462/dc1822.zip</dc:identifier>
-			<dc:description xml:lang="de">&lt;p&gt;Die
-				Astroteilchenphysik als relativ junger Forschungsbereich befasst
-				sich mit den Eigenschaften der kosmischen Strahlung, die durch das
-				Universum propagiert und zu einem geringen Bruchteil die Erde
-				erreicht. Kosmische Strahlung setzt sich überwiegend aus Atomkernen
-				verschiedenartiger chemischer Elemente, sowie weiterer Teilchen wie
-				Elektronen, Positronen, Neutrinos und Photonen unterschiedlicher
-				Wellenlängen zusammen. Die Entdeckung der kosmischen Strahlung durch
-				Viktor Franz Hess im Jahre 1912 hat zahlreiche Fragen nach deren
-				Quellen, Propagation, Energiespektrum und Zusammensetzung
-				hervorgebracht, die auch heute noch Gegenstand aktueller Forschung
-				sind. &#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;Seit der Entdeckung kosmischer
-				Strahlung wurden verschiedene
-				Detektortypen zu ihrer Messung
-				entwickelt. Beispielsweise messen auf
-				Satelliten stationierte
-				Detektoren kosmische Strahlung direkt, bevor
-				Wechselwirkungen mit der
-				Erdatmosphäre erfolgen. Da der
-				differentielle Fluss kosmischer
-				Strahlung einem Potenzgesetz folgend
-				mit ungefähr α
-				&lt;i&gt;E&lt;/i&gt; &lt;sup&gt;-2.7&lt;/sup&gt;
-				abnimmt, und
-				satelittengestützte Experimente nur sehr kleine
-				effektive Flächen
-				haben, kann der Nachweis kosmischer Strahlung
-				höherer Energien nur
-				durch erdgebundene Detektoren stattfinden. Dies
-				geschieht indirekt
-				über den Nachweis von Luftschauern. Dabei handelt
-				es sich um
-				Teilchenkaskaden, die entstehen, sobald Teilchen
-				kosmischer Strahlung
-				auf die Erdatmospäre treffen und eine Lawine
-				von physikalischen
-				Prozessen initiieren. Die in Luftschauern
-				produzierten Teilchen sind
-				elektromagnetischer, myonischer, und
-				hadronischer Natur. Insbesondere
-				die Anzahl der Myonen im
-				Luftschauer weist eine starke Abhängigkeit
-				von der Masse des
-				Primärteilchens auf. &#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;Basierend auf gemessenen Detektorsignaturen und
-				Luftschauersimulationen
-				lassen sich Rückschlüsse auf die
-				Eigenschaften des ursprünglichen
-				Teilchens der kosmischen Strahlung
-				ziehen, wie beispielsweise
-				Energie und Masse. Die Kenntnis des
-				Energie- und Massenspektrums
-				wiederum erlaubt das Bestätigen oder
-				Ausschließen verschiedener
-				Modelle, die die Produktion kosmischer
-				Strahlung in Quellen und die
-				Propagation durch das Universum
-				beschreiben, und damit Vorhersagen
-				für das Energie- bzw.
-				Massenspektrum treffen. &#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;Die in dieser
-				Arbeit genutzten Daten stammen von IceTop, die
-				Oberflächenkomponente
-				des am Südpol stationierten IceCube-Detektors.
-				IceTop besteht aus 81
-				Stationen mit jeweils zwei Tanks. Jeder Tank
-				ist mit klarem Eis
-				gefüllt, sowie mit zwei Photomultipliern
-				ausgestattet, die
-				Cherenkovlicht messen, das von geladenen Teilchen
-				beim Durchqueren
-				des Tanks erzeugt wird. &#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;In dieser
-				Arbeit wird die Myondichte auf IceTop-Niveau als Funktion
-				der Energie
-				des Primärteilchens bestimmt. Die dazu genutzte Methode
-				wird zunächst
-				mit Hilfe von Luftschauersimulationen basierend auf
-				dem hadronischen
-				Wechselwirkungsmodell SIBYLL2.1 entwickelt. Diese
-				Simulationen werden
-				genutzt, um in der IceTop-Detektorsimulation
-				Signale zu
-				generieren.&#xD;
-				Die Rekonstruktion des Luftschauers anhand dieser
-				Signale liefert
-				essentielle Charakteristika, wie zum Beispiel die
-				ursprüngliche
-				Richtung des einfallenden Teilchens, der Auftreffpunkt
-				der
-				Schauerachse im Detektor, und eine Schätzung der Energie des
-				einfallenden Teilchens. Nach der Rekonstruktion wird die Anzahl der
-				simulierten Schauer durch ausgewählte Qualitätsschnitte reduziert.
-				Die verbleibenden Luftschauer werden gruppiert nach Bins in
-				Zenithwinkel und Energieschätzer. &#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;Um
-				Myonen im Luftschauer zu isolieren, werden die Detektorsignaturen
-				in
-				IceTop mit Hilfe der Detektosimulation nach Signal und Untergrund
-				aufgetrennt. Ist mindestens ein Myon für das Triggern eines Tanks
-				verantwortlich, wird dieser Tank als Signal klassifiziert,
-				andererseits als Untergrund. Die Signalkomponente wird weiter
-				herausgearbeitet, indem Schnitte auf die gemessene Ladung in einem
-				Tank, und dessen Abstand zur Schauerachse entwickelt werden. Es wird
-				gezeigt, dass sich durch diese Schnitte der Anteil vom Signal an
-				allen aufgezeichneten Ereignissen erhöht.&#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;Basierend auf den Schnitten werden zwei Schätzer für die
-				wahre Anzahl der
-				Myonen im Luftschauer angegeben. Diese beziehen sich
-				auf die
-				laterale Verteilung der Tankladung und die laterale
-				Verteilung der
-				Tankanzahl, d.h. Tanks die eine Ladung registrieren.
-				Gemessen an den
-				systematischen Unsicherheiten ist die laterale
-				Verteilung der
-				Tankanzahl robuster als die Tankladung; deshalb wird
-				nur diese im
-				weiteren Verlauf verwendet.&#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;Das angewandte Verfahren beinhaltet zunächst die Umwandlung
-				des
-				Schätzer für die Myonzahl in einen Schätzer für die Myondichte.
-				Anschließend werden Umrechnungsfaktoren berechnet, die es
-				ermöglichen, den Schätzer für die Myondichte auf die wahre
-				Myondichte zu skalieren, die aus den Luftschauersimulationen bekannt
-				ist. Analog werden aus den gemessenen Daten der Saison 2012 / 2013
-				basierend auf dem mit der Simulation entwickelten Verfahren
-				ebenfalls Schätzer für die Myondichte bestimmt, die schließlich mit
-				Hilfe der Kalibrationsfaktoren auf die Myondichte in den Daten
-				skaliert werden. Das finale Ergebnis ist die Myondichte als Funktion
-				der rekonstruierten Energie, d.h. der Energie des Primärteilchens.
-				&#xD;
-				Da das angewandte Verfahren von den Luftschauersimulationen
-				abhängt,
-				ergeben sich beispielsweise systematische Unsicherheiten
-				aufgrund
-				der hadronischen Wechselwirkungsmodelle, der Masse des
-				simulierten
-				Primärteilchens, oder von Schnee auf dem Detektor.</dc:description>
-			<dc:description xml:lang="en">&lt;p&gt;Cosmic Rays are
-				particles that are accelerated from astrophysical sources and being
-				propagated through the universe. When Cosmic Rays strike particles
-				of the Earth's atmosphere, they undergo interactions which trigger a
-				cascade of particles travelling to the Earth's surface. This air
-				shower carries constituents of different types, such as hadrons,
-				electrons, and muons. Measurements of these constituents can be
-				compared with air shower simulations, in order to draw conclusions
-				on the properties of the initial Cosmic Ray particle, such as
-				nuclear mass, energy, and direction. In particular, the number of
-				muons shows a dependance on the nuclear mass. &#xD;
-				&#xD;
-				&lt;p&gt;&#xD;
-				&#xD;
-				In this work, the detector signatures provided by
-				the IceTop detector
-				are analyzed. &#xD;
-				IceTop is the surface part of
-				the IceCube detector situated at the South
-				Pole. It consists of 81
-				stations ordered in a grid-like structure.
-				Each station comprises two
-				tanks filled with clear ice. Charged
-				particles passing through ice
-				produce Cherenkov light which is
-				detected by photomultiplier tubes.
-				&#xD;
-				&#xD;
-				&lt;p&gt;&#xD;
-				&#xD;
-				In this analysis a method is provided
-				which allows the determination
-				of muon number densities based on
-				measured detector signatures.
-				Initially, this method is developed on
-				air showers simulated with
-				the hadronic interaction model SIBYLL2.1,
-				and having zenith angles
-				between 0° and 36.9°. These air showers are
-				subject to detector
-				simulation and reconstruction, and undergo a
-				selection of quality
-				cuts. The selected set of simulated air showers
-				is separated into
-				bins in zenith angle and estimated energy. For each
-				remaining air
-				shower, the detector signatures are subclassified into
-				signal and
-				background, depending whether they contain muons or
-				not.&#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;The signal content of air showers
-				is carved out by introducing energy
-				and zenith angle dependent cuts
-				on the tank charge and its distance
-				to the shower axis. After the
-				application of these cuts, two muon
-				number estimators are defined
-				basing on lateral charge and hit
-				distributions. Systematic studies
-				show that the latter is more
-				robust against changes in simulation.
-				&#xD;
-				&#xD;
-				&#xD;
-				&#xD;
-				&lt;p&gt;Using a conversion, the muon number
-				estimator is transformed into a muon
-				number density estimator, which
-				is related to the true muon density
-				known from air shower
-				simulations. Finally, the muon number density
-				in experimental data,
-				recorded during the 2012/2013 season, is
-				calculated by applying the
-				conversion derived from simulations, on
-				muon number density
-				estimators derived from data. The result is the
-				muon number density
-				as function of reconstructed primary energy.
-				Since the conversion is
-				derived from air shower simulations,
-				systematic uncertainties such as
-				the hadronic interaction model or
-				the primary mass propagate onto the
-				final result.</dc:description>
-			<dc:subject>500 Naturwissenschaften und Mathematik » 530 Physik » 530
-				Physik</dc:subject>
-			<dc:subject>Fakultät für Mathematik und Naturwissenschaften » Physik
-				» Dissertationen</dc:subject>
-			<dc:type>Wissenschaftliche Abschlussarbeiten » Dissertation</dc:type>
-			<dc:language>eng</dc:language>
-			<dc:format>application/pdf</dc:format>
-			<dc:type>Text</dc:type>
-		</oai_dc:dc>
-	</metadata>
-</record>
+<fakeRoot>
+	<record>
+		<header>
+			<identifier>oai:elpub.bib.uni-wuppertal.de:998</identifier>
+			<datestamp>2018-01-22</datestamp>
+			<setSpec>DDC:7:72:720</setSpec>
+		</header>
+		<metadata>
 
+			<oai_dc:dc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+				xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+				<dc:title xml:lang="de">Sanierung als zweite Chance</dc:title>
+				<dc:title xml:lang="de">Strategien für ein angenehmes Raumklima
+					ohne aktive Kühlung in Bürogebäuden Mitteleuropas</dc:title>
+				<dc:creator>Hoffmann, Caroline</dc:creator>
+				<dc:date>2007-06-08</dc:date>
+				<dc:identifier>http://elpub.bib.uni-wuppertal.de/edocs/dokumente/fbf/architektur/diss2007/hoffmann</dc:identifier>
+				<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DocumentServlet?id=998</dc:identifier>
+				<dc:identifier>urn:nbn:de:hbz:468-20070621</dc:identifier>
+				<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DerivateServlet/Derivate-1104/</dc:identifier>
+				<dc:description xml:lang="de">Viele der Bürogebäude, die
+					in den 60er und 70er Jahren gebaut wurden, weisen neben den
+					üblichen Instandhaltungszyklen einen grundlegenden Sanierungsbedarf
+					auf, da sie nicht mehr an heutige Bedürfnisse angepasst sind.
+					Anforderungen aus der Nutzung, wirtschaftliche Erwägungen in einem
+					übersättigten Immobilienmarkt und hohe Baunutzungskosten machen
+					eine Modernisierung erforderlich.&#xD;
+					&lt;br&gt;&lt;br&gt;Eines der Themen beim zeitgemäßen Umbau von Bürogebäuden ist das
+					sommerliche Raumklima. In Gebäuden ohne aktive Kühlung
+					beeinträchtigen inakzeptabel hohe Temperaturen den Komfort, in
+					Gebäuden mit Klimaanlage können hohe Energieverbräuche und
+					Unterhaltskosten oder Anzeichen für das so genannte "Sick Building
+					Syndrome" das Technik- und Klimakonzept in Frage stellen.&#xD;
+					&lt;br&gt;&lt;br&gt;Als Maßnahme gegen hohe Raumtemperaturen
+					reichte es in der Vergangenheit oftmals aus, die externen
+					Wärmelasten wirkungsvoll zu reduzieren. Damit konnte zumindest über
+					weite Strecken des Sommers ein thermischer Komfort erreicht werden.
+					Angesichts gestiegener interner Wärmelasten durch die Technisierung
+					der Arbeitswelt und der globalen Erwärmung mit einer Zunahme sehr
+					warmer Perioden, müssen zukünftig umfangreichere und
+					leistungsfähigere Maßnahmen ergriffen werden. Ohne eine aktive
+					Kühlung kann dies über eine wirksame Reduktion der Wärmelasten, die
+					konsequente Ausnutzung der Wärmespeicherfähigkeit der Baumasse und
+					die Nutzung natürlicher Wärmesenken (Nachtluft, Erdreich) zur
+					Aufnahme der Wärmelasten erreicht werden. Dieses integrierte
+					Maßnahmenpaket wird als passive Kühlung bezeichnet. Die beschränkte
+					Leistung der verfügbaren Wärmesenken macht eine geringe Kühllast
+					des Gebäudes zur Voraussetzung. Gegenstand der vorliegenden Arbeit
+					ist die Untersuchung, inwieweit bei Bestandsgebäuden im Rahmen
+					einer Sanierung der thermische Komfort ohne aktive Kühlung
+					verbessert werden kann und welches die Ausgangsvoraussetzungen
+					sind, die ein Gebäude dafür bieten muss. Da die Außenluft als
+					Wärmesenke speziell für Sanierungsprojekte von Bedeutung ist,
+					konzentriert sich die Untersuchung hauptsächlich auf diese Art der
+					Wärmeabfuhr.&#xD;
+					&lt;br&gt;&lt;br&gt;Das methodische Vorgehen weist drei Schwerpunkte auf:&lt;br&gt;&#xD;
+					Der erste Themenbereich erläutert zunächst die Anforderungen an
+					moderne Büroarbeitsplätze und die Grundlagen und Möglichkeiten der
+					passiven Kühlung in der Sanierung. Zur Klärung wird einerseits auf
+					theoretische Kenntnisse, andererseits auf bereits durchgeführte
+					Sanierungsbeispiele zur Veranschaulichung exemplarischer
+					Fragestellungen zurückgegriffen. Auf dieser Basis aufbauend, werden
+					in einem weiteren Schritt die Voraussetzungen geklärt, unter denen
+					im Rahmen einer Sanierung das thermische Raumklima auch ohne aktive
+					Kühlung maßgeblich verbessert werden kann. Dazu wird eine geeignete
+					Gebäudetypologie vorgestellt.&#xD;
+					&lt;br&gt;&lt;br&gt;Der zweite Themenschwerpunkt liegt im Bereich der Bestandsanalyse. Es
+					wird gezeigt, dass für ein Sanierungskonzept, das bei der
+					Verbesserung des sommerlichen Raumklimas ansetzt, eine über die
+					Diagnose des baulichen Gebäudezustands hinausgehende Analyse
+					unverzichtbar ist. Als ergänzende Analyseinstrumente werden
+					Messungen und Nutzerbefragungen im Sommer und Winter, sowie
+					Aufzeichnungen des Energieverbrauchs und Simulationen eingesetzt.
+					Auf die Darstellung der Analyseergebnisse für zwei Beispielgebäude
+					folgt eine Bewertung der Werkzeuge.&#xD;
+					&lt;br&gt;&lt;br&gt;Der dritte Arbeitsbereich liegt in der Untersuchung der Machbarkeit.
+					Anhand der zwei analysierten Beispielgebäude, die typologisch
+					günstige Voraussetzungen aufweisen, werden mögliche
+					Sanierungskonzepte vorgestellt. Die Strategien zur Verbesserung des
+					thermischen Raumklimas beinhalten bei beiden Gebäuden die Nutzung
+					der Außenluft zur nächtlichen Entwärmung. Dabei werden
+					Möglichkeiten und Grenzen der Nachtlüftung aufgezeigt: Bei einem
+					der Gebäude lässt sich das Raumklima ohne aktive Kühlung maßgeblich
+					verbessern, beim anderen Gebäude ist ein akzeptabler thermischer
+					Komfort nur mit einer Zusatzkühlung erreichbar.</dc:description>
+				<dc:description xml:lang="en">Many of the office buildings
+					that were built in the 1960’s and 1970’s need fundamental
+					renovation, extending well beyond the usual maintenance work, as
+					they no longer meet modern expectations. Requirements resulting
+					from their usage, economic considerations in an oversaturated
+					real-estate market and high building operation costs make
+					modernisation necessary. One important topic in modernising office
+					buildings is the indoor climate during summer. In buildings without
+					active cooling, unacceptably high temperatures can cause
+					discomfort, whereas high operation costs and indications of the
+					"Sick Building Syndrome" in buildings with air conditioners make
+					this technical approach to controlling the indoor climate
+					questionable.&#xD;
+					&lt;br&gt;&lt;br&gt;In the past, effectively reducing the external heat gains was often
+					an adequate measure to prevent high room temperatures. Thermal
+					comfort could be achieved for at least most of the summer in this
+					way. However, in future further measures must be taken, when the
+					higher internal heat gains due to increased use of technical office
+					equipment and the predicted climatic changes causing global warming
+					and more frequent very warm periods are taken into account. If
+					active cooling is to be avoided, a clear potential for improvement
+					in many existing buildings must be exploited during renovation.
+					This potential consists of effective reduction of the heat loads,
+					rational usage of the heat storage capacity of the building mass
+					and the use of natural heat sinks (night air, ground) to absorb the
+					heat loads. The limited capacity of the available heat sinks means
+					that a low cooling load for the building is a pre-requisite.&#xD;
+					&lt;br&gt;&lt;br&gt;The object of this thesis is to investigate the
+					extent to which the thermal comfort in existing buildings can be
+					improved by renovation without applying active cooling and to
+					identify the necessary starting conditions in a building for this
+					approach to be successful. As it is usually easy to access the
+					outdoor air as a heat sink in the context of a renovation, the
+					investigation concentrates mainly on this type of heat
+					removal.&#xD;
+					&lt;br&gt;&lt;br&gt;The methodical approach applied is divided into three main
+					sections:&lt;br&gt;&#xD;
+					The first section starts by exploring the demands on working
+					conditions in modern offices, and the fundamentals of and
+					opportunities for passive cooling in renovation. For elucidation,
+					theoretical knowledge will be applied on the one hand, and on the
+					other, examples of renovation that have already been completed are
+					presented to illustrate specific questions. Using this as a basis,
+					a further step identifies the conditions which must already exist
+					if the thermal indoor climate is to be improved significantly by
+					renovation without active cooling. The results are presented as a
+					suitable building typology.&#xD;
+					&lt;br&gt;&lt;br&gt;The second section focuses on analysis of the existing situation in a
+					building. It is demonstrated that simply diagnosing the technical
+					condition of the building is insufficient for a renovation concept
+					which aims to improve the indoor climate in summer. Measurements
+					and user surveys in summer and winter, records of the energy
+					consumption and building energy simulation are used as
+					further-reaching analytical instruments. After the analysis results
+					have been presented for two buildings taken as examples, the tools
+					themselves are evaluated.&#xD;
+					&lt;br&gt;&lt;br&gt;The third section addresses the question of feasibility. Possible
+					renovation concepts are presented for the two buildings analysed in
+					the second section, which feature favourable conditions according
+					to the building typology. The strategies to improve the thermal
+					indoor climate for both buildings include the use of outdoor air
+					for night cooling. In applying these strategies, the possibilities
+					and limits of night cooling are revealed: The indoor climate can be
+					significantly improved in one of the buildings without active
+					cooling, whereas in the other building, acceptable thermal comfort
+					can be achieved only with additional cooling.</dc:description>
+				<dc:description xml:lang="fr">Beaucoup de bâtiments
+					administratifs construits dans les années 60 et 70 nécessitent un
+					assainissement fondamental par rapport aux cycles de maintenance
+					habituels, puisqu'ils ne sont plus adaptés à des besoins actuels.
+					La législation actuelle, les considérations économiques d’un marché
+					immobilier sursaturé et de coûts de matières premières élevés
+					conduisent à une modernisation indispensable de ce parc. Les
+					conditions de travail dans ces bureaux en période estivale son une
+					première raison à cette modernisation. Dans les bâtiments dépourvus
+					de systèmes de refroidissement actifs, des températures intérieures
+					élevées et inacceptables altèrent le confort. Cependant les
+					bâtiments équipés de climatisation peuvent mettre en exergue des
+					coûts d’utilisation et d’entretien hors proportion et le fameux
+					&lt;&lt; Sick Building Syndrome&gt;&gt; pouvant ainsi remettre en
+					question les concepts et techniques de climatisation.&#xD;
+					&lt;br&gt;&lt;br&gt;Dans le passé, comme mesure contre les hautes
+					températures ambiantes, une réduction des sources de chaleur
+					permettait d’atteindre un confort thermique acceptable durant les
+					longues périodes estivales. Mais en considérant une augmentation du
+					nombre de sources de chaleur dans les bâtiments et bureaux, due à
+					la modernisation du mode et matériel de travail, et de l’évolution
+					prévue du climat planétaire, (réchauffement global et augmentation
+					des périodes caniculaires), de nouvelles mesures, et
+					complémentaires, doivent être mises en place à l’avenir. Le
+					renoncement à un système de refroidissement actif conduit à élargir
+					le cadre de l’assainissement de bon nombre de bâtiments de cette
+					génération pour définir un potentiel d’amélioration clair. Cela
+					peut se traduire par la réduction efficace des sources de chaleur,
+					de l’utilisation adéquate de la capacité calorifique liée à la
+					taille et aux matériaux des bâtiments, et, par l’usage de
+					dissipateurs thermiques naturels (courant d’air nocturne,sol). Cet
+					ensemble de mesures intégré est qualifié de refroidissement passif.
+					La performance limitée de ces dissipateurs thermiques n’engendre au
+					préalable que de faibles charges de refroidissement du
+					bâtiment.&#xD;
+					&lt;br&gt;&lt;br&gt;L’objet de l’actuel travail vise à définir dans quelle mesure le confort
+					thermique peut être atteint dans le cadre de l’assainissement du
+					parc immobilier datant des années 60 et 70 par un refroidissement
+					passif et quelles sont les conditions préalables que doit présenter
+					un bâtiment de cette génération pour cela. Étant donné que l’air
+					extérieur se révèle être un dissipateur de chaleur facilement
+					viable, l’étude, qui suit, se base principalement sur ce
+					principe.&#xD;
+					&lt;br&gt;&lt;br&gt;La méthodologie comporte trois axes principaux:&lt;br&gt;&#xD;
+					1) Balayage des exigences concernant les aires de bureau modernes et
+					description des bases et possibilités du refroidissement passif.
+					Ceci sera alimenté par une mise en revue des connaissances
+					théoriques d’une part, et, une énumération d’exemples de
+					d’assainissement illustrant cette remise en question d’autre part.
+					Dans un second temps et sur cette base, des conditions seront
+					déterminées, selon lesquelles la température ambiante dans un
+					bureau peut être améliorée de façon pertinente sans l’utilisation
+					d’un refroidissement actif et dans le cadre d’un assainissement.
+					S’en suit une topologie de bâtiment.&#xD;
+					&lt;br&gt;&lt;br&gt;2) Inventaire du parc immobilier correspondant. Cette étape montre
+					qu’un concept d’assainissement visant à améliorer les conditions
+					climatiques des locaux en période estivale ne peut se soustraire à
+					un diagnostique des matériaux constituant le bâtiment. Comme
+					instruments d’analyse complémentaires des mesures et des enquêtes
+					auprès des usagers en été comme en hiver sont à mener. À cela
+					s’ajoutent un bilan de la consommation énergétique et une
+					simulation numérique. À la vue des résultats de cette analyse sur
+					deux bâtiments, s’en suit une notation des instruments.&#xD;
+					&lt;br&gt;&lt;br&gt;3) Faisabilité. Les deux exemples de bâtiments
+					traités précédents mettent en exergue des conditions typologiques
+					de bâtiments et permettent de présenter de possibles concepts
+					d’assainissement. Ces derniers se basent sur l’utilisation de l’air
+					extérieur pour dissiper la chaleur en phase nocturne. Les
+					possibilités et les limites de ce mode de refroidissement passif
+					seront détaillées. Pour l’un des deux bâtiments étudiés, une
+					climatisation par refroidissement passif met en avant les carences
+					de ce mode de climatisation qui doit être complété par un
+					refroidissement actif. Concernant le second ce mode refroidissement
+					passif permet d’atteindre une température acceptable.</dc:description>
+				<dc:source xml:lang="de">Datei "df0702.pdf" - Hauptteil der
+					Arbeit&#xD;
+					Datei "df0702a.pdf" - Anlagen&#xD;
+					Datei "_index.zip" - komprimiertes Archiv mit Index</dc:source>
+				<dc:subject>700 Künste und Unterhaltung » 720 Architektur » 720
+					Architektur</dc:subject>
+				<dc:subject>Fakultät für Architektur und Bauingenieurwesen »
+					Architektur » Dissertationen</dc:subject>
+				<dc:type>Wissenschaftliche Abschlussarbeiten » Dissertation</dc:type>
+				<dc:language>deu</dc:language>
+				<dc:format>application/pdf</dc:format>
+				<dc:format />
+				<dc:type>Text</dc:type>
+			</oai_dc:dc>
+		</metadata>
+	</record>
+	<record>
+		<header>
+			<identifier>oai:elpub.bib.uni-wuppertal.de:9080</identifier>
+			<datestamp>2019-01-28</datestamp>
+			<setSpec>DDC:5:53:530</setSpec>
+		</header>
+		<metadata>
+			<oai_dc:dc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+				xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+				<dc:title xml:lang="en">Muon density in extensive air showers
+					measured with IceTop</dc:title>
+				<dc:creator>Bindig, Daniel</dc:creator>
+				<dc:date>2019-01-28</dc:date>
+				<dc:identifier>http://elpub.bib.uni-wuppertal.de/edocs/dokumente/fbc/physik/diss2018/bindig</dc:identifier>
+				<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DocumentServlet?id=9080</dc:identifier>
+				<dc:identifier>urn:nbn:de:hbz:468-20190128-120513-9</dc:identifier>
+				<dc:identifier>http://elpub.bib.uni-wuppertal.de/servlets/DerivateServlet/Derivate-8462/dc1822.pdf</dc:identifier>
+				<dc:description xml:lang="de">&lt;p&gt;Die
+					Astroteilchenphysik als relativ junger Forschungsbereich befasst
+					sich mit den Eigenschaften der kosmischen Strahlung, die durch das
+					Universum propagiert und zu einem geringen Bruchteil die Erde
+					erreicht. Kosmische Strahlung setzt sich überwiegend aus Atomkernen
+					verschiedenartiger chemischer Elemente, sowie weiterer Teilchen wie
+					Elektronen, Positronen, Neutrinos und Photonen unterschiedlicher
+					Wellenlängen zusammen. Die Entdeckung der kosmischen Strahlung
+					durch
+					Viktor Franz Hess im Jahre 1912 hat zahlreiche Fragen nach deren
+					Quellen, Propagation, Energiespektrum und Zusammensetzung
+					hervorgebracht, die auch heute noch Gegenstand aktueller Forschung
+					sind. &#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;Seit der Entdeckung kosmischer
+					Strahlung wurden verschiedene
+					Detektortypen zu ihrer Messung
+					entwickelt. Beispielsweise messen auf
+					Satelliten stationierte
+					Detektoren kosmische Strahlung direkt, bevor
+					Wechselwirkungen mit der
+					Erdatmosphäre erfolgen. Da der
+					differentielle Fluss kosmischer
+					Strahlung einem Potenzgesetz folgend
+					mit ungefähr α
+					&lt;i&gt;E&lt;/i&gt; &lt;sup&gt;-2.7&lt;/sup&gt;
+					abnimmt, und
+					satelittengestützte Experimente nur sehr kleine
+					effektive Flächen
+					haben, kann der Nachweis kosmischer Strahlung
+					höherer Energien nur
+					durch erdgebundene Detektoren stattfinden. Dies
+					geschieht indirekt
+					über den Nachweis von Luftschauern. Dabei handelt
+					es sich um
+					Teilchenkaskaden, die entstehen, sobald Teilchen
+					kosmischer Strahlung
+					auf die Erdatmospäre treffen und eine Lawine
+					von physikalischen
+					Prozessen initiieren. Die in Luftschauern
+					produzierten Teilchen sind
+					elektromagnetischer, myonischer, und
+					hadronischer Natur. Insbesondere
+					die Anzahl der Myonen im
+					Luftschauer weist eine starke Abhängigkeit
+					von der Masse des
+					Primärteilchens auf. &#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;Basierend auf gemessenen Detektorsignaturen und
+					Luftschauersimulationen
+					lassen sich Rückschlüsse auf die
+					Eigenschaften des ursprünglichen
+					Teilchens der kosmischen Strahlung
+					ziehen, wie beispielsweise
+					Energie und Masse. Die Kenntnis des
+					Energie- und Massenspektrums
+					wiederum erlaubt das Bestätigen oder
+					Ausschließen verschiedener
+					Modelle, die die Produktion kosmischer
+					Strahlung in Quellen und die
+					Propagation durch das Universum
+					beschreiben, und damit Vorhersagen
+					für das Energie- bzw.
+					Massenspektrum treffen. &#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;Die in dieser
+					Arbeit genutzten Daten stammen von IceTop, die
+					Oberflächenkomponente
+					des am Südpol stationierten IceCube-Detektors.
+					IceTop besteht aus 81
+					Stationen mit jeweils zwei Tanks. Jeder Tank
+					ist mit klarem Eis
+					gefüllt, sowie mit zwei Photomultipliern
+					ausgestattet, die
+					Cherenkovlicht messen, das von geladenen Teilchen
+					beim Durchqueren
+					des Tanks erzeugt wird. &#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;In dieser
+					Arbeit wird die Myondichte auf IceTop-Niveau als Funktion
+					der Energie
+					des Primärteilchens bestimmt. Die dazu genutzte Methode
+					wird zunächst
+					mit Hilfe von Luftschauersimulationen basierend auf
+					dem hadronischen
+					Wechselwirkungsmodell SIBYLL2.1 entwickelt. Diese
+					Simulationen werden
+					genutzt, um in der IceTop-Detektorsimulation
+					Signale zu
+					generieren.&#xD;
+					Die Rekonstruktion des Luftschauers anhand dieser
+					Signale liefert
+					essentielle Charakteristika, wie zum Beispiel die
+					ursprüngliche
+					Richtung des einfallenden Teilchens, der Auftreffpunkt
+					der
+					Schauerachse im Detektor, und eine Schätzung der Energie des
+					einfallenden Teilchens. Nach der Rekonstruktion wird die Anzahl der
+					simulierten Schauer durch ausgewählte Qualitätsschnitte reduziert.
+					Die verbleibenden Luftschauer werden gruppiert nach Bins in
+					Zenithwinkel und Energieschätzer. &#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;Um
+					Myonen im Luftschauer zu isolieren, werden die Detektorsignaturen
+					in
+					IceTop mit Hilfe der Detektosimulation nach Signal und Untergrund
+					aufgetrennt. Ist mindestens ein Myon für das Triggern eines Tanks
+					verantwortlich, wird dieser Tank als Signal klassifiziert,
+					andererseits als Untergrund. Die Signalkomponente wird weiter
+					herausgearbeitet, indem Schnitte auf die gemessene Ladung in einem
+					Tank, und dessen Abstand zur Schauerachse entwickelt werden. Es
+					wird
+					gezeigt, dass sich durch diese Schnitte der Anteil vom Signal an
+					allen aufgezeichneten Ereignissen erhöht.&#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;Basierend auf den Schnitten werden zwei Schätzer für die
+					wahre Anzahl der
+					Myonen im Luftschauer angegeben. Diese beziehen sich
+					auf die
+					laterale Verteilung der Tankladung und die laterale
+					Verteilung der
+					Tankanzahl, d.h. Tanks die eine Ladung registrieren.
+					Gemessen an den
+					systematischen Unsicherheiten ist die laterale
+					Verteilung der
+					Tankanzahl robuster als die Tankladung; deshalb wird
+					nur diese im
+					weiteren Verlauf verwendet.&#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;Das angewandte Verfahren beinhaltet zunächst die Umwandlung
+					des
+					Schätzer für die Myonzahl in einen Schätzer für die Myondichte.
+					Anschließend werden Umrechnungsfaktoren berechnet, die es
+					ermöglichen, den Schätzer für die Myondichte auf die wahre
+					Myondichte zu skalieren, die aus den Luftschauersimulationen
+					bekannt
+					ist. Analog werden aus den gemessenen Daten der Saison 2012 / 2013
+					basierend auf dem mit der Simulation entwickelten Verfahren
+					ebenfalls Schätzer für die Myondichte bestimmt, die schließlich mit
+					Hilfe der Kalibrationsfaktoren auf die Myondichte in den Daten
+					skaliert werden. Das finale Ergebnis ist die Myondichte als
+					Funktion
+					der rekonstruierten Energie, d.h. der Energie des Primärteilchens.
+					&#xD;
+					Da das angewandte Verfahren von den Luftschauersimulationen
+					abhängt,
+					ergeben sich beispielsweise systematische Unsicherheiten
+					aufgrund
+					der hadronischen Wechselwirkungsmodelle, der Masse des
+					simulierten
+					Primärteilchens, oder von Schnee auf dem Detektor.</dc:description>
+				<dc:description xml:lang="en">&lt;p&gt;Cosmic Rays are
+					particles that are accelerated from astrophysical sources and being
+					propagated through the universe. When Cosmic Rays strike particles
+					of the Earth's atmosphere, they undergo interactions which trigger
+					a
+					cascade of particles travelling to the Earth's surface. This air
+					shower carries constituents of different types, such as hadrons,
+					electrons, and muons. Measurements of these constituents can be
+					compared with air shower simulations, in order to draw conclusions
+					on the properties of the initial Cosmic Ray particle, such as
+					nuclear mass, energy, and direction. In particular, the number of
+					muons shows a dependance on the nuclear mass. &#xD;
+					&#xD;
+					&lt;p&gt;&#xD;
+					&#xD;
+					In this work, the detector signatures provided by
+					the IceTop detector
+					are analyzed. &#xD;
+					IceTop is the surface part of
+					the IceCube detector situated at the South
+					Pole. It consists of 81
+					stations ordered in a grid-like structure.
+					Each station comprises two
+					tanks filled with clear ice. Charged
+					particles passing through ice
+					produce Cherenkov light which is
+					detected by photomultiplier tubes.
+					&#xD;
+					&#xD;
+					&lt;p&gt;&#xD;
+					&#xD;
+					In this analysis a method is provided
+					which allows the determination
+					of muon number densities based on
+					measured detector signatures.
+					Initially, this method is developed on
+					air showers simulated with
+					the hadronic interaction model SIBYLL2.1,
+					and having zenith angles
+					between 0° and 36.9°. These air showers are
+					subject to detector
+					simulation and reconstruction, and undergo a
+					selection of quality
+					cuts. The selected set of simulated air showers
+					is separated into
+					bins in zenith angle and estimated energy. For each
+					remaining air
+					shower, the detector signatures are subclassified into
+					signal and
+					background, depending whether they contain muons or
+					not.&#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;The signal content of air showers
+					is carved out by introducing energy
+					and zenith angle dependent cuts
+					on the tank charge and its distance
+					to the shower axis. After the
+					application of these cuts, two muon
+					number estimators are defined
+					basing on lateral charge and hit
+					distributions. Systematic studies
+					show that the latter is more
+					robust against changes in simulation.
+					&#xD;
+					&#xD;
+					&#xD;
+					&#xD;
+					&lt;p&gt;Using a conversion, the muon number
+					estimator is transformed into a muon
+					number density estimator, which
+					is related to the true muon density
+					known from air shower
+					simulations. Finally, the muon number density
+					in experimental data,
+					recorded during the 2012/2013 season, is
+					calculated by applying the
+					conversion derived from simulations, on
+					muon number density
+					estimators derived from data. The result is the
+					muon number density
+					as function of reconstructed primary energy.
+					Since the conversion is
+					derived from air shower simulations,
+					systematic uncertainties such as
+					the hadronic interaction model or
+					the primary mass propagate onto the
+					final result.</dc:description>
+				<dc:subject>500 Naturwissenschaften und Mathematik » 530 Physik »
+					530
+					Physik</dc:subject>
+				<dc:subject>Fakultät für Mathematik und Naturwissenschaften » Physik
+					» Dissertationen</dc:subject>
+				<dc:type>Wissenschaftliche Abschlussarbeiten » Dissertation</dc:type>
+				<dc:language>eng</dc:language>
+				<dc:format>application/pdf</dc:format>
+				<dc:type>Text</dc:type>
+			</oai_dc:dc>
+		</metadata>
+	</record>
+</fakeRoot>
