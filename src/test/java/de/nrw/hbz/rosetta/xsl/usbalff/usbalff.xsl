@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
 	xmlns:oai="http://www.openarchives.org/OAI/2.0/"
 	xmlns:mets="http://www.loc.gov/METS/"
@@ -42,10 +41,6 @@
 			<xsl:apply-templates
 				select="mets:fileSec[mets:fileGrp]" />
 			<!-- Select which fileSecs will be represented by its own structMap -->  
-<!-- 		<xsl:apply-templates
-				select="mets:structMap[@TYPE=&apos;PHYSICAL&apos;]">
-				<xsl:with-param name="rep_num" select="1" />
-			</xsl:apply-templates> -->
  	 		<xsl:apply-templates select="mets:structMap">
 				<xsl:with-param name="rep_num" select="2" />
 			</xsl:apply-templates>
@@ -242,7 +237,7 @@
 			<xsl:for-each select="mets:fileGrp">
 				<xsl:variable name="group" select="./@USE" />
 				<xsl:if
-					test="$group = &apos;DEFAULT&apos; or $group = &apos;MAX&apos;">
+					test="$group = &apos;MAX&apos;">
 					<xsl:variable name="repp" select="position()" />
 					<xsl:element name="{name()}">
 						<xsl:attribute name="USE">VIEW</xsl:attribute>
@@ -293,13 +288,11 @@
       <xsl:choose>
         <xsl:when test="$group = &apos;DEFAULT&apos;">
           <xsl:value-of
-			select="concat($CONTENTdm_ID,&apos;.jpg&apos;)" />
-          <!-- <xsl:value-of select="concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/jpg/&apos;, document(string(concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,translate(substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,&apos;-&apos;),&apos;_jpg_matching&apos;,&apos;.xml&apos;)))/lines/entry[@key=substring-before($CONTENTdm_ID,&apos;&amp;&apos;)])" /> -->
+			select="." />
         </xsl:when>
         <xsl:when test="$group = &apos;MAX&apos;">
           <xsl:value-of
-			select="concat($CONTENTdm_ID,&apos;.jpg&apos;)" />
-          <!-- <xsl:value-of select="concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/jpg/&apos;, document(string(concat($source_path,substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,translate(substring-after($oai_id,&apos;uni-koeln.de:&apos;),&apos;/&apos;,&apos;-&apos;),&apos;_jpg_matching&apos;,&apos;.xml&apos;)))/lines/entry[@key=substring-before($CONTENTdm_ID,&apos;&amp;&apos;)])" /> -->
+			select="." />
         </xsl:when>
       </xsl:choose>
     </xsl:attribute>
