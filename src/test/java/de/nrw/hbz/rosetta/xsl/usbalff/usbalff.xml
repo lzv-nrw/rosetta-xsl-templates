@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2019-03-06T11:58:14Z</responseDate>
+<request verb="GetRecord" metadataPrefix="mets" identifier="oai:contentdm.ub.uni-koeln.de:dirksen/498">http://contentdm.ub.uni-koeln.de/oai</request>
+<GetRecord>
+<record>
+<header>
+<identifier>oai:contentdm.ub.uni-koeln.de:dirksen/498</identifier>
+<datestamp>2012-05-16</datestamp>
+<setSpec>dirksen</setSpec>
+</header>
+      <metadata>
+       <mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd"
+        xmlns:mets="http://www.loc.gov/METS/"
+        xmlns:mods="http://www.loc.gov/mods/v3"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:dv="http://dfg-viewer.de/"
+       >
+        <mets:metsHdr>
+         <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+          <mets:name>Universitäts- und Stadtbibliothek Köln</mets:name>
+         </mets:agent>
+        </mets:metsHdr>
+        <mets:dmdSec ID="dmdusbk4761711">
+         <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+          <mets:xmlData>
+           <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+            <mods:titleInfo>
+             <mods:title>Sir Arthur Nicolson, Bart., first Lord Carnock</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+             <mods:namePart type="family">Nicolson</mods:namePart>
+             <mods:namePart type="given">Harold</mods:namePart>
+             <mods:displayForm>Nicolson, Harold</mods:displayForm>
+            </mods:name>
+            <mods:originInfo>
+             <mods:place>
+              <mods:placeTerm type="text">London</mods:placeTerm>
+             </mods:place>
+             <mods:publisher>Constable</mods:publisher>
+             <mods:dateIssued keyDate="yes" encoding="w3cdtf">1930</mods:dateIssued>
+            </mods:originInfo>
+            <mods:language>
+             <mods:languageTerm type="code" authority="iso639-2b">und</mods:languageTerm>
+            </mods:language>
+            <mods:location>
+             <mods:physicalLocation>Universitäts- und Stadtbibliothek Köln</mods:physicalLocation>
+             <mods:shelfLocator>DIRK5</mods:shelfLocator>
+             <mods:url>http://www.ub.uni-koeln.de/permalink/2012/01/katkey:4761711</mods:url>
+            </mods:location>
+             <mods:accessCondition type="use and reproduction">No Copyright</mods:accessCondition>
+           </mods:mods>
+          </mets:xmlData>
+         </mets:mdWrap>
+        </mets:dmdSec>
+        <mets:amdSec ID="amdusbk4761711">
+         <mets:rightsMD ID="rightsusbk4761711">
+          <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+           <mets:xmlData>
+            <dv:rights xmlns:dv="http://dfg-viewer.de/">
+             <dv:owner>Universitäts- und Stadtbibliothek Köln</dv:owner>
+             <dv:ownerContact>mailto:webmaster@ub.uni-koeln.de</dv:ownerContact>
+             <dv:ownerLogo>http://www.ub.uni-koeln.de/cdm4/images/dfgviewer_usblogo.gif</dv:ownerLogo>
+             <dv:ownerSiteURL>https://www.ub.uni-koeln.de/sammlungen/entdecken/syst/digital/index_ger.html</dv:ownerSiteURL>
+            </dv:rights>
+           </mets:xmlData>
+          </mets:mdWrap>
+         </mets:rightsMD>
+         <mets:digiprovMD ID="digiprovusbk4761711">
+          <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+           <mets:xmlData>
+            <dv:links xmlns:dv="http://dfg-viewer.de/">
+             <dv:reference>http://www.ub.uni-koeln.de/usbportal?query=USB:4761711</dv:reference>
+             <dv:presentation>http://www.ub.uni-koeln.de/permalink/2012/01/katkey:4761711</dv:presentation>
+            </dv:links>
+           </mets:xmlData>
+          </mets:mdWrap>
+         </mets:digiprovMD>
+        </mets:amdSec>
+        <mets:fileSec>
+         <mets:fileGrp USE="DEFAULT">
+          <mets:file ID="img0" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=0&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img1" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=1&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img2" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=2&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img3" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=3&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img4" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=4&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img5" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=5&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img6" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=6&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img7" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=7&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img8" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=8&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img9" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=9&amp;WIDTH=950"/>
+          </mets:file>
+          <mets:file ID="img10" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=10&amp;WIDTH=950"/>
+          </mets:file>
+         </mets:fileGrp>
+         <mets:fileGrp USE="MAX">
+          <mets:file ID="imgmax0" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=0"/>
+          </mets:file>
+          <mets:file ID="imgmax1" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=1"/>
+          </mets:file>
+          <mets:file ID="imgmax2" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=2"/>
+          </mets:file>
+          <mets:file ID="imgmax3" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=3"/>
+          </mets:file>
+          <mets:file ID="imgmax4" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=4"/>
+          </mets:file>
+          <mets:file ID="imgmax5" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=5"/>
+          </mets:file>
+          <mets:file ID="imgmax6" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=6"/>
+          </mets:file>
+          <mets:file ID="imgmax7" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=7"/>
+          </mets:file>
+          <mets:file ID="imgmax8" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=8"/>
+          </mets:file>
+          <mets:file ID="imgmax9" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=9"/>
+          </mets:file>
+          <mets:file ID="imgmax10" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cgi-bin/showfile.exe?CISOROOT=/dirksen&amp;CISOPTR=10"/>
+          </mets:file>
+         </mets:fileGrp>
+         <mets:fileGrp USE="MIN">
+          <mets:file ID="imgmin0" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=0&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin1" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=1&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin2" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=2&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin3" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=3&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin4" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=4&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin5" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=5&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin6" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=6&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin7" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=7&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin8" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=8&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin9" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=9&amp;WIDTH=600"/>
+          </mets:file>
+          <mets:file ID="imgmin10" MIMETYPE="image/jpeg">
+           <mets:FLocat LOCTYPE="URL" xlink:href="http://www.ub.uni-koeln.de/cdm4/get_image.php?CISOROOT=/dirksen&amp;CISOPTR=10&amp;WIDTH=600"/>
+          </mets:file>
+         </mets:fileGrp>
+        </mets:fileSec>
+        <mets:structMap TYPE="PHYSICAL">
+         <mets:div ID="physusbk4761711" TYPE="physSequence">
+          <mets:div ID="div1" ORDER="1" ORDERLABEL="Vorderdeckel" LABEL="Vorderdeckel" TYPE="page">
+           <mets:fptr FILEID="img0"/>
+           <mets:fptr FILEID="imgmax0"/>
+           <mets:fptr FILEID="imgmin0"/>
+          </mets:div>
+          <mets:div ID="div2" ORDER="2" ORDERLABEL="Vorderer Spiegel links" LABEL="Vorderer Spiegel" TYPE="page">
+           <mets:fptr FILEID="img1"/>
+           <mets:fptr FILEID="imgmax1"/>
+           <mets:fptr FILEID="imgmin1"/>
+          </mets:div>
+          <mets:div ID="div3" ORDER="3" ORDERLABEL="Vorderer Spiegel rechts" LABEL="" TYPE="page">
+           <mets:fptr FILEID="img2"/>
+           <mets:fptr FILEID="imgmax2"/>
+           <mets:fptr FILEID="imgmin2"/>
+          </mets:div>
+          <mets:div ID="div4" ORDER="4" ORDERLABEL="Rückseite Vorderer Spiegel rechts" LABEL="" TYPE="page">
+           <mets:fptr FILEID="img3"/>
+           <mets:fptr FILEID="imgmax3"/>
+           <mets:fptr FILEID="imgmin3"/>
+          </mets:div>
+          <mets:div ID="div5" ORDER="5" ORDERLABEL="Schmutztitel" LABEL="Titelei" TYPE="page">
+           <mets:fptr FILEID="img4"/>
+           <mets:fptr FILEID="imgmax4"/>
+           <mets:fptr FILEID="imgmin4"/>
+          </mets:div>
+          <mets:div ID="div6" ORDER="6" ORDERLABEL="Rückseite Schmutztitel" LABEL="" TYPE="page">
+           <mets:fptr FILEID="img5"/>
+           <mets:fptr FILEID="imgmax5"/>
+           <mets:fptr FILEID="imgmin5"/>
+          </mets:div>
+          <mets:div ID="div7" ORDER="7" ORDERLABEL="Leerseite mit handschriftlicher Notiz (Seite I)" LABEL="" TYPE="page">
+           <mets:fptr FILEID="img6"/>
+           <mets:fptr FILEID="imgmax6"/>
+           <mets:fptr FILEID="imgmin6"/>
+          </mets:div>
+          <mets:div ID="div8" ORDER="8" ORDERLABEL="Sir Arthur Nicolson Bart. (Frontispiece, Seite II)" LABEL="" TYPE="page">
+           <mets:fptr FILEID="img7"/>
+           <mets:fptr FILEID="imgmax7"/>
+           <mets:fptr FILEID="imgmin7"/>
+          </mets:div>
+          <mets:div ID="div9" ORDER="9" ORDERLABEL="Titelblatt (Seite III)" LABEL="" TYPE="page">
+           <mets:fptr FILEID="img8"/>
+           <mets:fptr FILEID="imgmax8"/>
+           <mets:fptr FILEID="imgmin8"/>
+          </mets:div>
+          <mets:div ID="div10" ORDER="10" ORDERLABEL="Rückseite Titelblatt (Seite IV)" LABEL="" TYPE="page">
+           <mets:fptr FILEID="img9"/>
+           <mets:fptr FILEID="imgmax9"/>
+           <mets:fptr FILEID="imgmin9"/>
+          </mets:div>
+         </mets:div>
+        </mets:structMap>
+        <mets:structMap TYPE="LOGICAL">
+         <mets:div ID="logusbk4761711" DMDID="dmdusbk4761711" ADMID="amdusbk4761711" LABEL="Sir Arthur Nicolson, Bart., first Lord Carnock" TYPE="monograph">
+          <mets:div ID="log1" LABEL="Vorderdeckel" ORDER="1"/>
+          <mets:div ID="log2" LABEL="Vorderer Spiegel" ORDER="2"/>
+          <mets:div ID="log5" LABEL="Titelei" ORDER="5"/>
+         </mets:div>
+        </mets:structMap>
+        <mets:structLink>
+          <mets:smLink xlink:from="log1" xlink:to="div1"/>
+          <mets:smLink xlink:from="log2" xlink:to="div2"/>
+          <mets:smLink xlink:from="log5" xlink:to="div5"/>
+        </mets:structLink>
+       </mets:mets>
+      </metadata>
+</record>
+</GetRecord>
+</OAI-PMH>
