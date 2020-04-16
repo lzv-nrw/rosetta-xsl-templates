@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
 	xmlns:oai="http://www.openarchives.org/OAI/2.0/"
 	xmlns:mets="http://www.loc.gov/METS/"
