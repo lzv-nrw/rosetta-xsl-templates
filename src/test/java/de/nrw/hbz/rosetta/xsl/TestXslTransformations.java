@@ -16,6 +16,8 @@
 
 package de.nrw.hbz.rosetta.xsl;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.InputStream;
 
 import javax.xml.transform.Result;
@@ -62,6 +64,17 @@ public class TestXslTransformations {
 		 * </ul>
 		 */
 		test("usbalff");
+	}
+
+	@Test
+	public void testVlpad() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
+		test("vlpad");
 	}
 
 	// @Test
@@ -150,19 +163,21 @@ public class TestXslTransformations {
 		String path = "de/nrw/hbz/rosetta/xsl/" + name + "/" + name;
 		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream(path + ".xml");
 		InputStream xsl = Thread.currentThread().getContextClassLoader().getResourceAsStream(path + ".xsl");
-		xsl(xml, new StreamSource(xsl));
+		applyTransformation(xml, new StreamSource(xsl), name);
 	}
 
-	public void xsl(InputStream xml, Source xsl) {
+	public void applyTransformation(InputStream xml, Source xsl, String name) {
 		try {
 			TransformerFactory factory = TransformerFactory.newInstance();
 			Templates template = factory.newTemplates(xsl);
 			Transformer xformer = template.newTransformer();
 			Source source = new StreamSource(xml);
-			Result result = new StreamResult(System.out);
+			File resultFile = new File(System.getProperty("user.home") + "/" + name + "result.xml");
+			FileOutputStream fOut = new FileOutputStream(resultFile);
+			Result result = new StreamResult(fOut);
 			xformer.transform(source, result);
 		} catch (Exception e) {
-			throw new RuntimeException(e);
+			System.out.println(e);
 		}
 	}
 

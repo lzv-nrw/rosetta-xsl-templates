@@ -1,0 +1,414 @@
+<record xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:mods="http://www.loc.gov/mods/v3"
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:epicur="urn:nbn:de:1111-2004033116"
+	xmlns:vl="http://visuallibrary.net/vl"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+	xmlns:marcxml="http://www.loc.gov/MARC21/slim"
+	xmlns:vls="http://semantics.de/vls"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header>
+		<identifier>oai:digital.ub.uni-paderborn.de:40833</identifier>
+		<datestamp>2015-05-19T12:50:30Z</datestamp>
+		<setSpec>ubpbhsx</setSpec>
+		<setSpec>oaArticle</setSpec>
+	</header>
+	<metadata>
+		<mets:mets
+			xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd"
+			OBJID="6" LABEL="Digitale Sammlungen"
+			xmlns:xlink="http://www.w3.org/1999/xlink">
+			<mets:metsHdr CREATEDATE="2020-04-08T16:24:52">
+				<mets:agent ROLE="OTHER" TYPE="OTHER"
+					OTHERTYPE="SOFTWARE">
+					<mets:name>vls/1807</mets:name>
+				</mets:agent>
+				<mets:agent ROLE="OTHER" TYPE="OTHER"
+					OTHERTYPE="INSTANCE">
+					<mets:name>ubpb-gina</mets:name>
+				</mets:agent>
+				<mets:agent ROLE="OTHER" TYPE="OTHER"
+					OTHERTYPE="REPOSITORY">
+					<mets:name>digital.ub.uni-paderborn.de</mets:name>
+				</mets:agent>
+				<mets:agent ROLE="OTHER" TYPE="OTHER" OTHERTYPE="BUILDER">
+					<mets:name>vd</mets:name>
+				</mets:agent>
+			</mets:metsHdr>
+			<mets:dmdSec ID="md40833">
+				<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+					<mets:xmlData>
+						<mods:mods version="3.6"
+							xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+							<mods:titleInfo>
+								<mods:title>Apparate für die Kältetechnik</mods:title>
+							</mods:titleInfo>
+							<mods:name type="personal" authority="gnd"
+								authorityURI="http://d-nb.info/gnd/"
+								valueURI="http://d-nb.info/gnd/106211269">
+								<mods:namePart>Gorenflo, Dieter</mods:namePart>
+								<mods:role>
+									<mods:roleTerm type="code"
+										authority="marcrelator">aut</mods:roleTerm>
+								</mods:role>
+							</mods:name>
+							<mods:typeOfResource>text</mods:typeOfResource>
+							<mods:genre authority="marcgt">article</mods:genre>
+							<mods:genre authority="dini">article</mods:genre>
+							<mods:originInfo>
+								<mods:issuance>monographic</mods:issuance>
+								<mods:dateCreated encoding="w3cdtf">1973
+								</mods:dateCreated>
+							</mods:originInfo>
+							<mods:originInfo>
+								<mods:dateIssued>2009</mods:dateIssued>
+								<mods:edition>[Electronic ed.]</mods:edition>
+							</mods:originInfo>
+							<mods:language>
+								<mods:languageTerm authority="iso639-2b"
+									type="code">ger</mods:languageTerm>
+							</mods:language>
+							<mods:classification authority="ddc"
+								displayLabel="Ingenieurwissenschaften und zugeordnete Tätigkeiten">620</mods:classification>
+							<mods:identifier type="eki">HBZCT004000345
+							</mods:identifier>
+							<mods:identifier type="urn">urn:nbn:de:hbz:466:2-3667
+							</mods:identifier>
+							<mods:relatedItem type="host">
+								<mods:part>
+									<mods:detail type="volume">
+										<mods:number>45.1973</mods:number>
+									</mods:detail>
+									<mods:detail type="issue">
+										<mods:number>23</mods:number>
+									</mods:detail>
+									<mods:extent unit="page">
+										<mods:start>1352</mods:start>
+										<mods:end>1355</mods:end>
+									</mods:extent>
+								</mods:part>
+								<mods:titleInfo>
+									<mods:title>Chemie Ingenieur Technik</mods:title>
+								</mods:titleInfo>
+								<mods:originInfo>
+									<mods:place>
+										<mods:placeTerm type="text">Weinheim</mods:placeTerm>
+									</mods:place>
+									<mods:dateIssued>1973</mods:dateIssued>
+								</mods:originInfo>
+								<mods:recordInfo>
+									<mods:recordIdentifier source="ubpbhs">HT005070878
+									</mods:recordIdentifier>
+								</mods:recordInfo>
+								<mods:extension>
+									<vl:id>498748</vl:id>
+									<vl:odid>10</vl:odid>
+									<vl:datatype>1</vl:datatype>
+									<vl:type>0</vl:type>
+									<vl:state>0</vl:state>
+								</mods:extension>
+							</mods:relatedItem>
+							<mods:location>
+								<mods:url displayLabel="Volltext">http://nbn-resolving.de/urn:nbn:de:hbz:466:2-3667
+								</mods:url>
+							</mods:location>
+							<mods:accessCondition>free access</mods:accessCondition>
+							<mods:recordInfo>
+								<mods:recordOrigin>s2w-hsspadubpb</mods:recordOrigin>
+								<mods:recordCreationDate encoding="marc">20110823
+								</mods:recordCreationDate>
+								<mods:recordChangeDate encoding="marc">20140227
+								</mods:recordChangeDate>
+								<mods:recordIdentifier source="ubpbhs">CT004000345
+								</mods:recordIdentifier>
+								<mods:descriptionStandard>rak</mods:descriptionStandard>
+							</mods:recordInfo>
+							<mods:classification
+								displayLabel="Institut für Energie- und Verfahrenstechnik"
+								authority="ioo">MB.3</mods:classification>
+						</mods:mods>
+					</mets:xmlData>
+				</mets:mdWrap>
+			</mets:dmdSec>
+			<mets:dmdSec ID="md498748">
+				<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+					<mets:xmlData>
+						<mods:mods version="3.6"
+							xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+							<mods:titleInfo>
+								<mods:title>Chemie Ingenieur Technik</mods:title>
+							</mods:titleInfo>
+							<mods:originInfo>
+								<mods:place>
+									<mods:placeTerm type="text">Weinheim</mods:placeTerm>
+								</mods:place>
+								<mods:dateIssued>1973</mods:dateIssued>
+							</mods:originInfo>
+							<mods:recordInfo>
+								<mods:recordIdentifier source="ubpbhs">HT005070878
+								</mods:recordIdentifier>
+							</mods:recordInfo>
+						</mods:mods>
+					</mets:xmlData>
+				</mets:mdWrap>
+			</mets:dmdSec>
+			<mets:amdSec ID="amd40833">
+				<mets:rightsMD ID="rights40833">
+					<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+						OTHERMDTYPE="DVRIGHTS">
+						<mets:xmlData>
+							<dv:rights xmlns:dv="http://dfg-viewer.de/">
+								<dv:ownerLogo>https://digital.ub.uni-paderborn.de//domainresource/static/graphics/connectors/viewerLogo.gif
+								</dv:ownerLogo>
+								<dv:owner>Universität Paderborn</dv:owner>
+								<dv:ownerSiteURL>http://www.ub.uni-paderborn.de/
+								</dv:ownerSiteURL>
+							</dv:rights>
+						</mets:xmlData>
+					</mets:mdWrap>
+				</mets:rightsMD>
+				<mets:digiprovMD ID="digiprov40833">
+					<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+						OTHERMDTYPE="DVLINKS">
+						<mets:xmlData>
+							<dv:links xmlns:dv="http://dfg-viewer.de/">
+								<dv:reference>http://katalog.ub.uni-paderborn.de/searches?q=CT004000345&amp;scope=catalog
+								</dv:reference>
+								<dv:presentation>https://digital.ub.uni-paderborn.de/id/40833
+								</dv:presentation>
+								<dv:sru>https://digital.ub.uni-paderborn.de/proto_ftsearch/40833
+								</dv:sru>
+							</dv:links>
+						</mets:xmlData>
+					</mets:mdWrap>
+				</mets:digiprovMD>
+			</mets:amdSec>
+			<mets:amdSec ID="amd498748">
+				<mets:rightsMD ID="rights498748">
+					<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+						OTHERMDTYPE="DVRIGHTS">
+						<mets:xmlData>
+							<dv:rights xmlns:dv="http://dfg-viewer.de/">
+								<dv:ownerLogo>https://digital.ub.uni-paderborn.de//domainresource/static/graphics/connectors/viewerLogo.gif
+								</dv:ownerLogo>
+								<dv:owner>Universität Paderborn</dv:owner>
+								<dv:ownerSiteURL>http://www.ub.uni-paderborn.de/
+								</dv:ownerSiteURL>
+							</dv:rights>
+						</mets:xmlData>
+					</mets:mdWrap>
+				</mets:rightsMD>
+				<mets:digiprovMD ID="digiprov498748">
+					<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+						OTHERMDTYPE="DVLINKS">
+						<mets:xmlData>
+							<dv:links xmlns:dv="http://dfg-viewer.de/">
+								<dv:reference>http://katalog.ub.uni-paderborn.de/searches?q=HT005070878&amp;scope=catalog
+								</dv:reference>
+								<dv:presentation>https://digital.ub.uni-paderborn.de/id/498748
+								</dv:presentation>
+								<dv:sru>https://digital.ub.uni-paderborn.de/proto_ftsearch/498748
+								</dv:sru>
+							</dv:links>
+						</mets:xmlData>
+					</mets:mdWrap>
+				</mets:digiprovMD>
+			</mets:amdSec>
+			<mets:fileSec>
+				<mets:fileGrp USE="FRONTIMAGE">
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2015-05-22T13:36:15.697700Z" ID="IMG_FRONTIMAGE_1586439">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/304/1586439"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2015-05-19T14:41:38.792600Z" ID="IMG_FRONTIMAGE_1538350">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/304/1538350"
+							LOCTYPE="URL" />
+					</mets:file>
+				</mets:fileGrp>
+				<mets:fileGrp USE="DOWNLOAD">
+					<mets:file MIMETYPE="application/pdf"
+						CHECKSUM="de6eee06ec5ae7d390112461e2968258c2a904ff"
+						CREATED="2011-09-22T11:09:04.061000Z" CHECKSUMTYPE="SHA-1"
+						SIZE="330736" ID="PDF_40833">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/40833"
+							LOCTYPE="URL" />
+					</mets:file>
+				</mets:fileGrp>
+				<mets:fileGrp USE="DEFAULT">
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2015-05-19T14:41:38.792600Z" ID="IMG_DEFAULT_1538350">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1000/1538350"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:19.121400Z" ID="IMG_DEFAULT_1538352">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1000/1538352"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2018-08-17T06:31:52.137900Z" ID="IMG_DEFAULT_1538354">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1000/1538354"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:22.761400Z" ID="IMG_DEFAULT_1538356">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1000/1538356"
+							LOCTYPE="URL" />
+					</mets:file>
+				</mets:fileGrp>
+				<mets:fileGrp USE="THUMBS">
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2015-05-19T14:41:38.792600Z" ID="IMG_THUMBS_1538350">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/128/1538350"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:19.121400Z" ID="IMG_THUMBS_1538352">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/128/1538352"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2018-08-17T06:31:52.137900Z" ID="IMG_THUMBS_1538354">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/128/1538354"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:22.761400Z" ID="IMG_THUMBS_1538356">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/128/1538356"
+							LOCTYPE="URL" />
+					</mets:file>
+				</mets:fileGrp>
+				<mets:fileGrp USE="MIN">
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2015-05-19T14:41:38.792600Z" ID="IMG_MIN_1538350">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/600/1538350"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:19.121400Z" ID="IMG_MIN_1538352">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/600/1538352"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2018-08-17T06:31:52.137900Z" ID="IMG_MIN_1538354">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/600/1538354"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:22.761400Z" ID="IMG_MIN_1538356">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/600/1538356"
+							LOCTYPE="URL" />
+					</mets:file>
+				</mets:fileGrp>
+				<mets:fileGrp USE="MAX">
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2015-05-19T14:41:38.792600Z" ID="IMG_MAX_1538350">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1504/1538350"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:19.121400Z" ID="IMG_MAX_1538352">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1504/1538352"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2018-08-17T06:31:52.137900Z" ID="IMG_MAX_1538354">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1504/1538354"
+							LOCTYPE="URL" />
+					</mets:file>
+					<mets:file MIMETYPE="image/jpeg"
+						CREATED="2020-04-07T16:00:22.761400Z" ID="IMG_MAX_1538356">
+						<mets:FLocat
+							xlink:href="https://digital.ub.uni-paderborn.de/download/webcache/1504/1538356"
+							LOCTYPE="URL" />
+					</mets:file>
+				</mets:fileGrp>
+			</mets:fileSec>
+			<mets:structMap TYPE="PHYSICAL">
+				<mets:div TYPE="physSequence" ID="physroot">
+					<mets:div ID="phys1538350" TYPE="page" LABEL="Seite 1"
+						ORDER="1">
+						<mets:fptr FILEID="IMG_DEFAULT_1538350" />
+						<mets:fptr FILEID="IMG_THUMBS_1538350" />
+						<mets:fptr FILEID="IMG_MIN_1538350" />
+						<mets:fptr FILEID="IMG_MAX_1538350" />
+					</mets:div>
+					<mets:div ID="phys1538352" TYPE="page" LABEL="Seite 2"
+						ORDER="2">
+						<mets:fptr FILEID="IMG_DEFAULT_1538352" />
+						<mets:fptr FILEID="IMG_THUMBS_1538352" />
+						<mets:fptr FILEID="IMG_MIN_1538352" />
+						<mets:fptr FILEID="IMG_MAX_1538352" />
+					</mets:div>
+					<mets:div ID="phys1538354" TYPE="page" LABEL="Seite 3"
+						ORDER="3">
+						<mets:fptr FILEID="IMG_DEFAULT_1538354" />
+						<mets:fptr FILEID="IMG_THUMBS_1538354" />
+						<mets:fptr FILEID="IMG_MIN_1538354" />
+						<mets:fptr FILEID="IMG_MAX_1538354" />
+					</mets:div>
+					<mets:div ID="phys1538356" TYPE="page" LABEL="Seite 4"
+						ORDER="4">
+						<mets:fptr FILEID="IMG_DEFAULT_1538356" />
+						<mets:fptr FILEID="IMG_THUMBS_1538356" />
+						<mets:fptr FILEID="IMG_MIN_1538356" />
+						<mets:fptr FILEID="IMG_MAX_1538356" />
+					</mets:div>
+				</mets:div>
+			</mets:structMap>
+			<mets:structMap TYPE="LOGICAL">
+				<mets:div ID="log498748" DMDID="md498748" ADMID="amd498748"
+					TYPE="section" LABEL="{Chemie Ingenieur Technik}" ORDER="1">
+					<mets:mptr LOCTYPE="URL"
+						xlink:href="https://digital.ub.uni-paderborn.de/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=498748" />
+					<mets:fptr FILEID="IMG_FRONTIMAGE_1586439" />
+					<mets:div ID="log40833" DMDID="md40833" ADMID="amd40833"
+						TYPE="section" LABEL="Apparate für die Kältetechnik" ORDER="1"
+						CONTENTIDS="urn:nbn:de:hbz:466:2-3667">
+						<mets:fptr FILEID="PDF_40833" />
+						<mets:fptr FILEID="IMG_FRONTIMAGE_1538350" />
+						<mets:div ID="log1538351" TYPE="section" LABEL="Seite 2 "
+							ORDER="1" />
+						<mets:div ID="log1538353" TYPE="section" LABEL="Seite 3 "
+							ORDER="2" />
+						<mets:div ID="log1538355" TYPE="section" LABEL="Seite 4 "
+							ORDER="3" />
+					</mets:div>
+				</mets:div>
+			</mets:structMap>
+			<mets:structLink>
+				<mets:smLink xlink:from="log40833" xlink:to="physroot" />
+				<mets:smLink xlink:from="log40833"
+					xlink:to="phys1538350" />
+				<mets:smLink xlink:from="log1538351"
+					xlink:to="phys1538352" />
+				<mets:smLink xlink:from="log1538353"
+					xlink:to="phys1538354" />
+				<mets:smLink xlink:from="log1538355"
+					xlink:to="phys1538356" />
+			</mets:structLink>
+		</mets:mets>
+	</metadata>
+</record>
