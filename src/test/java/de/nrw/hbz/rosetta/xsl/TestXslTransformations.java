@@ -16,6 +16,8 @@
 
 package de.nrw.hbz.rosetta.xsl;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.InputStream;
 
 import javax.xml.transform.Result;
@@ -35,7 +37,7 @@ import org.junit.Test;
  */
 public class TestXslTransformations {
 
-	@Test
+	// @Test
 	public void testOpus4() {
 		/**
 		 * Example call for:
@@ -54,6 +56,28 @@ public class TestXslTransformations {
 	}
 
 	@Test
+	public void testUsbAlff() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
+		test("usbalff");
+	}
+
+	@Test
+	public void testVlpad() {
+		/**
+		 * Example call for:
+		 * <ul>
+		 * <li>https://hss-opus.ub.ruhr-uni-bochum.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * </ul>
+		 */
+		test("vlpad");
+	}
+
+	// @Test
 	public void testOpus4Bochum() {
 		/**
 		 * Example call for:
@@ -64,7 +88,7 @@ public class TestXslTransformations {
 		test("opus4bochum");
 	}
 	
-	@Test
+	// @Test
 	public void testEprints() {
 		/**
 		 * Example call for:
@@ -75,7 +99,7 @@ public class TestXslTransformations {
 		test("eprints");
 	}
 
-	@Test
+	// @Test
 	public void testHydra() {
 		/**
 		 * Example call for:
@@ -86,7 +110,7 @@ public class TestXslTransformations {
 		test("hydra");
 	}
 
-	@Test
+	// @Test
 	public void invenio() {
 		/**
 		 * Example call for:
@@ -97,7 +121,7 @@ public class TestXslTransformations {
 		test("invenio");
 	}
 	
-	@Test
+	// @Test
 	public void mycore() {
 		/**
 		 * Example call for:
@@ -111,7 +135,7 @@ public class TestXslTransformations {
 		test("mycore");
 	}
 	
-	@Test
+	// @Test
 	public void vlBielefeld() {
 		/**
 		 * https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=open_access
@@ -119,7 +143,7 @@ public class TestXslTransformations {
 		test("vlBielefeld");
 	}
 	
-	@Test
+	// @Test
 	public void vlBonn() {
 		/**
 		 * http://digitale-sammlungen.ulb.uni-bonn.de/oai?verb=ListRecords&metadataPrefix=oai_dc
@@ -127,7 +151,7 @@ public class TestXslTransformations {
 		test("vlBonn");
 	}
 	
-	@Test
+	// @Test
 	public void alfresco() {
 		/**
 		 * http://repositorium.uni-muenster.de/oai/miami?verb=ListRecords&metadataPrefix=oai_dc
@@ -139,19 +163,21 @@ public class TestXslTransformations {
 		String path = "de/nrw/hbz/rosetta/xsl/" + name + "/" + name;
 		InputStream xml = Thread.currentThread().getContextClassLoader().getResourceAsStream(path + ".xml");
 		InputStream xsl = Thread.currentThread().getContextClassLoader().getResourceAsStream(path + ".xsl");
-		xsl(xml, new StreamSource(xsl));
+		applyTransformation(xml, new StreamSource(xsl), name);
 	}
 
-	public void xsl(InputStream xml, Source xsl) {
+	public void applyTransformation(InputStream xml, Source xsl, String name) {
 		try {
 			TransformerFactory factory = TransformerFactory.newInstance();
 			Templates template = factory.newTemplates(xsl);
 			Transformer xformer = template.newTransformer();
 			Source source = new StreamSource(xml);
-			Result result = new StreamResult(System.out);
+			File resultFile = new File(System.getProperty("user.home") + "/" + name + "result.xml");
+			FileOutputStream fOut = new FileOutputStream(resultFile);
+			Result result = new StreamResult(fOut);
 			xformer.transform(source, result);
 		} catch (Exception e) {
-			throw new RuntimeException(e);
+			System.out.println(e);
 		}
 	}
 

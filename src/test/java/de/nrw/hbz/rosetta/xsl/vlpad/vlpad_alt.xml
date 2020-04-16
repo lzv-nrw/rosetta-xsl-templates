@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:mods="http://www.loc.gov/mods/v3"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" 
+	OBJID="oai:wwu.de:0b6ca7f2-ef26-4fad-8151-2fc514b17ea5"
+	LABEL="University of Muenster, Institutional Repository MIAMI">
+	<mets:metsHdr CREATEDATE="2020-04-06T09:44:20">
+		<mets:agent TYPE="OTHER" ROLE="OTHER" OTHERTYPE="SOFTWARE">
+			<mets:name>Memory Alpha</mets:name>
+		</mets:agent>
+	</mets:metsHdr>
+	<mets:dmdSec ID="DMD_0b6ca7f2-ef26-4fad-8151-2fc514b17ea5">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+			<mets:xmlData>
+				<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+					xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd"
+					version="3.7">
+					<mods:titleInfo type="uniform" lang="eng">
+						<mods:title script="Latn">Gut microbiomes of mobile predators vary with landscape context and species identity</mods:title>
+					</mods:titleInfo>
+					<mods:titleInfo type="translated" lang="ger">
+						<mods:title script="Latn">Landschaftskontext und Artidentität beeinflussen das Darmmikrobiom von Prädatoren</mods:title>
+					</mods:titleInfo>
+					<mods:name type="personal"
+						valueURI="http://d-nb.info/gnd/1142601730">
+						<mods:namePart type="given">Julia</mods:namePart>
+						<mods:namePart type="family">Tiede</mods:namePart>
+						<mods:displayForm>Tiede, Julia</mods:displayForm>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="personal"
+						valueURI="http://d-nb.info/gnd/132512696">
+						<mods:namePart type="given">Christoph</mods:namePart>
+						<mods:namePart type="family">Scherber</mods:namePart>
+						<mods:namePart type="date">1976-</mods:namePart>
+						<mods:displayForm>Scherber, Christoph</mods:displayForm>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="personal"
+						valueURI="http://d-nb.info/gnd/1142601749">
+						<mods:namePart type="given">James</mods:namePart>
+						<mods:namePart type="family">Mutschler</mods:namePart>
+						<mods:displayForm>Mutschler, James</mods:displayForm>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="personal"
+						valueURI="http://d-nb.info/gnd/1105624293">
+						<mods:namePart type="given">Katherine D.</mods:namePart>
+						<mods:namePart type="family">McMahon</mods:namePart>
+						<mods:displayForm>McMahon, Katherine D.</mods:displayForm>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="personal"
+						valueURI="http://d-nb.info/gnd/1103387332">
+						<mods:namePart type="given">Claudio</mods:namePart>
+						<mods:namePart type="family">Gratton</mods:namePart>
+						<mods:displayForm>Gratton, Claudio</mods:displayForm>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="corporate"
+						valueURI="http://d-nb.info/gnd/5091030-9" altRepGroup="5">
+						<mods:namePart>Universitäts- und Landesbibliothek Münster</mods:namePart>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">own</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="corporate"
+						valueURI="http://d-nb.info/gnd/5091030-9" altRepGroup="5">
+						<mods:namePart>Münster, Westfalen / ULB</mods:namePart>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">own</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="corporate"
+						valueURI="http://d-nb.info/gnd/5091030-9" altRepGroup="5">
+						<mods:namePart>Münster, Westfalen / Landesbibliothek</mods:namePart>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">own</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:name type="corporate"
+						valueURI="http://d-nb.info/gnd/5091030-9" altRepGroup="5">
+						<mods:namePart>Westfalen / Universität Münster / Universitäts- und Landesbibliothek</mods:namePart>
+						<mods:role>
+							<mods:roleTerm type="code" authority="marcrelator">own</mods:roleTerm>
+						</mods:role>
+					</mods:name>
+					<mods:genre>article</mods:genre>
+					<mods:genre authority="dct">Text</mods:genre>
+					<mods:originInfo>
+						<mods:dateIssued keyDate="yes">2017-09-12</mods:dateIssued>
+						<mods:issuance>monographic</mods:issuance>
+					</mods:originInfo>
+					<mods:originInfo>
+						<mods:dateIssued encoding="w3cdtf">2017-10-18</mods:dateIssued>
+						<mods:dateModified encoding="w3cdtf">2019-04-16</mods:dateModified>
+						<mods:edition>[Electronic ed.]</mods:edition>
+					</mods:originInfo>
+					<mods:language>
+						<mods:languageTerm type="code"
+							authority="iso639-2b">eng</mods:languageTerm>
+					</mods:language>
+					<mods:physicalDescription>
+						<mods:form>electronic</mods:form>
+						<mods:reformattingQuality>access</mods:reformattingQuality>
+						<mods:internetMediaType>application/pdf</mods:internetMediaType>
+						<mods:extent>1-13</mods:extent>
+						<mods:digitalOrigin>born digital</mods:digitalOrigin>
+					</mods:physicalDescription>
+					<mods:abstract lang="eng">&lt;p&gt;Landscape context affects predator–prey interactions and predator diet composition, yet little is known about landscape effects on insect gut microbiomes, a determinant of physiology and condition. Here, we combine laboratory and field experiments to examine the effects of landscape context on the gut bacterial community and body condition of predatory insects. Under laboratory conditions, we found that prey diversity increased bacterial richness in insect guts. In the field, we studied the performance and gut microbiota of six predatory insect species along a landscape complexity gradient in two local habitat types (soybean fields vs. prairie). Insects from soy fields had richer gut bacteria and lower fat content than those from prairies, suggesting better feeding conditions in prairies. Species origin mediated landscape context effects, suggesting differences in foraging of exotic and native predators on a landscape scale. Overall, our study highlights complex interactions among gut microbiota, predator identity, and landscape context.&lt;/p&gt;</mods:abstract>
+					<mods:abstract lang="ger">&lt;p&gt;In Agrarökosysstemen beeinflusst der Landschaftskontext Interaktionen zwischen mobilen generalistischen Prädatoren und ihrer Nahrung. Welche Auswirkungen der Landschaftskontext auf das Darmmikrobiom von Prädatoren hat ist dagegen nicht bekannt. Wir untersuchen den Einfluss des lokalen und regionalen Landschaftskontextes auf die bakterielle Darmgemeinschaft und den Körperfettgehalt prädatorischer Insekten. Im Laborexperiment konnten wir einen Zusammenhang zwischen der Nahrungsvielfalt und der Vielfalt der Darmbakterien von Marienkäfern zeigen. Im Feld, hatten Marienkäfer die von Sojabohnenfeldern gesammelt wurden eine höhere Vielfalt an Darmbakterien als Marienkäfer von naturnahen Wiesen. Dagegen war der Körperfettgehalt von Marienkäfern von Wiesen höher als der Fettgehalt von Käfern von Sojafeldern, was aus eine bessere Nahrungsverfügbarkeit in Wiesen schließen lässt. Der Einfluss der umliegenden Landschaft (wenig oder viel Fläche mit annuellen Monokulturen) war stark davon abhängig ob die Marienkäferarten im mittleren Westen der USA heimisch sind und weist auf Unterschiede im Fressverhalten zwischen eingeschleppten und heimischen Arten hin.&lt;/p&gt;</mods:abstract>
+					<mods:targetAudience>specialized</mods:targetAudience>
+					<mods:note type="content">Ecology and Evolution 7 (2017), 1–13</mods:note>
+					<mods:note type="funding">Finanziert durch den Open-Access-Publikationsfonds 2017 der Westfälischen Wilhelms-Universität Münster (WWU Münster).</mods:note>
+					<mods:subject>
+						<mods:topic lang="eng">body condition; exotic species; gut bacteria; insect–microbe interactions; insects; lady beetles; natural enemies</mods:topic>
+					</mods:subject>
+					<mods:subject>
+						<mods:topic lang="ger">Insekten; Marienkäfer; Nützlinge; Landschaftskontext; Darmmikrobiom; Neozoen</mods:topic>
+					</mods:subject>
+					<mods:classification authority="ddc">577</mods:classification>
+					<mods:classification authority="ddc">595</mods:classification>
+					<mods:classification authority="ddc">630</mods:classification>
+					<mods:identifier type="urn">urn:nbn:de:hbz:6-50279612420</mods:identifier>
+					<mods:identifier type="doi">10.1002/ece3.3390</mods:identifier>
+					<mods:identifier type="issn">2045-7758</mods:identifier>
+					<mods:location>
+						<mods:url access="object in context">https://miami.uni-muenster.de/Record/0b6ca7f2-ef26-4fad-8151-2fc514b17ea5</mods:url>
+					</mods:location>
+					<mods:accessCondition
+						type="use and reproduction">
+						<mods:extension>
+							<ma:maWrap
+								xmlns:ma="http://memoryalpha.ulb.uni-muenster.de">
+								<ma:licence>
+									<ma:displayLabel>CC BY 4.0</ma:displayLabel>
+									<ma:targetUrl>http://creativecommons.org/licenses/by/4.0/
+									</ma:targetUrl>
+								</ma:licence>
+							</ma:maWrap>
+						</mods:extension>
+					</mods:accessCondition>
+					<mods:recordInfo>
+						<mods:recordIdentifier>oai:wwu.de:0b6ca7f2-ef26-4fad-8151-2fc514b17ea5</mods:recordIdentifier>
+					</mods:recordInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:fileSec>
+		<mets:fileGrp USE="MASTER_IMAGE">
+			<mets:file MIMETYPE="application/pdf"
+				CHECKSUM="f8aee2c2269f48863c595076111ad1cdaf49eec5d54b731783f3df572036ef0c"
+				CREATED="2019-04-16T07:08:30" CHECKSUMTYPE="SHA-256" SIZE="1340082"
+				ID="ID_FIL_artikel_tiede_2017.pdf_MASTER_IMAGE">
+				<mets:FLocat xlink:href="artikel_tiede_2017.pdf"
+					LOCTYPE="URL" />
+			</mets:file>
+		</mets:fileGrp>
+	</mets:fileSec>
+	<mets:structMap>
+		<mets:div DMDID="DMD_0b6ca7f2-ef26-4fad-8151-2fc514b17ea5"
+			TYPE="pdf">
+			<mets:fptr
+				FILEID="ID_FIL_artikel_tiede_2017.pdf_MASTER_IMAGE"></mets:fptr>
+		</mets:div>
+	</mets:structMap>
+</mets:mets> 
