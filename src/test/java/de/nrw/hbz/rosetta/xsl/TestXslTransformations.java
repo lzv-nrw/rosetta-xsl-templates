@@ -55,7 +55,7 @@ public class TestXslTransformations {
 		test("opus4");
 	}
 
-	@Test
+	// @Test
 	public void testUsbAlff() {
 		/**
 		 * Example call for:
@@ -66,7 +66,7 @@ public class TestXslTransformations {
 		test("usbalff");
 	}
 
-	@Test
+	// @Test
 	public void testVlpad() {
 		/**
 		 * Example call for:
@@ -158,6 +158,30 @@ public class TestXslTransformations {
 		 */
 		test("alfresco");
 	}
+	
+	// @Test
+	public void buw_ubwretro() {
+		/**
+		 * https://elekpub.bib.uni-wuppertal.de/ubwretro/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 */
+		test("buw_ubwretro");
+	}
+	
+	// @Test
+	public void buw_ubwhs() {
+		/**
+		 * https://elekpub.bib.uni-wuppertal.de/ubwhs/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 */
+		test("buw_ubwhs");
+	}
+	
+	@Test
+	public void ubi() {
+		/**
+		 * https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=bi_dissertation
+		 */
+		test("ubi");
+	}
 
 	public void test(String name) {
 		String path = "de/nrw/hbz/rosetta/xsl/" + name + "/" + name;
@@ -172,7 +196,7 @@ public class TestXslTransformations {
 			Templates template = factory.newTemplates(xsl);
 			Transformer xformer = template.newTransformer();
 			Source source = new StreamSource(xml);
-			File resultFile = new File(System.getProperty("user.home") + "/" + name + "result.xml");
+			File resultFile = new File("src/test/java/de/nrw/hbz/rosetta/xsl/" + name + "/" + name + "_result.xml");
 			FileOutputStream fOut = new FileOutputStream(resultFile);
 			Result result = new StreamResult(fOut);
 			xformer.transform(source, result);

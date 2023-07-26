@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2023-07-10T10:16:47Z</responseDate>
+<request identifier="oai:pub.uni-bielefeld.de:2302943" metadataPrefix="oai_dc" verb="GetRecord">https://pub.uni-bielefeld.de/oai</request>
+
+<GetRecord>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2302943</identifier>
+    <datestamp>2020-03-11T08:50:34Z</datestamp>
+    <setSpec>bi_dissertation</setSpec>
+    <setSpec>doc-type:doctoralThesis</setSpec>
+    <setSpec>ddc:370</setSpec>
+    <setSpec>bi_dissertationFtxt</setSpec>
+    <setSpec>open_access</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Gesundheits- und Wellness-Erziehung in der Primarstufe : theoretische Grundlagen und didaktische Strukturen ; vergleichende Untersuchung der Transferwirksamkeit pädagogischer Konzepte an Grundschulen und OPUS-Grundschulen in Ostwestfalen/Lippe</dc:title>
+   	<dc:creator>Strotmann, Wolfgang</dc:creator>
+   	<dc:subject>Grundschule , Gesundheitserziehung , Gesundheitsförderung , Gesundheitsbildung , Gesundheitspädagogik , Gesundheitskonzepte , Schülergesundheit ,</dc:subject>
+   	<dc:subject>ddc:370</dc:subject>
+   	<dc:description>Strotmann W. &lt;em&gt;Gesundheits- und Wellness-Erziehung in der Primarstufe : theoretische Grundlagen und didaktische Strukturen ; vergleichende Untersuchung der Transferwirksamkeit pädagogischer Konzepte an Grundschulen und OPUS-Grundschulen in Ostwestfalen/Lippe&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2008.</dc:description>
+   	<dc:publisher>Bielefeld University</dc:publisher>
+   	<dc:date>2008</dc:date>
+   	<dc:type>http://purl.org/coar/resource_type/c_db06</dc:type>
+   	<dc:type>info:eu-repo/semantics/doctoralThesis</dc:type>
+   	<dc:type>doc-type:doctoralThesis</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:361-13946</dc:identifier>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2302943</dc:identifier>
+   	<dc:identifier>https://pub.uni-bielefeld.de/download/2302943/2302949</dc:identifier>
+   	<dc:identifier>https://pub.uni-bielefeld.de/download/2302943/2302948</dc:identifier>
+   	<dc:identifier>https://pub.uni-bielefeld.de/download/2302943/2302947</dc:identifier>
+   	<dc:identifier>https://pub.uni-bielefeld.de/download/2302943/2302946</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+   	<dc:rights>https://rightsstatements.org/vocab/InC/1.0/</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+</GetRecord>
+</OAI-PMH>
+
