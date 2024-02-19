@@ -162,20 +162,20 @@ public class TestXslTransformations {
 	// @Test
 	public void buw_ubwretro() {
 		/**
-		 * https://elekpub.bib.uni-wuppertal.de/ubwretro/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * https://elekpub.bib.uni-wuppertal.de/oai?verb=ListRecords&metadataPrefix=arcmets&set=ubwretro
 		 */
 		test("buw_ubwretro");
 	}
 	
-	// @Test
+	 @Test
 	public void buw_ubwhs() {
 		/**
-		 * https://elekpub.bib.uni-wuppertal.de/ubwhs/oai?verb=ListRecords&metadataPrefix=oai_dc
+		 * https://elekpub.bib.uni-wuppertal.de/oai?verb=ListRecords&metadataPrefix=arcmets&set=ubwhs
 		 */
 		test("buw_ubwhs");
 	}
 	
-	@Test
+	// @Test
 	public void ubi() {
 		/**
 		 * https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=bi_dissertation
