@@ -1,0 +1,349 @@
+<mets:mets xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:dv="http://dfg-viewer.de/"
+           xmlns:vl="http://visuallibrary.net/vl"
+           xmlns:vls="http://semantics.de/vls"
+           xmlns:marcxml="http://www.loc.gov/MARC21/slim"
+           xmlns:epicur="urn:nbn:de:1111-2004033116"
+           xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+           xmlns:zvdd="http://zvdd.gdz-cms.de/"
+           xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:vlz="http://visuallibrary.net/vlz/1.0"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mix="http://www.loc.gov/mix/v20"
+           xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <mets:dmdSec ID="ie-dmd">
+        <mets:mdWrap MDTYPE="DC">
+            <mets:xmlData>
+                <dc:record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <dc:title>Empirische Forschungsmethoden für die Evaluation visueller Fahrerassistenzsysteme im Kraftfahrzeug</dc:title>
+                    <dc:creator>Sprenger, Regina</dc:creator>
+                    <dc:description>Regina Sprenger</dc:description>
+                    <dc:description>Paderborn, Univ., Diss., 2008</dc:description>
+                    <dc:date>2009</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:type>thesis</dc:type>
+                    <dc:type>doctoralThesis</dc:type>
+                    <dc:type>monographic</dc:type>
+                    <dc:language>ger</dc:language>
+                    <dc:subject>[ddc=100] Philosophie und Psychologie</dc:subject>
+                    <dc:subject>[ddc=150] Psychologie</dc:subject>
+                    <dc:subject>[ioo=KW] Fakultät für Kulturwissenschaften</dc:subject>
+                    <dc:identifier>[eki] HBZHT015960635</dc:identifier>
+                    <dc:identifier>[urn] urn:nbn:de:hbz:466-20090609018</dc:identifier>
+                    <dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:466-20090609018</dc:identifier>
+                    <dc:identifier>[ubpbhsmig] HT015960635</dc:identifier>
+                    <dc:rights>[RS INC 1.0] Urheberrechtsschutz</dc:rights>
+                    <dc:rights>https://rightsstatements.org/vocab/InC/1.0/</dc:rights>
+                </dc:record>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="ie-amd">
+        <mets:techMD ID="ie-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="objectIdentifier">
+                            <record>
+                                <key id="objectIdentifierType">OAI</key>
+                                <key id="objectIdentifierValue">oai:digital.ub.uni-paderborn.de:1146</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:rightsMD ID="ie-amd-rights">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="accessRightsPolicy" />
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:sourceMD ID="ie-amd-source-MODS">
+            <mets:mdWrap MDTYPE="MODS">
+                <mets:xmlData>
+                    <mets:dmdSec ID="md1146"
+                                 xmlns="http://www.openarchives.org/OAI/2.0/"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <mets:mdWrap MDTYPE="MODS"
+                                     MIMETYPE="text/xml">
+                            <mets:xmlData>
+                                <mods:mods version="3.8"
+                                           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd">
+                                    <mods:titleInfo>
+                                        <mods:title>Empirische Forschungsmethoden für die Evaluation visueller Fahrerassistenzsysteme im Kraftfahrzeug</mods:title>
+                                    </mods:titleInfo>
+                                    <mods:name authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               type="personal"
+                                               valueURI="http://d-nb.info/gnd/138566232">
+                                        <mods:namePart>Sprenger, Regina</mods:namePart>
+                                        <mods:role>
+                                            <mods:roleTerm authority="marcrelator"
+                                                           type="code">aut</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:typeOfResource>text</mods:typeOfResource>
+                                    <mods:genre authority="marcgt">thesis</mods:genre>
+                                    <mods:genre authority="dini">doctoralThesis</mods:genre>
+                                    <mods:originInfo>
+                                        <mods:dateIssued encoding="w3cdtf"
+                                                         keyDate="yes">2009</mods:dateIssued>
+                                        <mods:issuance>monographic</mods:issuance>
+                                    </mods:originInfo>
+                                    <mods:language>
+                                        <mods:languageTerm authority="iso639-2b"
+                                                           type="code">ger</mods:languageTerm>
+                                    </mods:language>
+                                    <mods:note type="statement of responsibility">Regina Sprenger</mods:note>
+                                    <mods:note type="thesis statement">Paderborn, Univ., Diss., 2008</mods:note>
+                                    <mods:classification authority="ddc"
+                                                         displayLabel="Philosophie und Psychologie">100</mods:classification>
+                                    <mods:classification authority="ddc"
+                                                         displayLabel="Psychologie">150</mods:classification>
+                                    <mods:identifier type="eki">HBZHT015960635</mods:identifier>
+                                    <mods:identifier type="urn">urn:nbn:de:hbz:466-20090609018</mods:identifier>
+                                    <mods:location>
+                                        <mods:url displayLabel="Verlag">http://ubdok.uni-paderborn.de/servlets/DocumentServlet?id=10239</mods:url>
+                                    </mods:location>
+                                    <mods:location>
+                                        <mods:url displayLabel="Langzeitarchivierung Nationalbibliothek">http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:466-20090609018</mods:url>
+                                    </mods:location>
+                                    <mods:location>
+                                        <mods:physicalLocation authority="local library code">466</mods:physicalLocation>
+                                    </mods:location>
+                                    <mods:accessCondition displayLabel="Urheberrechtsschutz"
+                                                          type="use and reproduction"
+                                                          xlink:href="https://rightsstatements.org/vocab/InC/1.0/">RS INC 1.0</mods:accessCondition>
+                                    <mods:recordInfo>
+                                        <mods:recordCreationDate encoding="marc">20090610</mods:recordCreationDate>
+                                        <mods:recordIdentifier source="ubpbhsmig">HT015960635</mods:recordIdentifier>
+                                        <mods:descriptionStandard>rak</mods:descriptionStandard>
+                                    </mods:recordInfo>
+                                    <mods:classification authority="ioo"
+                                                         displayLabel="Fakultät für Kulturwissenschaften">KW</mods:classification>
+                                </mods:mods>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:dmdSec>
+                    <mets:amdSec ID="amd1146"
+                                 xmlns="http://www.openarchives.org/OAI/2.0/"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <mets:rightsMD ID="rights1146">
+                            <mets:mdWrap MDTYPE="OTHER"
+                                         MIMETYPE="text/xml"
+                                         OTHERMDTYPE="DVRIGHTS">
+                                <mets:xmlData>
+                                    <dv:rights>
+                                        <dv:ownerLogo>https://digital.ub.uni-paderborn.de//domainresource/static/graphics/connectors/viewerLogo.gif</dv:ownerLogo>
+                                        <dv:owner>Paderborn : Universität Paderborn</dv:owner>
+                                        <dv:ownerSiteURL>http://www.ub.uni-paderborn.de/</dv:ownerSiteURL>
+                                        <dv:ownerContact>bibliothek@ub.uni-paderborn.de</dv:ownerContact>
+                                        <dv:license>reserved</dv:license>
+                                    </dv:rights>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:rightsMD>
+                        <mets:digiprovMD ID="digiprov1146">
+                            <mets:mdWrap MDTYPE="OTHER"
+                                         MIMETYPE="text/xml"
+                                         OTHERMDTYPE="DVLINKS">
+                                <mets:xmlData>
+                                    <dv:links>
+                                        <dv:reference>http://katalog.ub.uni-paderborn.de/searches?q=HT015960635&amp;scope=catalog</dv:reference>
+                                        <dv:presentation>https://digital.ub.uni-paderborn.de/id/1146</dv:presentation>
+                                        <dv:iiif>https://digital.ub.uni-paderborn.de/i3f/v20/1146/manifest</dv:iiif>
+                                        <dv:sru>https://digital.ub.uni-paderborn.de/proto_ftsearch/1146</dv:sru>
+                                    </dv:links>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:digiprovMD>
+                    </mets:amdSec>
+                    <mets:fileSec xmlns="http://www.openarchives.org/OAI/2.0/"
+                                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <mets:fileGrp USE="MASTER">
+                            <mets:file CREATED="2011-03-30T15:52:41.454000Z"
+                                       ID="PDF_1146"
+                                       MIMETYPE="application/pdf"
+                                       SIZE="2118215">
+                                <mets:FLocat LOCTYPE="URL"
+                                             xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1146?downloadFilename=vlid" />
+                            </mets:file>
+                            <mets:file CREATED="2011-03-30T15:52:41.453000Z"
+                                       ID="PDF_1148"
+                                       MIMETYPE="application/pdf"
+                                       SIZE="9433">
+                                <mets:FLocat LOCTYPE="URL"
+                                             xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1148?downloadFilename=vlid" />
+                            </mets:file>
+                            <mets:file CREATED="2011-03-30T15:52:41.454000Z"
+                                       ID="PDF_1149"
+                                       MIMETYPE="application/pdf"
+                                       SIZE="9123">
+                                <mets:FLocat LOCTYPE="URL"
+                                             xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1149?downloadFilename=vlid" />
+                            </mets:file>
+                        </mets:fileGrp>
+                    </mets:fileSec>
+                    <mets:structMap TYPE="LOGICAL"
+                                    xmlns="http://www.openarchives.org/OAI/2.0/"
+                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <mets:div ADMID="amd1146"
+                                  CONTENTIDS="urn:nbn:de:hbz:466-20090609018"
+                                  DMDID="md1146"
+                                  ID="log1146"
+                                  LABEL="Empirische Forschungsmethoden für die Evaluation visueller Fahrerassistenzsysteme im Kraftfahrzeug"
+                                  ORDER="1"
+                                  TYPE="document">
+                            <mets:fptr FILEID="PDF_1146" />
+                            <mets:div ID="log1148"
+                                      LABEL="kurzfassung"
+                                      ORDER="1"
+                                      TYPE="section">
+                                <mets:fptr FILEID="PDF_1148" />
+                            </mets:div>
+                            <mets:div ID="log1149"
+                                      LABEL="abstract"
+                                      ORDER="2"
+                                      TYPE="section">
+                                <mets:fptr FILEID="PDF_1149" />
+                            </mets:div>
+                        </mets:div>
+                    </mets:structMap>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:sourceMD>
+        <mets:digiprovMD ID="ie-amd-digiprov">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="rep1-amd">
+        <mets:techMD ID="rep1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalRepCharacteristics">
+                            <record>
+                                <key id="label">PDF</key>
+                                <key id="preservationType">PRESERVATION_MASTER</key>
+                                <key id="representationEntityType">MASTER</key>
+                                <key id="usageType">VIEW</key>
+                                <key id="DigitalOriginal">false</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid1-1-amd">
+        <mets:techMD ID="fid1-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="label">Empirische Forschungsmethoden für die Evaluation visueller Fahrerassistenzsysteme im Kraftfahrzeug</key>
+                                <key id="fileMIMEType">application/pdf</key>
+                                <key id="fileSizeBytes">2118215</key>
+                                <key id="fileCreationDate">2011-03-30T15:52:41.454000Z</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid2-1-amd">
+        <mets:techMD ID="fid2-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="label">kurzfassung</key>
+                                <key id="fileMIMEType">application/pdf</key>
+                                <key id="fileSizeBytes">9433</key>
+                                <key id="fileCreationDate">2011-03-30T15:52:41.453000Z</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid3-1-amd">
+        <mets:techMD ID="fid3-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="label">abstract</key>
+                                <key id="fileMIMEType">application/pdf</key>
+                                <key id="fileSizeBytes">9123</key>
+                                <key id="fileCreationDate">2011-03-30T15:52:41.454000Z</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="VIEW"
+                      ID="rep1"
+                      ADMID="rep1-amd">
+            <mets:file MIMETYPE="application/pdf"
+                       ID="fid1-1"
+                       ADMID="fid1-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1146?downloadFilename=vlid" />
+            </mets:file>
+            <mets:file MIMETYPE="application/pdf"
+                       ID="fid2-1"
+                       ADMID="fid2-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1148?downloadFilename=vlid" />
+            </mets:file>
+            <mets:file MIMETYPE="application/pdf"
+                       ID="fid3-1"
+                       ADMID="fid3-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1149?downloadFilename=vlid" />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL"
+                    ID="rep1-1">
+        <mets:div>
+            <mets:div TYPE="FILE"
+                      LABEL="MASTER: Empirische Forschungsmethoden für die Evaluation visueller Fahrerassistenzsysteme im Kraftfahrzeug">
+                <mets:fptr FILEID="fid1-1" />
+            </mets:div>
+            <mets:div TYPE="FILE"
+                      LABEL="MASTER: kurzfassung">
+                <mets:fptr FILEID="fid2-1" />
+            </mets:div>
+            <mets:div TYPE="FILE"
+                      LABEL="MASTER: abstract">
+                <mets:fptr FILEID="fid3-1" />
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

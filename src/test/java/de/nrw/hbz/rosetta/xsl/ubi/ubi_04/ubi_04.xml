@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-05-13T11:36:01Z</responseDate>
+    <request identifier="oai:pub.uni-bielefeld.de:1861142"
+             metadataPrefix="oai_dc"
+             verb="GetRecord">https://pub.uni-bielefeld.de/oai</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:pub.uni-bielefeld.de:1861142</identifier>
+                <datestamp>2018-07-24T12:58:35Z</datestamp>
+                <setSpec>working_paper</setSpec>
+                <setSpec>doc-type:workingPaper</setSpec>
+                <setSpec>ddc:330</setSpec>
+                <setSpec>working_paperFtxt</setSpec>
+                <setSpec>open_access</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                           xmlns:dc="http://purl.org/dc/elements/1.1/"
+                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Complementary Assets, Start-Ups and Incentives to Innovate</dc:title>
+                    <dc:creator>Colombo, Luca</dc:creator>
+                    <dc:creator>Dawid, Herbert ; https://orcid.org/0000-0002-8536-9960</dc:creator>
+                    <dc:subject>Tacit Knowledge</dc:subject>
+                    <dc:subject>Complementary Assets</dc:subject>
+                    <dc:subject>Technological Change</dc:subject>
+                    <dc:subject>R&amp;D Effort</dc:subject>
+                    <dc:subject>Start-Up Creation</dc:subject>
+                    <dc:subject>ddc:330</dc:subject>
+                    <dc:description>Colombo L, Dawid H. &lt;em&gt;Complementary Assets, Start-Ups and Incentives to Innovate&lt;/em&gt;. Working Papers in Economics and Management. Vol 07-2013. Bielefeld: Bielefeld University, Department of Business Administration and Economics; 2013.</dc:description>
+                    <dc:description>
+                        In this paper we examine to what extent market conditions facilitating start-up
+                        formation affect technical change and firms' profits. We consider a model in which
+                        R&amp;D efforts of an incumbent firm generate partly tacit technological know-how
+                        embodied in a key R&amp;D employee, who might use it to form a start-up. The
+                        availability of complementary assets influences whether new firms are created and
+                        determine expected profits for start-up-founders. A large availability of complementary
+                        assets has the direct effect that the generation of start-ups is fostered.
+                        However, as a strategic effect, the incentives of incumbent firms to invest in R&amp;D
+                        might be reduced because of the increased danger of knowledge loss occurring
+                        through start-up formation. We fully characterize the effects of an increase in the
+                        availability of complementary assets, showing under which conditions the effects
+                        on innovative activities and industry profits are negative.
+                    </dc:description>
+                    <dc:publisher>Bielefeld University, Department of Business Administration and Economics</dc:publisher>
+                    <dc:date>2013</dc:date>
+                    <dc:type>http://purl.org/coar/resource_type/c_8042</dc:type>
+                    <dc:type>info:eu-repo/semantics/workingPaper</dc:type>
+                    <dc:type>doc-type:workingPaper</dc:type>
+                    <dc:type>text</dc:type>
+                    <dc:identifier>https://nbn-resolving.org/urn:nbn:de:0070-pub-18611425</dc:identifier>
+                    <dc:identifier>https://pub.uni-bielefeld.de/record/1861142</dc:identifier>
+                    <dc:identifier>https://pub.uni-bielefeld.de/download/1861142/2915395</dc:identifier>
+                    <dc:language>eng</dc:language>
+                    <dc:relation>info:eu-repo/semantics/altIdentifier/doi/10.4119/unibi/1861142</dc:relation>
+                    <dc:relation>info:eu-repo/semantics/altIdentifier/issn/2196-2723</dc:relation>
+                    <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+                    <dc:rights>https://rightsstatements.org/vocab/InC/1.0/</dc:rights>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

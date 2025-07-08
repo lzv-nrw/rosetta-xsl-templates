@@ -38,6 +38,67 @@ import org.junit.Test;
 public class TestXslTransformations {
 
 	// @Test
+	public void buw() {
+		/**
+		 * buw_01: https://elekpub.bib.uni-wuppertal.de/oai?verb=ListRecords&metadataPrefix=arcmets&set=ubwretro
+		 * buw_02: https://elekpub.bib.uni-wuppertal.de/oai?verb=ListRecords&metadataPrefix=arcmets&set=ubwhs
+		 * && https://elekpub.bib.uni-wuppertal.de/oai?verb=ListRecords&metadataPrefix=arcmets&set=ubwretrohsmig
+		 */
+		test("buw");
+	}
+
+	// @Test
+	public void fhm() {
+		/**
+		 * fhm_01: https://www.hb.fh-muenster.de/opus4/oai?verb=ListRecords&metadataPrefix=XMetaDissPlus&set=open_access
+		 * fhm_02: https://www.hb.fh-muenster.de/opus4/oai?verb=ListRecords&metadataPrefix=XMetaDissPlus&set=zweitveroeffentlichung
+		 * fhm_03: https://www.enhe.eu/enhe/oai?verb=ListRecords&metadataPrefix=oai_dc&set=enhe
+		 * fhm_04: https://www.fh-muenster.de/fhm-ejournals/gjops/oai?verb=ListRecords&metadataPrefix=oai_dc&set=gjops
+		 * 
+		 */
+		test("fhm");
+	}
+
+	// @Test
+	public void tudo() {
+		/** 
+		 * tudo_01: https://eldorado.tu-dortmund.de/server/oai/request?verb=ListRecords&metadataPrefix=xoai&set=com_2003_26235
+		 * tudo_02: https://api.ub.tu-dortmund.de/oai/tudodata/?verb=ListRecords&metadataPrefix=oai_dc&set=lzv
+		 */
+		test("tudo");
+	}
+
+	// @Test
+	public void ubi() {
+		/**
+		 * ubi_01: https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=bi_dissertation
+		 * ubi_04: https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=first_publication
+		 * ubi_05: https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=biup_oa
+		 */
+		test("ubi");
+	}
+
+	// @Test
+	public void um() {
+		/**
+		 * um_01: https://repositorium.uni-muenster.de/oai/beneluxdok?verb=ListRecords&metadataPrefix=mets
+		 */
+		test("um");
+	}	
+
+	// @Test
+	public void upb() {
+		/**
+		 * upb_01: https://digital.ub.uni-paderborn.de/hs/oai/?verb=ListRecords&metadataPrefix=arcmets
+		 * upb_02: https://digital.ub.uni-paderborn.de/up/oai/?verb=ListRecords&metadataPrefix=arcmets
+		 * upb_03: https://digital.ub.uni-paderborn.de/retro/oai/?verb=ListRecords&metadataPrefix=arcmets 
+		 */
+		test("upb");
+	}
+
+	// Legacy tests
+
+	// @Test
 	public void testOpus4() {
 		/**
 		 * Example call for:
@@ -157,30 +218,6 @@ public class TestXslTransformations {
 		 * http://repositorium.uni-muenster.de/oai/miami?verb=ListRecords&metadataPrefix=oai_dc
 		 */
 		test("alfresco");
-	}
-	
-	// @Test
-	public void buw_ubwretro() {
-		/**
-		 * https://elekpub.bib.uni-wuppertal.de/oai?verb=ListRecords&metadataPrefix=arcmets&set=ubwretro
-		 */
-		test("buw_ubwretro");
-	}
-	
-	 @Test
-	public void buw_ubwhs() {
-		/**
-		 * https://elekpub.bib.uni-wuppertal.de/oai?verb=ListRecords&metadataPrefix=arcmets&set=ubwhs
-		 */
-		test("buw_ubwhs");
-	}
-	
-	// @Test
-	public void ubi() {
-		/**
-		 * https://pub.uni-bielefeld.de/oai?verb=ListRecords&metadataPrefix=oai_dc&set=bi_dissertation
-		 */
-		test("ubi");
 	}
 
 	public void test(String name) {

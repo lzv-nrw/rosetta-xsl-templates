@@ -1,0 +1,125 @@
+<mets:mets xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:str="http://exslt.org/strings"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:mets="http://www.loc.gov/METS/">
+    <mets:dmdSec ID="ie-dmd">
+        <mets:mdWrap MDTYPE="DC">
+            <mets:xmlData>
+                <dc:record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <dc:title>Fragebogenbasierte Analyse der Wahrnehmung von geteilten mentalen Modellen und Hierarchien durch rettungsdienstliche Teams</dc:title>
+                    <dc:title>Questionnaire-based analysis of the perception of shared mental models and hierarchies by emergency medical service teams</dc:title>
+                    <dc:creator>Elsenbast, Christian</dc:creator>
+                    <dc:subject>Team-Arbeit Kontext</dc:subject>
+                    <dc:subject>High-Responsibility-Teams</dc:subject>
+                    <dc:subject>Team-Ressource-Management</dc:subject>
+                    <dc:subject>Training</dc:subject>
+                    <dc:subject>Geteilte mentale Modelle</dc:subject>
+                    <dc:description>
+                        Hintergrund, Fragestellung: High-Responsibility-Teams (HRT) wie Rettungsdienst, Feuerwehr, Leitstelle und Krankenpflege operieren auf extrem hohem Zuverlässigkeitslevel, um fatale Schäden zu vermeiden. Ziel der Arbeit ist die Untersuchung der Wahrnehmung von Teamarbeit und weiteren Arbeitsfaktoren der HRT, wie Hierarchie und geteilte mentale Modelle, um eine datenbasierte Grundlage für spezifische Trainings- und Unterstützungsangebote zu schaffen.
+                        Methodik: Vom 01.10.2022 bis 31.03.2023 wurde ein Online-Fragebogen primär an in Deutschland tätige Notfallsanitäter:innen, Notärzt:innen, Leitstellendisponent:innen, Berufsfeuerwehr-Beamt:innen und Pflegefachpersonal adressiert und anschließend deskriptiv- und inferenzstatisch analysiert. Der Fragebogen stützt sich auf den bereits validierten Team-Arbeit-Kontext-Inventar.
+                        Ergebnisse: Das Durchschnittsalter der Stichprobe (N = 490) liegt bei 40,6 Jahren. 74,4% sind männlich, 23,9% weiblich und 1,7% nicht-binär. 9,8% sind Notärzt:innen, 8,0% Berufsfeuerwehr-Beamte, 8,8% Pflegefachpersonal, 37% Leitstellendisponent:innen und 24,7% Notfallsanitäter:innen. Bei „geteiltes mentales Modell“ wurde der Trennwert des Items „Shared Task Mental Model“ vom Leitstellenpersonal und den Angehörigen der Berufsfeuerwehr überschritten. Bei „Shared Team Mental Model“ wurde der Trennwert außerdem von der Notfallsanitäter:innen-Gruppe überschritten. Der Trennwert der Kontextkriterien wurde bei „Hierarchie: Followership“ von der Notfallsanitäter:innen-Gruppe überschritten. Bei „Hierachie: Leadership“ wird der Trennwert zusätzlich von der Leitstellen-Gruppe überschritten. Bei „persönlicher Bedrohung“ überschreiten alle Gruppen den Trennwert, außer die Leitstellen-Gruppe. Es imponieren die Mittelwertunterschiede zwischen den Gruppen.
+                        Diskussion: Beim geteilten mentalen Modell bestehen erhebliche Unterschiede zwischen den Gruppen. Die Trennwerte werden überschritten oder liegen in unmittelbarer Nähe. Bei der Wahrnehmung der Hierarchie zeigen sich ebenfalls deutliche Unterschiede zwischen den Gruppen. Diese Erkenntnisse erfordern Maßnahmen wie Trainings und die Förderung von Kommunikations- und Interaktionsroutinen sowie das Schaffen einer entsprechenden Organisationskultur.
+                        Fazit: Bei geteilten mentalen Modellen und der Hierarchiewahrnehmung ist der hohe Stellenwert strukturierter Vorgehensweisen, auch in Kommunikation und Interaktion, zu berücksichtigen. Auf Organisationsebene ist „Just Culture“ als Zielvorstellung zu betonen. Effekte der problematischen Hierarchiewahrnehmung, z.B. auf die psychische Gesundheit, sind tiefergehend zu erforschen.
+                    </dc:description>
+                    <dc:description>
+                        Background: High-Responsibility Teams (HRT), such as emergency medical services, fire departments, control centers, and certain nursing sectors, operate at an extremely high reliability level to prevent catastrophic harm. This study aims to examine the perceptions of teamwork and other work-related factors in HRT, such as hierarchy and shared mental models, to establish a data-based foundation for the development of specific training and support programs.
+                        Methods: From October 1, 2022, to March 31, 2023, an online survey was primarily distributed to paramedics, emergency physicians, control center dispatchers, professional firefighters, and nursing staff working in Germany. The data were then analyzed using descriptive and inferential statistics. The survey was based on the previously validated Team Work Context Inventory.
+                        Results: The average age of the sample (N = 490) was 40.6 years. Of the participants, 74.4% were male, 23.9% female, and 1.7% non-binary. The sample included 9.8% emergency physicians, 8.0% professional firefighters, 8.8% nursing staff, 37% control center dispatchers, and 24.7% paramedics. For the "shared mental model," the threshold value for the "Shared Task Mental Model" item was exceeded by both control center personnel and professional firefighters. Additionally, the threshold for the "Shared Team Mental Model" was surpassed by the paramedic group. The threshold value for context criteria was also exceeded by the paramedic group for "Hierarchy: Followership." The threshold for "Hierarchy: Leadership" was additionally surpassed by the control center group. For "personal threat," all groups exceeded the threshold value, except for the control center group. The mean differences between the groups are particularly striking.
+                        Discussion: There are significant differences between the groups regarding the shared mental model. The threshold values are either exceeded or closely approached. Similar heterogeneous patterns are observed in the perception of hierarchy, with even more pronounced differences between the groups. These findings imply the need for measures at various levels, such as training initiatives and the establishment of communication and interaction routines, as well as the creation of an appropriate organizational culture.
+                        Conclusions: Both shared mental models and perceptions of hierarchy highlight the importance of structured approaches, particularly in communication and interaction (e.g., "10 for 10," handover schemas). At the organizational level, the concept of "Just Culture" should be emphasized as a goal. The effects of problematic perceptions of hierarchy, such as those on mental health, need to be explored further in the context of emergency services.
+                    </dc:description>
+                    <dc:publisher>Deutsche Gesellschaft für Rettungswissenschaften e.V.</dc:publisher>
+                    <dc:date>2025-02-07</dc:date>
+                    <dc:type>info:eu-repo/semantics/article</dc:type>
+                    <dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://www.fh-muenster.de/fhm-ejournals/gjops/article/view/47</dc:identifier>
+                    <dc:identifier>10.25974/gjops.v1i1.47</dc:identifier>
+                    <dc:language>deu</dc:language>
+                    <dc:relation>https://www.fh-muenster.de/fhm-ejournals/gjops/article/view/47/46</dc:relation>
+                    <dc:rights>Copyright (c) 2024 Christian Elsenbast</dc:rights>
+                    <dc:rights>https://creativecommons.org/licenses/by-sa/4.0</dc:rights>
+                    <dc:source>German Journal of Paramedic Science; Bd. 1 (2024): Jahresausgabe 2024</dc:source>
+                    <dc:source>German Journal of Paramedic Science; Vol. 1 (2024): Annual Issue 2024</dc:source>
+                    <dc:source>2942-3627</dc:source>
+                    <dc:collection>German Journal of Paramedic Science\Bd. 1 (2024): Jahresausgabe 2024</dc:collection>
+                </dc:record>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="ie-amd">
+        <mets:techMD ID="ie-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="objectIdentifier">
+                            <record>
+                                <key id="objectIdentifierType">OAI</key>
+                                <key id="objectIdentifierValue">oai:fhm.ojs.hbz-nrw.de:article/47</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:rightsMD ID="ie-amd-rights">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="accessRightsPolicy" />
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:digiprovMD ID="ie-amd-digiprov">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="rep1-amd">
+        <mets:techMD ID="rep1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalRepCharacteristics">
+                            <record>
+                                <key id="preservationType">PRESERVATION_MASTER</key>
+                                <key id="usageType">VIEW</key>
+                                <key id="DigitalOriginal">true</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="VIEW"
+                      ID="rep1"
+                      ADMID="rep1-amd">
+            <mets:file ID="fid1-1">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://www.fh-muenster.de/fhm-ejournals/gjops/article/view/47/46" />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL"
+                    ID="rep1-1">
+        <mets:div>
+            <mets:div TYPE="FILE">
+                <mets:fptr FILEID="fid1-1" />
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

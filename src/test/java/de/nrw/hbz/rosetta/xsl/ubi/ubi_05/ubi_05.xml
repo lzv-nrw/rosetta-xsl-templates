@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-05-26T10:33:59Z</responseDate>
+    <request identifier="oai:pub.uni-bielefeld.de:2991498"
+             metadataPrefix="oai_dc"
+             verb="GetRecord">https://pub.uni-bielefeld.de/oai</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:pub.uni-bielefeld.de:2991498</identifier>
+                <datestamp>2025-01-07T15:58:47Z</datestamp>
+                <setSpec>book_editor</setSpec>
+                <setSpec>doc-type:book</setSpec>
+                <setSpec>ddc:300</setSpec>
+                <setSpec>ddc:900</setSpec>
+                <setSpec>ddc:980</setSpec>
+                <setSpec>book_editorFtxt</setSpec>
+                <setSpec>open_access</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                           xmlns:dc="http://purl.org/dc/elements/1.1/"
+                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Land Use - Handbook of the Anthropocene in Latin America I</dc:title>
+                    <dc:creator>Kaltmeier, Olaf ; https://orcid.org/0000-0001-6396-4585</dc:creator>
+                    <dc:creator>López Sandoval, María Fernanda</dc:creator>
+                    <dc:creator>Pádua, José Augusto</dc:creator>
+                    <dc:creator>Zarrilli, Gustavo</dc:creator>
+                    <dc:subject>ddc:300</dc:subject>
+                    <dc:subject>ddc:900</dc:subject>
+                    <dc:subject>ddc:980</dc:subject>
+                    <dc:description>Kaltmeier O, López Sandoval MF, Pádua JA, Zarrilli G, eds. &lt;em&gt;Land Use - Handbook of the Anthropocene in Latin America I&lt;/em&gt;. The Anthropocene as Multiple Crisis: Perspectives from Latin America. Bielefeld: BiUP; 2024.</dc:description>
+                    <dc:description>Socio-ecological conflicts about land use in Latin America are complex: they involve various actors and flare up due to the dynamics of colonization, spatial appropriation, and the commodification of land. This volume of the Handbook »The Anthropocene as Multiple Crisis« focuses on land use in the main macro-regions of Latin America from the colonial regime to the contemporary era of the Anthropocene. The contributions touch upon numerous aspects, from the transformations of material to the social practices, their political and legal regulations as well as the imaginaries of virgin territories. Consequently, far from limiting themselves to a static cartography of land use, the contributors investigate the appropriations of borders and historic transformations in land use.</dc:description>
+                    <dc:publisher>BiUP</dc:publisher>
+                    <dc:date>2024</dc:date>
+                    <dc:type>http://purl.org/coar/resource_type/c_2f33</dc:type>
+                    <dc:type>info:eu-repo/semantics/book</dc:type>
+                    <dc:type>doc-type:book</dc:type>
+                    <dc:type>text</dc:type>
+                    <dc:identifier>https://nbn-resolving.org/urn:nbn:de:0070-pub-29914985</dc:identifier>
+                    <dc:identifier>https://pub.uni-bielefeld.de/record/2991498</dc:identifier>
+                    <dc:identifier>https://pub.uni-bielefeld.de/download/2991498/2991500</dc:identifier>
+                    <dc:language>eng</dc:language>
+                    <dc:relation>info:eu-repo/semantics/altIdentifier/doi/10.14361/9783839470114</dc:relation>
+                    <dc:relation>info:eu-repo/semantics/altIdentifier/isbn/978-3-8376-7011-0</dc:relation>
+                    <dc:rights>https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+                    <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

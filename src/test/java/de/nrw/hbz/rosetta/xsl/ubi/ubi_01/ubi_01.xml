@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-05-07T06:22:54Z</responseDate>
+    <request identifier="oai:pub.uni-bielefeld.de:2303579"
+             metadataPrefix="oai_dc"
+             verb="GetRecord">https://pub.uni-bielefeld.de/oai</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:pub.uni-bielefeld.de:2303579</identifier>
+                <datestamp>2020-03-11T08:54:45Z</datestamp>
+                <setSpec>bi_dissertation</setSpec>
+                <setSpec>doc-type:doctoralThesis</setSpec>
+                <setSpec>ddc:530</setSpec>
+                <setSpec>bi_dissertationFtxt</setSpec>
+                <setSpec>open_access</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                           xmlns:dc="http://purl.org/dc/elements/1.1/"
+                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Single molecules and nanocrystals : molecular recognition forces and optomechanical switching</dc:title>
+                    <dc:title>Einzelmoleküle und Nanokristalle : Kräfte der molekularen Erkennung und optomechanisches Schalten</dc:title>
+                    <dc:creator>Eckel, Rainer</dc:creator>
+                    <dc:subject>, Einzelmoleküle , Nanokristalline Quantenpunkte , Kraftspektroskopie , TIRF-Mikroskopie , Optomechanisches Schalten , Single molecules , Nanocrystal quantum dots , Force spectroscopy , Total internal reflection fluorescence microscopy , Optomechanical switching</dc:subject>
+                    <dc:subject>ddc:530</dc:subject>
+                    <dc:description>Eckel R. &lt;em&gt;Single molecules and nanocrystals : molecular recognition forces and optomechanical switching&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2005.</dc:description>
+                    <dc:publisher>Bielefeld University</dc:publisher>
+                    <dc:date>2005</dc:date>
+                    <dc:type>http://purl.org/coar/resource_type/c_db06</dc:type>
+                    <dc:type>info:eu-repo/semantics/doctoralThesis</dc:type>
+                    <dc:type>doc-type:doctoralThesis</dc:type>
+                    <dc:type>text</dc:type>
+                    <dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:361-8379</dc:identifier>
+                    <dc:identifier>https://pub.uni-bielefeld.de/record/2303579</dc:identifier>
+                    <dc:identifier>https://pub.uni-bielefeld.de/download/2303579/2303582</dc:identifier>
+                    <dc:language>eng</dc:language>
+                    <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+                    <dc:rights>https://rightsstatements.org/vocab/InC/1.0/</dc:rights>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

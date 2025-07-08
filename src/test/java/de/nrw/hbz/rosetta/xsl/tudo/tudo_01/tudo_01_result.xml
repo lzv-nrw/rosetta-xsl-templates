@@ -1,0 +1,352 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/"
+           xmlns:pc="http://www.d-nb.de/standards/pc/"
+           xmlns:cc="http://www.d-nb.de/standards/cc/"
+           xmlns:ddb="http://www.d-nb.de/standards/ddb/"
+           xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xoai="http://www.lyncode.com/xoai"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+    <mets:dmdSec ID="ie-dmd">
+        <mets:mdWrap MDTYPE="DC">
+            <mets:xmlData>
+                <dc:record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <dc:date>1984-07-20</dc:date>
+                    <dc:description>Nebenfachvereinbarung zwischen den Abteilungen Statistik und Informatik über das Nebenfach Informatik im Diplomstudiengang Statistik vom 17. Juli 1984</dc:description>
+                    <dc:identifier>http://hdl.handle.net/2003/30018</dc:identifier>
+                    <dc:identifier>http://dx.doi.org/10.17877/DE290R-10442</dc:identifier>
+                    <dc:language>de</dc:language>
+                    <dc:publisher>Universität Dortmund</dc:publisher>
+                    <dc:title>Amtliche Mitteilungen der Universität Dortmund Nr. 06/84</dc:title>
+                    <dc:type>Text</dc:type>
+                    <dc:type>PeriodicalPart</dc:type>
+                    <dc:rights>open access</dc:rights>
+                    <dc:identifier>[ZDB-ID]2651117-4</dc:identifier>
+                </dc:record>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="ie-amd">
+        <mets:techMD ID="ie-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="objectIdentifier">
+                            <record>
+                                <key id="objectIdentifierType">OAI</key>
+                                <key id="objectIdentifierValue">oai:eldorado.tu-dortmund.de:2003/30018</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:rightsMD ID="ie-amd-rights">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="accessRightsPolicy" />
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:sourceMD ID="ie-amd-source-OTHER">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="Text">
+                <mets:xmlData>
+                    <record xmlns="http://www.openarchives.org/OAI/2.0/"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <header>
+                            <identifier>oai:eldorado.tu-dortmund.de:2003/30018</identifier>
+                            <datestamp>2024-10-16T19:09:14Z</datestamp>
+                            <setSpec>com_2003_26235</setSpec>
+                            <setSpec>com_2003_7</setSpec>
+                            <setSpec>col_2003_29937</setSpec>
+                            <setSpec>doc-type:ContributionToPeriodical</setSpec>
+                            <setSpec>ddc:080</setSpec>
+                            <setSpec>doc-type:preprint</setSpec>
+                            <setSpec>doc-type:PeriodicalPart</setSpec>
+                            <setSpec>doc-type:Text</setSpec>
+                            <setSpec>open_access</setSpec>
+                            <setSpec>doc-type:DynamicWebResource</setSpec>
+                            <setSpec>doc-type:ResearchData</setSpec>
+                            <setSpec>doc-type:PartOfADynamicWebResource</setSpec>
+                            <setSpec>ddc:620</setSpec>
+                        </header>
+                        <metadata>
+                            <metadata xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd"
+                                      xmlns="http://www.lyncode.com/xoai">
+                                <element name="dc">
+                                    <element name="date">
+                                        <element name="accessioned">
+                                            <element name="none">
+                                                <field name="value">2013-02-28T10:48:19Z</field>
+                                            </element>
+                                        </element>
+                                        <element name="available">
+                                            <element name="none">
+                                                <field name="value">2013-02-28T10:48:19Z</field>
+                                            </element>
+                                        </element>
+                                        <element name="issued">
+                                            <element name="none">
+                                                <field name="value">1984-07-20</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="identifier">
+                                        <element name="uri">
+                                            <element name="none">
+                                                <field name="value">http://hdl.handle.net/2003/30018</field>
+                                                <field name="value">http://dx.doi.org/10.17877/DE290R-10442</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="description">
+                                        <element name="tableofcontents">
+                                            <element name="de">
+                                                <field name="value">Nebenfachvereinbarung zwischen den Abteilungen Statistik und Informatik über das Nebenfach Informatik im Diplomstudiengang Statistik vom 17. Juli 1984</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="language">
+                                        <element name="iso">
+                                            <element name="none">
+                                                <field name="value">de</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="publisher">
+                                        <element name="de">
+                                            <field name="value">Universität Dortmund</field>
+                                        </element>
+                                    </element>
+                                    <element name="relation">
+                                        <element name="ispartofseries">
+                                            <element name="de">
+                                                <field name="value">Amtliche Mitteilungen der Universität Dortmund ; 6, 1984</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="subject">
+                                        <element name="ddc">
+                                            <element name="none">
+                                                <field name="value">080</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="title">
+                                        <element name="de">
+                                            <field name="value">Amtliche Mitteilungen der Universität Dortmund Nr. 06/84</field>
+                                        </element>
+                                    </element>
+                                    <element name="type">
+                                        <element name="none">
+                                            <field name="value">Text</field>
+                                        </element>
+                                        <element name="publicationtype">
+                                            <element name="none">
+                                                <field name="value">PeriodicalPart</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                </element>
+                                <element name="dcterms">
+                                    <element name="accessRights">
+                                        <element name="none">
+                                            <field name="value">open access</field>
+                                        </element>
+                                    </element>
+                                </element>
+                                <element name="eldorado">
+                                    <element name="dnb">
+                                        <element name="zdberstkatid">
+                                            <element name="none">
+                                                <field name="value">2651117-4</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                </element>
+                                <element name="bundles">
+                                    <element name="bundle">
+                                        <field name="name">ORIGINAL</field>
+                                        <element name="bitstreams">
+                                            <element name="bitstream">
+                                                <field name="name">Amt_Mitt_84_6.pdf</field>
+                                                <field name="originalName">Amt_Mitt_84_6.pdf</field>
+                                                <field name="description">DNB</field>
+                                                <field name="format">application/pdf</field>
+                                                <field name="size">73216</field>
+                                                <field name="url">https://eldorado.tu-dortmund.de/bitstreams/d674e320-191b-4a88-9340-07b49822e8c2/download</field>
+                                                <field name="checksum">44be17c1c50ab5bd3049903af30b3ad8</field>
+                                                <field name="checksumAlgorithm">MD5</field>
+                                                <field name="sid">1</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="bundle">
+                                        <field name="name">LICENSE</field>
+                                        <element name="bitstreams">
+                                            <element name="bitstream">
+                                                <field name="name">license.txt</field>
+                                                <field name="originalName">license.txt</field>
+                                                <field name="format">text/plain</field>
+                                                <field name="size">1895</field>
+                                                <field name="url">https://eldorado.tu-dortmund.de/bitstreams/08e53432-a424-48f2-9a2a-eaaeb284e00c/download</field>
+                                                <field name="checksum">dff22ddb7bf3a94fc147de7d31900175</field>
+                                                <field name="checksumAlgorithm">MD5</field>
+                                                <field name="sid">2</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="bundle">
+                                        <field name="name">TEXT</field>
+                                        <element name="bitstreams">
+                                            <element name="bitstream">
+                                                <field name="name">Amt_Mitt_84_6.pdf.txt</field>
+                                                <field name="originalName">Amt_Mitt_84_6.pdf.txt</field>
+                                                <field name="description">Extracted text</field>
+                                                <field name="format">text/plain</field>
+                                                <field name="size">3</field>
+                                                <field name="url">https://eldorado.tu-dortmund.de/bitstreams/1c534921-f62e-40de-ac3b-a5fd9ed36a49/download</field>
+                                                <field name="checksum">2228e977ebea8966e27929f43e39cb67</field>
+                                                <field name="checksumAlgorithm">MD5</field>
+                                                <field name="sid">3</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                    <element name="bundle">
+                                        <field name="name">THUMBNAIL</field>
+                                        <element name="bitstreams">
+                                            <element name="bitstream">
+                                                <field name="name">Amt_Mitt_84_6.pdf.jpg</field>
+                                                <field name="originalName">Amt_Mitt_84_6.pdf.jpg</field>
+                                                <field name="description">Generated Thumbnail</field>
+                                                <field name="format">image/jpeg</field>
+                                                <field name="size">3452</field>
+                                                <field name="url">https://eldorado.tu-dortmund.de/bitstreams/a791819e-8b6b-4cfb-82b8-ed3a7071e863/download</field>
+                                                <field name="checksum">a489d8d645405e7e6fb797e07c713b7c</field>
+                                                <field name="checksumAlgorithm">MD5</field>
+                                                <field name="sid">4</field>
+                                            </element>
+                                        </element>
+                                    </element>
+                                </element>
+                                <element name="others">
+                                    <field name="handle">2003/30018</field>
+                                    <field name="identifier">oai:eldorado.tu-dortmund.de:2003/30018</field>
+                                    <field name="lastModifyDate">2024-10-16 21:09:14.277</field>
+                                    <element name="access-status">
+                                        <field name="value">open.access</field>
+                                    </element>
+                                </element>
+                                <element name="repository">
+                                    <field name="url">https://eldorado.tu-dortmund.de</field>
+                                    <field name="name">Eldorado</field>
+                                    <field name="mail">dspace-admin@tu-dortmund.de</field>
+                                </element>
+                                <element name="license">
+                                    <field name="bin">TElaRU5aQkVTVElNTVVORyBGVUVSIERJRSBWRVJPRUZGRU5UTElDSFVORyBBVUYgREVNIFJFUE9TSVRPUklVTSBERVIgVEVDSE5JU0NIRU4gVU5JVkVSU0lUQUVUIERPUlRNVU5ECgoxLiBOaWNodC1hdXNzY2hsaWVzc2xpY2hlcyBWZXJvZWZmZW50bGljaHVuZ3NyZWNodApNaXQgZGVyIEFubmFobWUgZGllc2VyIEJlc3RpbW11bmcgd2lyZCBkZXIgQmlibGlvdGhlayBkYXMgbmljaHQtYXVzc2NobGllc3NsaWNoZQpSZWNodCBlaW5nZXJhZXVtdCwgZGllIFJlc3NvdXJjZSB6dSBzcGVpY2hlcm4sIHp1IHZlcnZpZWxmYWVsdGlnZW4sIHdlbHR3ZWl0Cnp1Z2FlbmdsaWNoIHp1IG1hY2hlbiB1bmQgYmVpIEJlZGFyZiBnZWRydWNrdGUgdW5kIGVsZWt0cm9uaXNjaGUgS29waWVuIGFuenVmZXJ0aWdlbi4KRGllcyBnaWx0IGF1Y2ggZnVlciBkaWUgTWV0YWluZm9ybWF0aW9uIHp1IGRlciBSZXNzb3VyY2UsIHdlbGNoZSB6dXNhZXR6bGljaCB1ZWJlcgphbmRlcmUgRGF0ZW5iYW5rZW4gdW5kIG9lZmZlbnRsaWNoIHp1Z2FlbmdsaWNoZSBTY2huaXR0c3RlbGxlbiB1bmFiaGFlbmdpZyB2b24gZGVyClJlc3NvdXJjZSBzZWxiZXIgdmVyYnJlaXRldCB3ZXJkZW4gZGFyZi4KCjIuIFJlY2h0ZSBEcml0dGVyCk1pdCBkZXIgQW5uYWhtZSBkaWVzZXIgQmVzdGltbXVuZyBlcmtsYWVydCBkZXIgVmVyb2VmZmVudGxpY2hlbmRlLCBkYXNzIG1pdCBkZXIKVmVyb2VmZmVudGxpY2h1bmcgZGVyIFJlc3NvdXJjZSB1bmQgamVkZW0gaWhyZXIgQmVzdGFuZHRlaWxlIGtlaW5lIFJlY2h0ZSBEcml0dGVyCnZlcmxldHp0IHdlcmRlbi4KCjMuIFRyYW5zZm9ybWF0aW9uIGluIGFuZGVyZSBGb3JtYXRlCk1pdCBkZXIgQW5uYWhtZSBkaWVzZXIgQmVzdGltbXVuZyByYWV1bXQgZGVyIFZlcm9lZmZlbnRsaWNoZW5kZSBkZXIgQmlibGlvdGhlayBkYXMgUmVjaHQKZWluLCBkaWUgUmVzc291cmNlIGJlaSBCZWRhcmYgKHouIEIuIE1pZ3JhdGlvbiwgQmFycmllcmVmcmVpaGVpdCwgYmVzc2VyZSBadWdhZW5nbGljaGtlaXQsCkVyc2NobGllc3N1bmcpIGluIGFuZGVyZSBlbGVrdHJvbmlzY2hlIHVuZCBwaHlzaXNjaGUgRm9ybWF0ZSB6dSB1ZWJlcmZ1ZWhyZW4gdW5kIGRpZXNlCmdlbWFlc3MgQWJzYXR6IDEgenUgdmVyd2VydGVuLgoKNC4gV2VpdGVyZ2FiZSBhbiBkaWUgRGV1dHNjaGUgTmF0aW9uYWxiaWJsaW90aGVrIChETkIpIApNaXQgZGVyIEFubmFobWUgZGllc2VyIEJlc3RpbW11bmcgcmFldW10IGRlciBWZXJvZWZmZW50bGljaGVuZGUgZGVyIEJpYmxpb3RoZWsgZGFzClJlY2h0IGVpbiwgZGllIFJlc3NvdXJjZSB1bmQgaWhyZSBNZXRhaW5mb3JtYXRpb24gYW4gZGllIEROQiB3ZWl0ZXJ6dWdlYmVuLgpEZXIgRE5CIHdlcmRlbiBkYWJlaSB2b20gVmVyb2VmZmVudGxpY2hlbmRlbiBkaWVzZWxiZW4gUmVjaHRlIHdpZSBkZXIgQmlibGlvdGhlawplaW5nZXJhZXVtdC4KCjUuIERpc3NlcnRhdGlvbmVuLCBQcnVlZnVuZ3NhcmJlaXRlbiB1bmQgU3R1ZGllbmxlaXN0dW5nZW4KSGFuZGVsdCBlcyBzaWNoIGJlaSBkZXIgUmVzc291cmNlIHVtIGVpbmUgRGlzc2VydGF0aW9uLCBQcnVlZnVuZ3NhcmJlaXQgb2RlcgpTdHVkaWVubGVpc3R1bmcgYW4gZGVyIFVuaXZlcnNpdGFldCBEb3J0bXVuZCwgc28gdmVyc2ljaGVydCBkZXIgVmVyb2VmZmVudGxpY2hlbmRlLApkYXNzIGVzIHNpY2ggdW0gZGllIGVuZGd1ZWx0aWdlIHVuZCB2b24gZGVyIHp1c3RhZW5kaWdlbiBFaW5yaWNodHVuZyBkZXIgVGVjaG5pc2NoZW4gVW5pdmVyc2l0YWV0CmdlbmVobWlndGUgRmFzc3VuZyBkZXIgUmVzc291cmNlIGhhbmRlbHQgdW5kIGRpZSB6dXN0YWVuZGlnZSBFaW5yaWNodHVuZyBkZXIgClZlcm9lZmZlbnRsaWNodW5nIGRlciBSZXNzb3VyY2UgenVnZXN0aW1tdCBoYXQuCgo=</field>
+                                </element>
+                            </metadata>
+                        </metadata>
+                    </record>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:sourceMD>
+        <mets:digiprovMD ID="ie-amd-digiprov">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="rep1-amd">
+        <mets:techMD ID="rep1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalRepCharacteristics">
+                            <record>
+                                <key id="preservationType">PRESERVATION_MASTER</key>
+                                <key id="usageType">VIEW</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid1-1-amd">
+        <mets:techMD ID="fid1-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="fileOriginalName">Amt_Mitt_84_6.pdf</key>
+                                <key id="fileSizeBytes">73216</key>
+                                <key id="fileMIMEType">application/pdf</key>
+                            </record>
+                        </section>
+                        <section id="fileFixity">
+                            <record>
+                                <key id="fixityType">MD5</key>
+                                <key id="fixityValue">44be17c1c50ab5bd3049903af30b3ad8</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid2-1-amd">
+        <mets:techMD ID="fid2-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="fileOriginalName">license.txt</key>
+                                <key id="fileSizeBytes">1895</key>
+                                <key id="fileMIMEType">text/plain</key>
+                            </record>
+                        </section>
+                        <section id="fileFixity">
+                            <record>
+                                <key id="fixityType">MD5</key>
+                                <key id="fixityValue">dff22ddb7bf3a94fc147de7d31900175</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="VIEW"
+                      ID="rep1"
+                      ADMID="rep1-amd">
+            <mets:file ID="fid1-1"
+                       ADMID="fid1-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://eldorado.tu-dortmund.de/bitstreams/d674e320-191b-4a88-9340-07b49822e8c2/download" />
+            </mets:file>
+            <mets:file ID="fid2-1"
+                       ADMID="fid2-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://eldorado.tu-dortmund.de/bitstreams/08e53432-a424-48f2-9a2a-eaaeb284e00c/download" />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+</mets:mets>

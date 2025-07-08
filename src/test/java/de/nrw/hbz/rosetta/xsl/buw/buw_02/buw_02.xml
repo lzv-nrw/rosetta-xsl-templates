@@ -1,0 +1,340 @@
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:mets="http://www.loc.gov/METS/"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:vl="http://visuallibrary.net/vl"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2023-12-22T12:49:08Z</responseDate>
+    <request verb="GetRecord"
+             metadataPrefix="arcmets"
+             identifier="7035112">https://noah.dev.vls.io/oai/</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:elekpub.bib.uni-wuppertal.de:7035112</identifier>
+                <datestamp>2023-03-23T12:00:02Z</datestamp>
+                <setSpec>ubwhs</setSpec>
+                <setSpec>oaDoctoralThesis</setSpec>
+            </header>
+            <metadata>
+                <mets:mets xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version112/mets.xsd"
+                           OBJID="30"
+                           LABEL="Hochschulschriften der UB Wuppertal">
+                    <mets:metsHdr CREATEDATE="2023-12-22T13:49:08">
+                        <mets:agent ROLE="OTHER"
+                                    TYPE="OTHER"
+                                    OTHERTYPE="SOFTWARE">
+                            <mets:name>vls/trunk</mets:name>
+                        </mets:agent>
+                        <mets:agent ROLE="OTHER"
+                                    TYPE="OTHER"
+                                    OTHERTYPE="INSTANCE">
+                            <mets:name>noah.dev</mets:name>
+                        </mets:agent>
+                        <mets:agent ROLE="OTHER"
+                                    TYPE="OTHER"
+                                    OTHERTYPE="REPOSITORY">
+                            <mets:name>elekpub.bib.uni-wuppertal.de</mets:name>
+                        </mets:agent>
+                        <mets:agent ROLE="OTHER"
+                                    TYPE="OTHER"
+                                    OTHERTYPE="BUILDER">
+                            <mets:name>arc</mets:name>
+                        </mets:agent>
+                    </mets:metsHdr>
+                    <mets:dmdSec ID="md7035112">
+                        <mets:mdWrap MIMETYPE="text/xml"
+                                     MDTYPE="MODS">
+                            <mets:xmlData>
+                                <mods:mods version="3.8"
+                                           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd">
+                                    <mods:titleInfo>
+                                        <mods:title>Optimizing automated shading systems in office buildings by exploring occupant behaviour</mods:title>
+                                    </mods:titleInfo>
+                                    <mods:titleInfo type="translated">
+                                        <mods:title>Optimierung von automatisierten Beschattungs Systeme in Bürogebäuden durch Erforschung des Nutzerverhaltens</mods:title>
+                                    </mods:titleInfo>
+                                    <mods:name type="personal"
+                                               authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               valueURI="http://d-nb.info/gnd/128614311X">
+                                        <mods:displayForm>Derbas, Ghadeer</mods:displayForm>
+                                        <mods:role>
+                                            <mods:roleTerm type="code"
+                                                           authority="marcrelator">aut</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:name type="personal"
+                                               authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               valueURI="http://d-nb.info/gnd/1013500938">
+                                        <mods:displayForm>Voss, Karsten</mods:displayForm>
+                                        <mods:role>
+                                            <mods:roleTerm type="code"
+                                                           authority="marcrelator">asn</mods:roleTerm>
+                                            <mods:roleTerm type="text">Akademischer Betreuer</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:name type="personal"
+                                               authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               valueURI="http://d-nb.info/gnd/1058510584">
+                                        <mods:displayForm>Schweiker, Marcel</mods:displayForm>
+                                        <mods:role>
+                                            <mods:roleTerm type="code"
+                                                           authority="marcrelator">asn</mods:roleTerm>
+                                            <mods:roleTerm type="text">Akademischer Betreuer</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:name type="corporate"
+                                               authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               valueURI="http://d-nb.info/gnd/64944-2">
+                                        <mods:namePart>Bergische Universität Wuppertal</mods:namePart>
+                                        <mods:role>
+                                            <mods:roleTerm type="code"
+                                                           authority="marcrelator">asn</mods:roleTerm>
+                                            <mods:roleTerm type="text">Grad-verleihende Institution</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:typeOfResource>text</mods:typeOfResource>
+                                    <mods:genre authority="marcgt">thesis</mods:genre>
+                                    <mods:genre authorityURI="http://d-nb.info/gnd/"
+                                                authority="gnd-content"
+                                                valueURI="http://d-nb.info/gnd/4113937-9">Hochschulschrift</mods:genre>
+                                    <mods:genre authority="lcgft">thesis</mods:genre>
+                                    <mods:genre authority="dini">doctoralThesis</mods:genre>
+                                    <mods:originInfo eventType="publication">
+                                        <mods:place>
+                                            <mods:placeTerm type="text">Wuppertal</mods:placeTerm>
+                                        </mods:place>
+                                        <mods:dateIssued>2022</mods:dateIssued>
+                                        <mods:dateIssued keyDate="yes"
+                                                         encoding="w3cdtf">2022</mods:dateIssued>
+                                        <mods:edition>Elektronische Ressource</mods:edition>
+                                        <mods:issuance>monographic</mods:issuance>
+                                    </mods:originInfo>
+                                    <mods:language>
+                                        <mods:languageTerm authority="iso639-2b"
+                                                           type="code">eng</mods:languageTerm>
+                                    </mods:language>
+                                    <mods:physicalDescription>
+                                        <mods:extent>1 Online-Ressource (241 Seiten in verschiedenen Seitenzählungen)</mods:extent>
+                                    </mods:physicalDescription>
+                                    <mods:note type="statement of responsibility">vorgelegt von Derbas Ghadeer</mods:note>
+                                    <mods:note>Tag der Verteidigung: 15.12.2022</mods:note>
+                                    <mods:note type="editorial note">Gesehen am 09.05.2023</mods:note>
+                                    <mods:note type="thesis statement">Bergische Universität Wuppertal, Dissertation, 2022</mods:note>
+                                    <mods:subject authority="gnd"
+                                                  authorityURI="http://d-nb.info/gnd/"
+                                                  valueURI="http://d-nb.info/gnd/4067084-3">
+                                        <mods:hierarchicalGeographic>
+                                            <mods:city>Wuppertal</mods:city>
+                                        </mods:hierarchicalGeographic>
+                                    </mods:subject>
+                                    <mods:classification authority="ddc"
+                                                         displayLabel="Ingenieurwissenschaften und zugeordnete Tätigkeiten">620</mods:classification>
+                                    <mods:identifier type="eki">HBZCT009000022</mods:identifier>
+                                    <mods:identifier type="doi">10.25926/BUW/0-20</mods:identifier>
+                                    <mods:identifier type="urn">urn:nbn:de:hbz:468-2-203</mods:identifier>
+                                    <mods:relatedItem type="otherFormat"
+                                                      displayLabel="Erscheint auch als">
+                                        <mods:titleInfo>
+                                            <mods:title>Optimizing automated shading systems in office buildings by exploring occupant behaviour</mods:title>
+                                        </mods:titleInfo>
+                                        <mods:titleInfo type="translated">
+                                            <mods:title>Optimierung von automatisierten Beschattungs Systeme in Bürogebäuden durch Erforschung des Nutzerverhaltens</mods:title>
+                                        </mods:titleInfo>
+                                        <mods:name type="personal"
+                                                   authority="gnd"
+                                                   authorityURI="http://d-nb.info/gnd/"
+                                                   valueURI="http://d-nb.info/gnd/128614311X">
+                                            <mods:displayForm>Derbas, Ghadeer</mods:displayForm>
+                                            <mods:role>
+                                                <mods:roleTerm type="code"
+                                                               authority="marcrelator">aut</mods:roleTerm>
+                                            </mods:role>
+                                        </mods:name>
+                                        <mods:name type="personal"
+                                                   authority="gnd"
+                                                   authorityURI="http://d-nb.info/gnd/"
+                                                   valueURI="http://d-nb.info/gnd/1013500938">
+                                            <mods:displayForm>Voss, Karsten</mods:displayForm>
+                                            <mods:role>
+                                                <mods:roleTerm type="code"
+                                                               authority="marcrelator">asn</mods:roleTerm>
+                                                <mods:roleTerm type="text">Akademischer Betreuer</mods:roleTerm>
+                                            </mods:role>
+                                        </mods:name>
+                                        <mods:name type="personal"
+                                                   authority="gnd"
+                                                   authorityURI="http://d-nb.info/gnd/"
+                                                   valueURI="http://d-nb.info/gnd/1058510584">
+                                            <mods:displayForm>Schweiker, Marcel</mods:displayForm>
+                                            <mods:role>
+                                                <mods:roleTerm type="code"
+                                                               authority="marcrelator">asn</mods:roleTerm>
+                                                <mods:roleTerm type="text">Akademischer Betreuer</mods:roleTerm>
+                                            </mods:role>
+                                        </mods:name>
+                                        <mods:name type="corporate"
+                                                   authority="gnd"
+                                                   authorityURI="http://d-nb.info/gnd/"
+                                                   valueURI="http://d-nb.info/gnd/64944-2">
+                                            <mods:namePart>Bergische Universität Wuppertal</mods:namePart>
+                                            <mods:role>
+                                                <mods:roleTerm type="code"
+                                                               authority="marcrelator">asn</mods:roleTerm>
+                                                <mods:roleTerm type="text">Grad-verleihende Institution</mods:roleTerm>
+                                            </mods:role>
+                                        </mods:name>
+                                        <mods:typeOfResource>text</mods:typeOfResource>
+                                        <mods:genre authority="marcgt">book</mods:genre>
+                                        <mods:genre authorityURI="http://d-nb.info/gnd/"
+                                                    authority="gnd-content"
+                                                    valueURI="http://d-nb.info/gnd/4113937-9">Hochschulschrift</mods:genre>
+                                        <mods:originInfo eventType="publication">
+                                            <mods:place>
+                                                <mods:placeTerm type="text">Wuppertal</mods:placeTerm>
+                                            </mods:place>
+                                            <mods:dateIssued>2022</mods:dateIssued>
+                                            <mods:dateIssued keyDate="yes"
+                                                             encoding="w3cdtf">2022</mods:dateIssued>
+                                            <mods:issuance>monographic</mods:issuance>
+                                        </mods:originInfo>
+                                        <mods:language>
+                                            <mods:languageTerm authority="iso639-2b"
+                                                               type="code">eng</mods:languageTerm>
+                                        </mods:language>
+                                        <mods:physicalDescription>
+                                            <mods:extent>241 Seiten in verschiedenen Seitenzählungen</mods:extent>
+                                        </mods:physicalDescription>
+                                        <mods:note type="statement of responsibility">vorgelegt von Derbas Ghadeer</mods:note>
+                                        <mods:note>Tag der Verteidigung: 15.12.2022</mods:note>
+                                        <mods:note type="thesis statement">Bergische Universität Wuppertal, Dissertation, 2022</mods:note>
+                                        <mods:subject authority="gnd"
+                                                      authorityURI="http://d-nb.info/gnd/"
+                                                      valueURI="http://d-nb.info/gnd/4067084-3">
+                                            <mods:hierarchicalGeographic>
+                                                <mods:city>Wuppertal</mods:city>
+                                            </mods:hierarchicalGeographic>
+                                        </mods:subject>
+                                        <mods:classification authority="ddcger">620</mods:classification>
+                                        <mods:relatedItem type="otherFormat"
+                                                          displayLabel="Erscheint auch als">
+                                            <mods:titleInfo>
+                                                <mods:title>Optimizing automated shading systems in office buildings by exploring occupant behaviour</mods:title>
+                                            </mods:titleInfo>
+                                            <mods:name>
+                                                <mods:namePart>Derbas, Ghadeer</mods:namePart>
+                                            </mods:name>
+                                            <mods:note>Online-Ausgabe</mods:note>
+                                            <mods:recordInfo>
+                                                <mods:recordIdentifier>CT009000022</mods:recordIdentifier>
+                                            </mods:recordInfo>
+                                        </mods:relatedItem>
+                                        <mods:identifier type="eki">HBZHT021869158</mods:identifier>
+                                        <mods:extension>
+                                            <vlz:info xmlns:vlz="http://visuallibrary.net/vlz/1.0/"
+                                                      version="0" />
+                                        </mods:extension>
+                                        <mods:recordInfo>
+                                            <mods:recordCreationDate encoding="marc">20230405</mods:recordCreationDate>
+                                            <mods:recordChangeDate encoding="marc">20230509</mods:recordChangeDate>
+                                            <mods:recordIdentifier source="hbz">HT021869158</mods:recordIdentifier>
+                                            <mods:descriptionStandard>rda</mods:descriptionStandard>
+                                        </mods:recordInfo>
+                                    </mods:relatedItem>
+                                    <mods:location>
+                                        <mods:url displayLabel="Volltext">http://nbn-resolving.org/urn:nbn:de:hbz:468-2-203</mods:url>
+                                    </mods:location>
+                                    <mods:location>
+                                        <mods:url displayLabel="Volltext">http://dx.doi.org/10.25926/BUW/0-20</mods:url>
+                                    </mods:location>
+                                    <mods:accessCondition>free access</mods:accessCondition>
+                                    <mods:accessCondition>free access</mods:accessCondition>
+                                    <mods:accessCondition type="use and reproduction"
+                                                          xlink:href="https://creativecommons.org/licenses/by/4.0/"
+                                                          displayLabel="CC-BY-Lizenz (4.0)">cc-by_4</mods:accessCondition>
+                                    <mods:extension>
+                                        <vlz:info xmlns:vlz="http://visuallibrary.net/vlz/1.0/"
+                                                  version="0" />
+                                        <vl:defenseDate>2022-12-15</vl:defenseDate>
+                                        <vl:modsforms type="doctoralThesis" />
+                                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                                        <vl:licence>public</vl:licence>
+                                    </mods:extension>
+                                    <mods:recordInfo>
+                                        <mods:recordOrigin>s2w-hsswupubw</mods:recordOrigin>
+                                        <mods:recordCreationDate encoding="marc">20230323</mods:recordCreationDate>
+                                        <mods:recordChangeDate encoding="marc">20230509</mods:recordChangeDate>
+                                        <mods:recordIdentifier source="ubwhs">CT009000022</mods:recordIdentifier>
+                                        <mods:descriptionStandard>rda</mods:descriptionStandard>
+                                    </mods:recordInfo>
+                                    <mods:classification displayLabel="Fakultät für Architektur und Bauingenieurwesen"
+                                                         authority="ioo">UBW:D</mods:classification>
+                                    <mods:classification displayLabel="Architektur"
+                                                         authority="ioo">UBW:D:D.01</mods:classification>
+                                </mods:mods>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:dmdSec>
+                    <mets:amdSec ID="amd7035112">
+                        <mets:rightsMD ID="rights7035112">
+                            <mets:mdWrap MIMETYPE="text/xml"
+                                         MDTYPE="OTHER"
+                                         OTHERMDTYPE="DVRIGHTS">
+                                <mets:xmlData>
+                                    <dv:rights xmlns:dv="http://dfg-viewer.de/">
+                                        <dv:ownerLogo>https://elekpub.bib.uni-wuppertal.de//domainresource/static/graphics/connectors/viewerLogo.gif</dv:ownerLogo>
+                                        <dv:owner>Wuppertal : Bergische Universität Wuppertal</dv:owner>
+                                        <dv:license>cc-by</dv:license>
+                                    </dv:rights>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:rightsMD>
+                        <mets:digiprovMD ID="digiprov7035112">
+                            <mets:mdWrap MIMETYPE="text/xml"
+                                         MDTYPE="OTHER"
+                                         OTHERMDTYPE="DVLINKS">
+                                <mets:xmlData>
+                                    <dv:links xmlns:dv="http://dfg-viewer.de/">
+                                        <dv:reference>http://www.digibib.net/permalink/468/UBWU-x/HBZ:urn%3Anbn%3Ade%3Ahbz%3A468-2-203</dv:reference>
+                                        <dv:presentation>https://elekpub.bib.uni-wuppertal.de/id/7035112</dv:presentation>
+                                        <dv:iiif>https://elekpub.bib.uni-wuppertal.de/i3f/v20/7035112/manifest</dv:iiif>
+                                        <dv:sru>https://elekpub.bib.uni-wuppertal.de/proto_ftsearch/7035112</dv:sru>
+                                    </dv:links>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:digiprovMD>
+                    </mets:amdSec>
+                    <mets:fileSec>
+                        <mets:fileGrp USE="MASTER">
+                            <mets:file MIMETYPE="application/pdf"
+                                       CHECKSUM="3ddcf22aee89dbe8df34f73975838574bd8a0fb6"
+                                       CREATED="2023-03-20T19:30:42.856000Z"
+                                       CHECKSUMTYPE="SHA-1"
+                                       SIZE="52770249"
+                                       ID="PDF_7035112">
+                                <mets:FLocat xlink:href="https://elekpub.bib.uni-wuppertal.de/download/pdf/7035112"
+                                             LOCTYPE="URL" />
+                            </mets:file>
+                        </mets:fileGrp>
+                    </mets:fileSec>
+                    <mets:structMap TYPE="LOGICAL">
+                        <mets:div ID="log7035112"
+                                  DMDID="md7035112"
+                                  ADMID="amd7035112"
+                                  TYPE="document"
+                                  LABEL="Optimizing automated shading systems in office buildings by exploring occupant behaviour"
+                                  ORDER="1"
+                                  CONTENTIDS="urn:nbn:de:hbz:468-2-203">
+                            <mets:fptr FILEID="PDF_7035112" />
+                        </mets:div>
+                    </mets:structMap>
+                </mets:mets>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

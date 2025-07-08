@@ -1,0 +1,192 @@
+<record xmlns="http://www.openarchives.org/OAI/2.0/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <identifier>oai:digital.ub.uni-paderborn.de:1146</identifier>
+        <datestamp>2015-05-12T19:17:51Z</datestamp>
+        <setSpec>ubpbhsmig</setSpec>
+        <setSpec>oaDoctoralThesis</setSpec>
+    </header>
+    <metadata>
+        <mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version112/mets.xsd"
+                   OBJID="9"
+                   LABEL="Veröffentlichungen der Universität (migriert)"
+                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns:mets="http://www.loc.gov/METS/"
+                   xmlns:mods="http://www.loc.gov/mods/v3">
+            <mets:metsHdr CREATEDATE="2025-06-23T08:30:38">
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="SOFTWARE">
+                    <mets:name>vls/2412</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="INSTANCE">
+                    <mets:name>noah</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="REPOSITORY">
+                    <mets:name>digital.ub.uni-paderborn.de</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="BUILDER">
+                    <mets:name>arc</mets:name>
+                </mets:agent>
+            </mets:metsHdr>
+            <mets:dmdSec ID="md1146">
+                <mets:mdWrap MIMETYPE="text/xml"
+                             MDTYPE="MODS">
+                    <mets:xmlData>
+                        <mods:mods version="3.8"
+                                   xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd">
+                            <mods:titleInfo>
+                                <mods:title>
+                                    Empirische Forschungsmethoden für die Evaluation
+                                    visueller Fahrerassistenzsysteme im Kraftfahrzeug
+                                </mods:title>
+                            </mods:titleInfo>
+                            <mods:name type="personal"
+                                       authority="gnd"
+                                       authorityURI="http://d-nb.info/gnd/"
+                                       valueURI="http://d-nb.info/gnd/138566232">
+                                <mods:namePart>Sprenger, Regina</mods:namePart>
+                                <mods:role>
+                                    <mods:roleTerm type="code"
+                                                   authority="marcrelator">aut</mods:roleTerm>
+                                </mods:role>
+                            </mods:name>
+                            <mods:typeOfResource>text</mods:typeOfResource>
+                            <mods:genre authority="marcgt">thesis</mods:genre>
+                            <mods:genre authority="dini">doctoralThesis</mods:genre>
+                            <mods:originInfo>
+                                <mods:dateIssued encoding="w3cdtf"
+                                                 keyDate="yes">2009</mods:dateIssued>
+                                <mods:issuance>monographic</mods:issuance>
+                            </mods:originInfo>
+                            <mods:language>
+                                <mods:languageTerm authority="iso639-2b"
+                                                   type="code">ger</mods:languageTerm>
+                            </mods:language>
+                            <mods:note type="statement of responsibility">Regina Sprenger</mods:note>
+                            <mods:note type="thesis statement">Paderborn, Univ., Diss., 2008</mods:note>
+                            <mods:classification authority="ddc"
+                                                 displayLabel="Philosophie und Psychologie">100</mods:classification>
+                            <mods:classification authority="ddc"
+                                                 displayLabel="Psychologie">150</mods:classification>
+                            <mods:identifier type="eki">HBZHT015960635</mods:identifier>
+                            <mods:identifier type="urn">urn:nbn:de:hbz:466-20090609018</mods:identifier>
+                            <mods:location>
+                                <mods:url displayLabel="Verlag">                                    
+                                    http://ubdok.uni-paderborn.de/servlets/DocumentServlet?id=10239
+                                </mods:url>
+                            </mods:location>
+                            <mods:location>
+                                <mods:url displayLabel="Langzeitarchivierung Nationalbibliothek">                                    
+                                    http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:466-20090609018
+                                </mods:url>
+                            </mods:location>
+                            <mods:location>
+                                <mods:physicalLocation authority="local library code">466</mods:physicalLocation>
+                            </mods:location>
+                            <mods:accessCondition type="use and reproduction"
+                                                  xlink:href="https://rightsstatements.org/vocab/InC/1.0/"
+                                                  displayLabel="Urheberrechtsschutz">RS INC 1.0</mods:accessCondition>
+                            <mods:recordInfo>
+                                <mods:recordCreationDate encoding="marc">20090610</mods:recordCreationDate>
+                                <mods:recordIdentifier source="ubpbhsmig">HT015960635</mods:recordIdentifier>
+                                <mods:descriptionStandard>rak</mods:descriptionStandard>
+                            </mods:recordInfo>
+                            <mods:classification displayLabel="Fakultät für Kulturwissenschaften"
+                                                 authority="ioo">KW</mods:classification>
+                        </mods:mods>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:amdSec ID="amd1146">
+                <mets:rightsMD ID="rights1146">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="OTHER"
+                                 OTHERMDTYPE="DVRIGHTS">
+                        <mets:xmlData>
+                            <dv:rights xmlns:dv="http://dfg-viewer.de/">
+                                <dv:ownerLogo>                                    
+                                    https://digital.ub.uni-paderborn.de//domainresource/static/graphics/connectors/viewerLogo.gif
+                                </dv:ownerLogo>
+                                <dv:owner>Paderborn : Universität Paderborn</dv:owner>
+                                <dv:ownerSiteURL>http://www.ub.uni-paderborn.de/</dv:ownerSiteURL>
+                                <dv:ownerContact>bibliothek@ub.uni-paderborn.de</dv:ownerContact>
+                                <dv:license>reserved</dv:license>
+                            </dv:rights>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:rightsMD>
+                <mets:digiprovMD ID="digiprov1146">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="OTHER"
+                                 OTHERMDTYPE="DVLINKS">
+                        <mets:xmlData>
+                            <dv:links xmlns:dv="http://dfg-viewer.de/">
+                                <dv:reference>                                    
+                                    http://katalog.ub.uni-paderborn.de/searches?q=HT015960635&amp;scope=catalog
+                                </dv:reference>
+                                <dv:presentation>https://digital.ub.uni-paderborn.de/id/1146</dv:presentation>
+                                <dv:iiif>https://digital.ub.uni-paderborn.de/i3f/v20/1146/manifest</dv:iiif>
+                                <dv:sru>https://digital.ub.uni-paderborn.de/proto_ftsearch/1146</dv:sru>
+                            </dv:links>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:digiprovMD>
+            </mets:amdSec>
+            <mets:fileSec>
+                <mets:fileGrp USE="MASTER">
+                    <mets:file MIMETYPE="application/pdf"
+                               CREATED="2011-03-30T15:52:41.454000Z"
+                               SIZE="2118215"
+                               ID="PDF_1146">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1146?downloadFilename=vlid"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="application/pdf"
+                               CREATED="2011-03-30T15:52:41.453000Z"
+                               SIZE="9433"
+                               ID="PDF_1148">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1148?downloadFilename=vlid"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="application/pdf"
+                               CREATED="2011-03-30T15:52:41.454000Z"
+                               SIZE="9123"
+                               ID="PDF_1149">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1149?downloadFilename=vlid"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                </mets:fileGrp>
+            </mets:fileSec>
+            <mets:structMap TYPE="LOGICAL">
+                <mets:div ID="log1146"
+                          DMDID="md1146"
+                          ADMID="amd1146"
+                          TYPE="document"
+                          LABEL="Empirische Forschungsmethoden für die Evaluation visueller Fahrerassistenzsysteme im Kraftfahrzeug"
+                          ORDER="1"
+                          CONTENTIDS="urn:nbn:de:hbz:466-20090609018">
+                    <mets:fptr FILEID="PDF_1146" />
+                    <mets:div ID="log1148"
+                              TYPE="section"
+                              LABEL="kurzfassung"
+                              ORDER="1">
+                        <mets:fptr FILEID="PDF_1148" />
+                    </mets:div>
+                    <mets:div ID="log1149"
+                              TYPE="section"
+                              LABEL="abstract"
+                              ORDER="2">
+                        <mets:fptr FILEID="PDF_1149" />
+                    </mets:div>
+                </mets:div>
+            </mets:structMap>
+        </mets:mets>
+    </metadata>
+</record>

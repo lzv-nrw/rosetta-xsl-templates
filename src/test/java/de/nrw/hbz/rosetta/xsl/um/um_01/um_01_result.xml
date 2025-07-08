@@ -1,0 +1,378 @@
+<mets:mets xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:dv="http://dfg-viewer.de/"
+           xmlns:vl="http://visuallibrary.net/vl"
+           xmlns:vls="http://semantics.de/vls"
+           xmlns:marcxml="http://www.loc.gov/MARC21/slim"
+           xmlns:epicur="urn:nbn:de:1111-2004033116"
+           xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+           xmlns:zvdd="http://zvdd.gdz-cms.de/"
+           xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:vlz="http://visuallibrary.net/vlz/1.0"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mix="http://www.loc.gov/mix/v20"
+           xmlns:ma="http://memoryalpha.ulb.uni-muenster.de"
+           xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <mets:dmdSec ID="ie-dmd">
+        <mets:mdWrap MDTYPE="DC">
+            <mets:xmlData>
+                <dc:record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <dc:title>Het Nederlands in het voortgezet onderwijs in Aruba</dc:title>
+                    <dc:creator>Wenzel, Veronika</dc:creator>
+                    <dc:description>[Electronic ed.]</dc:description>
+                    <dcterms:abstract>
+                        Samenvatting in het Nederlands:
+                        Dit onderzoek gaat over de houdingen van docenten in het voortgezet onderwijs in Aruba en over hun omgang met het Nederlands in de les. Het talenbeleid in het Arubaanse onderwijs en de recente discussie daarover vertonen veel overeenkomsten met de bewegingen in andere postkoloniale eilanden in het Caribisch gebied.
+                        Terwijl in het primair onderwijs een veelbelovend begin is gemaakt met de meertalige Scol Arubano Multilingual (SAM) met Papiamento als voertaal, is het beleid in het voortgezet onderwijs nog gekenmerkt door een eenzijdig-Nederlandstalige aanpak Het VO is geheel en al georiënteerd op de examens en schoolboeken die in Nederland zijn ontwikkeld, teneinde voor de leerlingen een vervolgopleiding in Nederland mogelijk te maken. De instructietaal is hierbij - althans in theorie - uitsluitend het Nederlands; tegelijk is het Nederlands recent erkend als ‘vreemde’ taal.
+                        Deze studie is binnen dit spanningsveld gesitueerd. Er is gewerkt met een combinatie van kwantitatieve en kwalitatieve onderzoeksmethoden die elkaar aanvullen en nuanceren. Het blijkt dat in de realiteit de lessen vaak meertalig zijn omdat de moedertaalmethodes1 te moeilijk zijn. De leerlingen leren de Nederlandse taal niet systematisch, noch in de lessen Nederlands noch in de andere vakken en ze durven de taal niet te spreken.
+                        Het onderzoek geeft inzicht in de systemische complexiteit van het onderwijs en toont aan hoe de betrokkenen erin handelen. Vragenformulieren, lesbezoeken, gesprekken en focusgroepen leveren de data. De analyse leidt tot onder meer de volgende aanbevelingen:
+                        - Een leerlijn Nederlands inrichten die loopt van het PO tot en met het havo-examen , met een weloverwogen begeleide en geleidelijke start van de instructietaal Nederlands,
+                        - Het hanteren van een geavanceerde vreemdetalendidactiek in de lessen Nederlands, met een NVT-methode en NVT-examens,
+                        - Docenten van alle vakken de daarvoor vereiste nascholing aanbieden in activerende meertaligheidsdidactiek ,
+                        - Het implementeren van een talenbeleid dat vroegtijdige segregatie vermijdt en ruimte geeft voor alle talen, beginnend met de implementatie van Scol Arubano Multilingual in het PO en doorlopend tot de schooltypes van het VO met zijn examens en lesmateriaal.
+                        Systemische veranderingen die van duurzame aard zijn, vergen niet alleen veel moed, maar ook voldoende middelen en gekwalificeerd personeel. Aruba is een klein (ei)land en de Nederlandse examens bieden weinig Arubaanse jongeren de mogelijkheid van een vervolgopleiding in Nederland. Toch moet men ergens beginnen. Haalbare eerste stappen zijn het opzetten van een leerlijn Nederlands op basis van het Europees Referentiekader voor Talen (ERK) en het implementeren van docentenprofessionalisering; hiermee is binnen dit project al begonnen. Een integrale aanpak en samenwerking met regionale en bovenregionale experts kunnen de verdere weg effenen voor een verantwoorde plurilinguale aanpak van het Arubaanse onderwijs.
+                    </dcterms:abstract>
+                    <dcterms:abstract>
+                        Summary in English:
+                        Dutch and Papiamento are the official languages of Aruba, but most Arubans speak also English and Spanish. Although most inhabitants speak Papiamento at home, Dutch – the former colonizer's language - has been chosen as the main medium of instruction for secondary education. Nevertheless, Dutch recently has been acknowledged as a foreign language in Aruba.
+                        In this study I demonstrate that teachers face special and interrelated challenges in an educational system that has been adopted from the Netherlands and includes not only the language itself but also schoolbooks, exams, teacher training, students’ educational opportunities and even the way of thinking about teaching to some extent.
+                        The study investigates an inventory of popular beliefs and attitudes amongst teachers. It helps to understand communicative and didactic habits that can be observed in the Aruban classroom. Many teachers give multilingual lessons to meet the students’ linguistic backgrounds but lack strategies for reducing their anxiety to speak Dutch. The language of instruction is no language of communication. The language level in teaching materials and exams is obviously beyond many students’ capacity.
+                        Recommendations can be summarised as follows:
+                        - indicate the expected language levels of Dutch at specific educational grades and match this to a well-considered and gradual start of Dutch as the language of instruction (better: communication)
+                        - turn the Dutch lessons into methodical foreign language lessons in which students systematically learn to use the language actively and include teaching and testing materials
+                        - improve general teaching abilities to make lessons more interactive and to systematically encourage students’ oral participation in all languages, including Dutch
+                        - design a sequence of languages in education that avoids segregation at an early age and gives space to a more plurilingual approach. This includes implementation of existing language policy such as SAM (multilingual primary school) and should also affect exams and teaching materials in secondary education.
+                        Systemic changes are difficult. More often than not, changing one aspect of a system fails to fix the problem. But you have to start somewhere. A first step could be the transformation of the Dutch lessons and a common basis for the explicit description of language proficiency (using the Common European Framework for References of Languages) for teachers and to implement teacher trainings. Cooperation with (super-)regional experts and an integral manner of thinking can keep the doors open to the next step to a more plurilingual language policy in Aruban education.
+                    </dcterms:abstract>
+                    <dcterms:abstract>
+                        Resumen na Papiamento:
+                        E investigacion aki ta bay tocante e actitud di docente den enseñansa secundario y tocante nan manera di pensa y di actua. E lesado Arubano lo reconoce hopi di e retonan cu e docentenan ta confronta diariamente: Examen y buki di scol ta na Hulandes y e idioma di instruccion exigente aki ta dirigi riba futuro estudio na Hulanda. Esaki, mientras cu Hulandes ta reconoci como un idioma ‘stranhero’.
+                        E estudio aki ta demostra entre otro cu hopi biaha e lesnan ta multilingual, pero cu e stimulacion di interaccion ta mucho limita. E alumnonan no ta siña e idioma Hulandes na un manera sistematico, ni durante e lesnan di Hulandes, ni durante e otro materianan. Ademas e alumnonan no ta durf di papia e idioma.
+                        E investigacion ta duna un bista amplio di e complehidad sistemico di enseñansa y con esnan envolvi ta anda den dje. A colecta dato pa medio di formulario di pregunta, bishita na les, combersacion y grupo di enfoke. Basa riba e analisis ta yega na e siguiente recomendacionnan:
+                        - Un liña di siña pa Hulandes for di enseñansa primario te cu examen di havo;
+                        - Un comienso bon guia y bon pensa di Hulandes como idioma di instruccion;
+                        - Aplicacion di un didactica di idioma stranhero durante les di Hulandes, cu un metodo di Hulandes como idioma stranhero y examen di Hulandes como idioma stranhero;
+                        - Profesionalisacion di docente riba didactica cu ta activa y ta dirigi riba multilingualismo den tur materia;
+                        - Un maneho di idioma cu ta evita segregacion trempan y cu ta duna espacio pa tur idioma. Esaki lo por cuminsa cu e implementacion di Scol Arubano Multilingual den enseñansa primario y continua te cu e diferente sistemanan den scol secundario, cu e examennan y e materialnan di les.
+                        Cambio di sistema na un pais chikito no ta exigi solamente hopi curashi, sino tambe placa y personal cualifica. Sinembargo, mester cuminsa un caminda. Un paso realisabel ta sigur un liña di siña pa Hulandes. Door di pensa na un manera integral y traha hunto cu experto regional y supraregional, por habri porta pa por yega un siguiente paso pa logra un acercamento plurilingual den enseñansa Arubano.
+                    </dcterms:abstract>
+                    <dc:date>2022</dc:date>
+                    <dcterms:created>2022-04-28</dcterms:created>
+                    <dcterms:dateModified>2024-02-02</dcterms:dateModified>
+                    <dc:publisher>Biblioteca Nacional Aruba</dc:publisher>
+                    <dc:type>book</dc:type>
+                    <dc:type>Text</dc:type>
+                    <dc:type>monographic</dc:type>
+                    <dc:language>dut</dc:language>
+                    <dc:format>electronic</dc:format>
+                    <dc:format>access</dc:format>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:format>born digital</dc:format>
+                    <dcterms:extent>106</dcterms:extent>
+                    <dc:subject>Aruba; Niederländisch; Fremdsprachenunterricht; Lehrer; Bedarfsermittlung</dc:subject>
+                    <dc:subject>Aruba; taalbeleid; Nederlands; NVT; Nederlands als vreemde taal; instructietaal Nederlands; taalonderwijs ; meertalig onderwijs</dc:subject>
+                    <dc:subject>Aruba; Dutch as a foreign language; language education</dc:subject>
+                    <dc:subject>DDC: 439.31</dc:subject>
+                    <dc:identifier>urn:nbn:de:hbz:6:4-84019513174</dc:identifier>
+                    <dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:6:4-84019513174</dc:identifier>
+                    <dc:identifier>oai:wwu.de:daca5d7e-c301-414c-966f-d5093c8c28cb</dc:identifier>
+                    <dcterms:license>InC 1.0</dcterms:license>
+                    <dcterms:license>https://rightsstatements.org/vocab/InC/1.0/</dcterms:license>
+                </dc:record>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="ie-amd">
+        <mets:techMD ID="ie-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="objectIdentifier">
+                            <record>
+                                <key id="objectIdentifierType">OAI</key>
+                                <key id="objectIdentifierValue">oai:wwu.de:daca5d7e-c301-414c-966f-d5093c8c28cb</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:rightsMD ID="ie-amd-rights">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="accessRightsPolicy" />
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:sourceMD ID="ie-amd-source-MODS">
+            <mets:mdWrap MDTYPE="MODS">
+                <mets:xmlData>
+                    <mets:dmdSec ID="DMD_daca5d7e-c301-414c-966f-d5093c8c28cb">
+                        <mets:mdWrap MDTYPE="MODS"
+                                     MIMETYPE="text/xml">
+                            <mets:xmlData>
+                                <mods:mods version="3.7"
+                                           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd"
+                                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                    <mods:titleInfo lang="dut"
+                                                    type="uniform">
+                                        <mods:title script="Latn">Het Nederlands in het voortgezet onderwijs in Aruba</mods:title>
+                                        <mods:subTitle>Een onderzoek naar de behoeften en attitudes van docenten 2021/2022</mods:subTitle>
+                                    </mods:titleInfo>
+                                    <mods:name type="personal"
+                                               valueURI="http://d-nb.info/gnd/17356707X">
+                                        <mods:namePart type="given">Veronika</mods:namePart>
+                                        <mods:namePart type="family">Wenzel</mods:namePart>
+                                        <mods:namePart type="date">1967-</mods:namePart>
+                                        <mods:displayForm>Wenzel, Veronika</mods:displayForm>
+                                        <mods:role>
+                                            <mods:roleTerm authority="marcrelator"
+                                                           type="code">aut</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:genre>book</mods:genre>
+                                    <mods:genre authority="dct">Text</mods:genre>
+                                    <mods:originInfo>
+                                        <mods:publisher>Biblioteca Nacional Aruba</mods:publisher>
+                                        <mods:dateIssued keyDate="yes">2022</mods:dateIssued>
+                                        <mods:issuance>monographic</mods:issuance>
+                                    </mods:originInfo>
+                                    <mods:originInfo>
+                                        <mods:dateIssued encoding="w3cdtf">2022-04-28</mods:dateIssued>
+                                        <mods:dateModified encoding="w3cdtf">2024-02-02</mods:dateModified>
+                                        <mods:edition>[Electronic ed.]</mods:edition>
+                                    </mods:originInfo>
+                                    <mods:language>
+                                        <mods:languageTerm authority="iso639-2b"
+                                                           type="code">dut</mods:languageTerm>
+                                    </mods:language>
+                                    <mods:physicalDescription>
+                                        <mods:form>electronic</mods:form>
+                                        <mods:reformattingQuality>access</mods:reformattingQuality>
+                                        <mods:internetMediaType>application/pdf</mods:internetMediaType>
+                                        <mods:extent>106</mods:extent>
+                                        <mods:digitalOrigin>born digital</mods:digitalOrigin>
+                                    </mods:physicalDescription>
+                                    <mods:abstract lang="dut">
+                                        Samenvatting in het Nederlands:
+                                        Dit onderzoek gaat over de houdingen van docenten in het voortgezet onderwijs in Aruba en over hun omgang met het Nederlands in de les. Het talenbeleid in het Arubaanse onderwijs en de recente discussie daarover vertonen veel overeenkomsten met de bewegingen in andere postkoloniale eilanden in het Caribisch gebied.
+                                        Terwijl in het primair onderwijs een veelbelovend begin is gemaakt met de meertalige Scol Arubano Multilingual (SAM) met Papiamento als voertaal, is het beleid in het voortgezet onderwijs nog gekenmerkt door een eenzijdig-Nederlandstalige aanpak Het VO is geheel en al georiënteerd op de examens en schoolboeken die in Nederland zijn ontwikkeld, teneinde voor de leerlingen een vervolgopleiding in Nederland mogelijk te maken. De instructietaal is hierbij - althans in theorie - uitsluitend het Nederlands; tegelijk is het Nederlands recent erkend als ‘vreemde’ taal.
+                                        Deze studie is binnen dit spanningsveld gesitueerd. Er is gewerkt met een combinatie van kwantitatieve en kwalitatieve onderzoeksmethoden die elkaar aanvullen en nuanceren. Het blijkt dat in de realiteit de lessen vaak meertalig zijn omdat de moedertaalmethodes1 te moeilijk zijn. De leerlingen leren de Nederlandse taal niet systematisch, noch in de lessen Nederlands noch in de andere vakken en ze durven de taal niet te spreken.
+                                        Het onderzoek geeft inzicht in de systemische complexiteit van het onderwijs en toont aan hoe de betrokkenen erin handelen. Vragenformulieren, lesbezoeken, gesprekken en focusgroepen leveren de data. De analyse leidt tot onder meer de volgende aanbevelingen:
+                                        - Een leerlijn Nederlands inrichten die loopt van het PO tot en met het havo-examen , met een weloverwogen begeleide en geleidelijke start van de instructietaal Nederlands,
+                                        - Het hanteren van een geavanceerde vreemdetalendidactiek in de lessen Nederlands, met een NVT-methode en NVT-examens,
+                                        - Docenten van alle vakken de daarvoor vereiste nascholing aanbieden in activerende meertaligheidsdidactiek ,
+                                        - Het implementeren van een talenbeleid dat vroegtijdige segregatie vermijdt en ruimte geeft voor alle talen, beginnend met de implementatie van Scol Arubano Multilingual in het PO en doorlopend tot de schooltypes van het VO met zijn examens en lesmateriaal.
+                                        Systemische veranderingen die van duurzame aard zijn, vergen niet alleen veel moed, maar ook voldoende middelen en gekwalificeerd personeel. Aruba is een klein (ei)land en de Nederlandse examens bieden weinig Arubaanse jongeren de mogelijkheid van een vervolgopleiding in Nederland. Toch moet men ergens beginnen. Haalbare eerste stappen zijn het opzetten van een leerlijn Nederlands op basis van het Europees Referentiekader voor Talen (ERK) en het implementeren van docentenprofessionalisering; hiermee is binnen dit project al begonnen. Een integrale aanpak en samenwerking met regionale en bovenregionale experts kunnen de verdere weg effenen voor een verantwoorde plurilinguale aanpak van het Arubaanse onderwijs.
+                                    </mods:abstract>
+                                    <mods:abstract lang="eng">
+                                        Summary in English:
+                                        Dutch and Papiamento are the official languages of Aruba, but most Arubans speak also English and Spanish. Although most inhabitants speak Papiamento at home, Dutch – the former colonizer's language - has been chosen as the main medium of instruction for secondary education. Nevertheless, Dutch recently has been acknowledged as a foreign language in Aruba.
+                                        In this study I demonstrate that teachers face special and interrelated challenges in an educational system that has been adopted from the Netherlands and includes not only the language itself but also schoolbooks, exams, teacher training, students’ educational opportunities and even the way of thinking about teaching to some extent.
+                                        The study investigates an inventory of popular beliefs and attitudes amongst teachers. It helps to understand communicative and didactic habits that can be observed in the Aruban classroom. Many teachers give multilingual lessons to meet the students’ linguistic backgrounds but lack strategies for reducing their anxiety to speak Dutch. The language of instruction is no language of communication. The language level in teaching materials and exams is obviously beyond many students’ capacity.
+                                        Recommendations can be summarised as follows:
+                                        - indicate the expected language levels of Dutch at specific educational grades and match this to a well-considered and gradual start of Dutch as the language of instruction (better: communication)
+                                        - turn the Dutch lessons into methodical foreign language lessons in which students systematically learn to use the language actively and include teaching and testing materials
+                                        - improve general teaching abilities to make lessons more interactive and to systematically encourage students’ oral participation in all languages, including Dutch
+                                        - design a sequence of languages in education that avoids segregation at an early age and gives space to a more plurilingual approach. This includes implementation of existing language policy such as SAM (multilingual primary school) and should also affect exams and teaching materials in secondary education.
+                                        Systemic changes are difficult. More often than not, changing one aspect of a system fails to fix the problem. But you have to start somewhere. A first step could be the transformation of the Dutch lessons and a common basis for the explicit description of language proficiency (using the Common European Framework for References of Languages) for teachers and to implement teacher trainings. Cooperation with (super-)regional experts and an integral manner of thinking can keep the doors open to the next step to a more plurilingual language policy in Aruban education.
+                                    </mods:abstract>
+                                    <mods:abstract>
+                                        Resumen na Papiamento:
+                                        E investigacion aki ta bay tocante e actitud di docente den enseñansa secundario y tocante nan manera di pensa y di actua. E lesado Arubano lo reconoce hopi di e retonan cu e docentenan ta confronta diariamente: Examen y buki di scol ta na Hulandes y e idioma di instruccion exigente aki ta dirigi riba futuro estudio na Hulanda. Esaki, mientras cu Hulandes ta reconoci como un idioma ‘stranhero’.
+                                        E estudio aki ta demostra entre otro cu hopi biaha e lesnan ta multilingual, pero cu e stimulacion di interaccion ta mucho limita. E alumnonan no ta siña e idioma Hulandes na un manera sistematico, ni durante e lesnan di Hulandes, ni durante e otro materianan. Ademas e alumnonan no ta durf di papia e idioma.
+                                        E investigacion ta duna un bista amplio di e complehidad sistemico di enseñansa y con esnan envolvi ta anda den dje. A colecta dato pa medio di formulario di pregunta, bishita na les, combersacion y grupo di enfoke. Basa riba e analisis ta yega na e siguiente recomendacionnan:
+                                        - Un liña di siña pa Hulandes for di enseñansa primario te cu examen di havo;
+                                        - Un comienso bon guia y bon pensa di Hulandes como idioma di instruccion;
+                                        - Aplicacion di un didactica di idioma stranhero durante les di Hulandes, cu un metodo di Hulandes como idioma stranhero y examen di Hulandes como idioma stranhero;
+                                        - Profesionalisacion di docente riba didactica cu ta activa y ta dirigi riba multilingualismo den tur materia;
+                                        - Un maneho di idioma cu ta evita segregacion trempan y cu ta duna espacio pa tur idioma. Esaki lo por cuminsa cu e implementacion di Scol Arubano Multilingual den enseñansa primario y continua te cu e diferente sistemanan den scol secundario, cu e examennan y e materialnan di les.
+                                        Cambio di sistema na un pais chikito no ta exigi solamente hopi curashi, sino tambe placa y personal cualifica. Sinembargo, mester cuminsa un caminda. Un paso realisabel ta sigur un liña di siña pa Hulandes. Door di pensa na un manera integral y traha hunto cu experto regional y supraregional, por habri porta pa por yega un siguiente paso pa logra un acercamento plurilingual den enseñansa Arubano.
+                                    </mods:abstract>
+                                    <mods:targetAudience>specialized</mods:targetAudience>
+                                    <mods:subject>
+                                        <mods:topic lang="ger">Aruba; Niederländisch; Fremdsprachenunterricht; Lehrer; Bedarfsermittlung</mods:topic>
+                                    </mods:subject>
+                                    <mods:subject>
+                                        <mods:topic lang="dut">Aruba; taalbeleid; Nederlands; NVT; Nederlands als vreemde taal; instructietaal Nederlands; taalonderwijs ; meertalig onderwijs</mods:topic>
+                                    </mods:subject>
+                                    <mods:subject>
+                                        <mods:topic lang="eng">Aruba; Dutch as a foreign language; language education</mods:topic>
+                                    </mods:subject>
+                                    <mods:classification authority="ddc">439.31</mods:classification>
+                                    <mods:relatedItem type="preceding">
+                                        <mods:recordInfo>
+                                            <mods:recordIdentifier>oai:wwu.de:dafe7da2-b167-49bb-942d-3975b4969d53</mods:recordIdentifier>
+                                        </mods:recordInfo>
+                                    </mods:relatedItem>
+                                    <mods:identifier type="urn">urn:nbn:de:hbz:6:4-84019513174</mods:identifier>
+                                    <mods:location>
+                                        <mods:url access="object in context">https://search.fid-benelux.de/Record/daca5d7e-c301-414c-966f-d5093c8c28cb</mods:url>
+                                    </mods:location>
+                                    <mods:accessCondition type="use and reproduction">
+                                        <mods:extension>
+                                            <ma:maWrap>
+                                                <ma:licence>
+                                                    <ma:displayLabel>InC 1.0</ma:displayLabel>
+                                                    <ma:targetUrl>https://rightsstatements.org/vocab/InC/1.0/</ma:targetUrl>
+                                                </ma:licence>
+                                            </ma:maWrap>
+                                        </mods:extension>
+                                    </mods:accessCondition>
+                                    <mods:recordInfo>
+                                        <mods:recordIdentifier>oai:wwu.de:daca5d7e-c301-414c-966f-d5093c8c28cb</mods:recordIdentifier>
+                                    </mods:recordInfo>
+                                </mods:mods>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:dmdSec>
+                    <mets:amdSec ID="AMD_daca5d7e-c301-414c-966f-d5093c8c28cb">
+                        <mets:rightsMD ID="RIGHTSMD_daca5d7e-c301-414c-966f-d5093c8c28cb">
+                            <mets:mdWrap MDTYPE="OTHER"
+                                         MIMETYPE="text/xml"
+                                         OTHERMDTYPE="DVRIGHTS">
+                                <mets:xmlData>
+                                    <dv:rights>
+                                        <dv:owner />
+                                    </dv:rights>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:rightsMD>
+                        <mets:digiprovMD ID="DIGIPROVMD_daca5d7e-c301-414c-966f-d5093c8c28cb">
+                            <mets:mdWrap MDTYPE="OTHER"
+                                         MIMETYPE="text/xml"
+                                         OTHERMDTYPE="DVLINKS">
+                                <mets:xmlData>
+                                    <dv:links>
+                                        <dv:reference>https://search.fid-benelux.de/Record/daca5d7e-c301-414c-966f-d5093c8c28cb</dv:reference>
+                                        <dv:presentation />
+                                    </dv:links>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:digiprovMD>
+                    </mets:amdSec>
+                    <mets:fileSec>
+                        <mets:fileGrp USE="DEFAULT">
+                            <mets:file CHECKSUM="465c8440043a22282aaa55189854f83545d304cd0d5c445ae4744ad8c00ebb82"
+                                       CHECKSUMTYPE="SHA-256"
+                                       CREATED="2024-02-02T09:52:44"
+                                       ID="ID_FIL_Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf_DEFAULT"
+                                       MIMETYPE="application/pdf"
+                                       SIZE="45958254">
+                                <mets:FLocat LOCTYPE="URL"
+                                             xlink:href="https://repositorium.uni-muenster.de/document/beneluxdok/daca5d7e-c301-414c-966f-d5093c8c28cb/Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf" />
+                            </mets:file>
+                        </mets:fileGrp>
+                        <mets:fileGrp USE="DOWNLOAD">
+                            <mets:file ID="DOWdaca5d7e-c301-414c-966f-d5093c8c28cb"
+                                       MIMETYPE="application/pdf">
+                                <mets:FLocat LOCTYPE="URL"
+                                             xlink:href="https://repositorium.uni-muenster.de/transfer/beneluxdok/daca5d7e-c301-414c-966f-d5093c8c28cb" />
+                            </mets:file>
+                        </mets:fileGrp>
+                    </mets:fileSec>
+                    <mets:structMap TYPE="PHYSICAL">
+                        <mets:div ID="ID_PHY_daca5d7e-c301-414c-966f-d5093c8c28cb"
+                                  TYPE="physSequence">
+                            <mets:div ID="ID_PHY_Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf">
+                                <mets:fptr FILEID="ID_FIL_Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf_DEFAULT" />
+                            </mets:div>
+                        </mets:div>
+                    </mets:structMap>
+                    <mets:structMap TYPE="LOGICAL">
+                        <mets:div ADMID="AMD_daca5d7e-c301-414c-966f-d5093c8c28cb"
+                                  DMDID="DMD_daca5d7e-c301-414c-966f-d5093c8c28cb"
+                                  ID="ID_LOG_daca5d7e-c301-414c-966f-d5093c8c28cb"
+                                  TYPE="Monograph">
+                            <mets:div ID="ID_LOG_ID_PHY_Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf" />
+                        </mets:div>
+                    </mets:structMap>
+                    <mets:structLink>
+                        <mets:smLink xlink:from="ID_LOG_daca5d7e-c301-414c-966f-d5093c8c28cb"
+                                     xlink:to="ID_PHY_daca5d7e-c301-414c-966f-d5093c8c28cb" />
+                        <mets:smLink xlink:from="ID_LOG_ID_PHY_Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf"
+                                     xlink:to="ID_PHY_Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf" />
+                    </mets:structLink>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:sourceMD>
+        <mets:digiprovMD ID="ie-amd-digiprov">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="rep1-amd">
+        <mets:techMD ID="rep1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalRepCharacteristics">
+                            <record>
+                                <key id="label">PDF</key>
+                                <key id="preservationType">PRESERVATION_MASTER</key>
+                                <key id="representationEntityType">DEFAULT</key>
+                                <key id="usageType">VIEW</key>
+                                <key id="DigitalOriginal">false</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid1-1-amd">
+        <mets:techMD ID="fid1-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="label">Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf</key>
+                                <key id="fileMIMEType">application/pdf</key>
+                                <key id="fileSizeBytes">45958254</key>
+                                <key id="fileCreationDate">2024-02-02T09:52:44</key>
+                            </record>
+                        </section>
+                        <section id="fileFixity">
+                            <record>
+                                <key id="fixityType">SHA256</key>
+                                <key id="fixityValue">465c8440043a22282aaa55189854f83545d304cd0d5c445ae4744ad8c00ebb82</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="VIEW"
+                      ID="rep1"
+                      ADMID="rep1-amd">
+            <mets:file MIMETYPE="application/pdf"
+                       ID="fid1-1"
+                       ADMID="fid1-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://repositorium.uni-muenster.de/document/beneluxdok/daca5d7e-c301-414c-966f-d5093c8c28cb/Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf" />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL"
+                    ID="rep1-1">
+        <mets:div>
+            <mets:div TYPE="FILE"
+                      LABEL="Wenzel_Veronika_2022_Het_Nederlands_in_het_voortgezet_onderwijs_in_Aruba_Een_onderzoek.pdf">
+                <mets:fptr FILEID="fid1-1" />
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

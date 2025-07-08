@@ -1,0 +1,302 @@
+<record xmlns="http://www.openarchives.org/OAI/2.0/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <identifier>oai:digital.ub.uni-paderborn.de:1051940</identifier>
+        <datestamp>2024-02-26T11:59:36Z</datestamp>
+        <setSpec>ubpbup</setSpec>
+        <setSpec>journal_volume</setSpec>
+    </header>
+    <metadata>
+        <mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version112/mets.xsd"
+                   OBJID="4"
+                   LABEL="Veröffentlichungen der Universität (Periodika)"
+                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns:mets="http://www.loc.gov/METS/"
+                   xmlns:mods="http://www.loc.gov/mods/v3"
+                   xmlns:vl="http://visuallibrary.net/vl">
+            <mets:metsHdr CREATEDATE="2025-06-23T08:34:28">
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="SOFTWARE">
+                    <mets:name>vls/2412</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="INSTANCE">
+                    <mets:name>noah</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="REPOSITORY">
+                    <mets:name>digital.ub.uni-paderborn.de</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="BUILDER">
+                    <mets:name>arc</mets:name>
+                </mets:agent>
+            </mets:metsHdr>
+            <mets:dmdSec ID="md1051940">
+                <mets:mdWrap MIMETYPE="text/xml"
+                             MDTYPE="MODS">
+                    <mets:xmlData>
+                        <mods:mods version="3.8"
+                                   xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd">
+                            <mods:typeOfResource>text</mods:typeOfResource>
+                            <mods:genre authority="dini">PeriodicalPart</mods:genre>
+                            <mods:identifier type="urn">urn:nbn:de:hbz:466:2-49970</mods:identifier>
+                            <mods:accessCondition type="use and reproduction"
+                                                  xlink:href="https://rightsstatements.org/vocab/InC/1.0/"
+                                                  displayLabel="Urheberrechtsschutz">RS INC 1.0</mods:accessCondition>
+                            <mods:part order="12">
+                                <mods:detail type="volume">
+                                    <mods:caption>2013</mods:caption>
+                                    <mods:number />
+                                </mods:detail>
+                                <mods:date encoding="w3cdtf">2013</mods:date>
+                            </mods:part>
+                            <mods:extension>
+                                <vl:sourceinfo dname="ubpbup"
+                                               caption="2013"
+                                               type="volume"
+                                               id="1051940"
+                                               dtype="pubserv" />
+                            </mods:extension>
+                            <mods:recordInfo>
+                                <mods:recordIdentifier source="local">noah:1051940</mods:recordIdentifier>
+                            </mods:recordInfo>
+                            <mods:relatedItem type="host">
+                                <mods:titleInfo>
+                                    <mods:title>
+                                        Jahresbericht / Fakultät für Elektrotechnik,
+                                        Informatik und Mathematik, Universität Paderborn
+                                    </mods:title>
+                                </mods:titleInfo>
+                                <mods:name type="corporate"
+                                           authority="gnd"
+                                           authorityURI="http://d-nb.info/gnd/"
+                                           valueURI="http://d-nb.info/gnd/10078727-7">
+                                    <mods:namePart>Universität Paderborn</mods:namePart>
+                                    <mods:namePart>
+                                        Fakultät für Elektrotechnik, Informatik und
+                                        Mathematik
+                                    </mods:namePart>
+                                    <mods:role>
+                                        <mods:roleTerm type="text">Verfasser</mods:roleTerm>
+                                    </mods:role>
+                                    <mods:role>
+                                        <mods:roleTerm authority="marcrelator"
+                                                       type="code">aut</mods:roleTerm>
+                                    </mods:role>
+                                </mods:name>
+                                <mods:typeOfResource>text</mods:typeOfResource>
+                                <mods:genre authority="marcgt">periodical</mods:genre>
+                                <mods:genre authority="rdacontent">Text</mods:genre>
+                                <mods:genre authority="gnd-content">Zeitschrift</mods:genre>
+                                <mods:genre authority="gnd-content">Bericht</mods:genre>
+                                <mods:genre authority="lcgft">journal</mods:genre>
+                                <mods:originInfo>
+                                    <mods:place>
+                                        <mods:placeTerm type="code"
+                                                        authority="marccountry">gw</mods:placeTerm>
+                                    </mods:place>
+                                    <mods:place>
+                                        <mods:placeTerm type="code"
+                                                        authority="iso3166">XA-DE</mods:placeTerm>
+                                    </mods:place>
+                                    <mods:place>
+                                        <mods:placeTerm type="text">Paderborn</mods:placeTerm>
+                                    </mods:place>
+                                    <mods:publisher>Univ.</mods:publisher>
+                                    <mods:dateIssued>2003 -</mods:dateIssued>
+                                    <mods:dateIssued>2003-</mods:dateIssued>
+                                    <mods:dateIssued encoding="w3cdtf"
+                                                     point="start"
+                                                     keyDate="yes">                                        
+                                        2003
+                                    </mods:dateIssued>
+                                    <mods:issuance>serial</mods:issuance>
+                                    <mods:frequency authority="marcfrequency">Unknown</mods:frequency>
+                                </mods:originInfo>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b"
+                                                       type="code">ger</mods:languageTerm>
+                                </mods:language>
+                                <mods:physicalDescription>
+                                    <mods:form authority="marccategory">electronic resource</mods:form>
+                                    <mods:form authority="marcsmd">remote</mods:form>
+                                    <mods:extent>Online-Ressource</mods:extent>
+                                    <mods:form type="media"
+                                               authority="rdamedia">Computer</mods:form>
+                                    <mods:form type="carrier"
+                                               authority="rdacarrier">                                        
+                                        Online-Ressource
+                                    </mods:form>
+                                </mods:physicalDescription>
+                                <mods:note type="date/sequential designation">2003 -</mods:note>
+                                <mods:note>Gesehen am 02.08.21</mods:note>
+                                <mods:subject>
+                                    <mods:name type="corporate"
+                                               authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               valueURI="http://d-nb.info/gnd/10078727-7">
+                                        <mods:namePart>Universität Paderborn</mods:namePart>
+                                        <mods:namePart>
+                                            Fakultät für Elektrotechnik, Informatik und
+                                            Mathematik
+                                        </mods:namePart>
+                                    </mods:name>
+                                </mods:subject>
+                                <mods:classification authority="nwbib">Paderborn</mods:classification>
+                                <mods:classification authority="nwbib">794010</mods:classification>
+                                <mods:classification authority="sdnb">004 510 620</mods:classification>
+                                <mods:identifier type="urn">urn:nbn:de:hbz:466:2-11624</mods:identifier>
+                                <mods:identifier type="urn">urn:nbn:de:hbz:6:2-8796</mods:identifier>
+                                <mods:identifier type="oclc">1368876259</mods:identifier>
+                                <mods:identifier type="zdb">2410226-X</mods:identifier>
+                                <mods:identifier type="local">990164862080206441</mods:identifier>
+                                <mods:relatedItem type="otherFormat"
+                                                  otherType="Erscheint auch als"
+                                                  displayLabel="Erscheint auch als">
+                                    <mods:titleInfo>
+                                        <mods:title>
+                                            Jahresbericht / Fakultät für Elektrotechnik,
+                                            Informatik und Mathematik, Universität Paderborn
+                                        </mods:title>
+                                    </mods:titleInfo>
+                                    <mods:name>
+                                        <mods:namePart>
+                                            Universität Paderborn / Fakultät für
+                                            Elektrotechnik, Informatik und Mathematik
+                                        </mods:namePart>
+                                    </mods:name>
+                                    <mods:originInfo>
+                                        <mods:publisher>
+                                            Paderborn : [Verlag nicht ermittelbar],
+                                            2003-[2018]
+                                        </mods:publisher>
+                                    </mods:originInfo>
+                                    <mods:note>Druck-Ausgabe</mods:note>
+                                    <mods:recordInfo>
+                                        <mods:recordIdentifier>2149620-1</mods:recordIdentifier>
+                                    </mods:recordInfo>
+                                </mods:relatedItem>
+                                <mods:location>
+                                    <mods:url displayLabel="electronic resource"
+                                              usage="primary display">                                        
+                                        https://nbn-resolving.org/urn:nbn:de:hbz:6:2-8796
+                                    </mods:url>
+                                </mods:location>
+                                <mods:location>
+                                    <mods:url displayLabel="electronic resource">                                        
+                                        https://nbn-resolving.org/urn:nbn:de:hbz:466:2-11624
+                                    </mods:url>
+                                </mods:location>
+                                <mods:location>
+                                    <mods:url displayLabel="electronic resource"
+                                              note="kostenfrei">                                        
+                                        https://digital.ub.uni-paderborn.de/ubpb/urn/urn:nbn:de:hbz:466:2-11624
+                                    </mods:url>
+                                </mods:location>
+                                <mods:location>
+                                    <mods:url displayLabel="electronic resource">                                        
+                                        https://ezb.ur.de/?2410226-X
+                                    </mods:url>
+                                </mods:location>
+                                <mods:extension>
+                                    <vlz:info version="2"
+                                              xmlns:vlz="http://visuallibrary.net/vlz/1.0/" />
+                                </mods:extension>
+                                <mods:recordInfo>
+                                    <mods:recordCreationDate encoding="marc">080214</mods:recordCreationDate>
+                                    <mods:recordChangeDate encoding="iso8601">20250111141327.0</mods:recordChangeDate>
+                                    <mods:languageOfCataloging>
+                                        <mods:languageTerm authority="iso639-2b"
+                                                           type="code">ger</mods:languageTerm>
+                                    </mods:languageOfCataloging>
+                                    <mods:recordIdentifier source="ubpbup">2410226-X</mods:recordIdentifier>
+                                </mods:recordInfo>
+                                <mods:classification displayLabel="Fakultät für Elektrotechnik, Informatik und Mathematik"
+                                                     authority="ioo">EIM</mods:classification>
+                                <mods:extension>
+                                    <vl:id>714467</vl:id>
+                                    <vl:odid>4</vl:odid>
+                                    <vl:datatype>1</vl:datatype>
+                                    <vl:type>12</vl:type>
+                                    <vl:state>1</vl:state>
+                                </mods:extension>
+                            </mods:relatedItem>
+                        </mods:mods>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:amdSec ID="amd1051940">
+                <mets:rightsMD ID="rights1051940">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="OTHER"
+                                 OTHERMDTYPE="DVRIGHTS">
+                        <mets:xmlData>
+                            <dv:rights xmlns:dv="http://dfg-viewer.de/">
+                                <dv:ownerLogo>                                    
+                                    https://digital.ub.uni-paderborn.de//domainresource/static/graphics/connectors/viewerLogo.gif
+                                </dv:ownerLogo>
+                                <dv:owner>Paderborn : Universität Paderborn</dv:owner>
+                                <dv:ownerSiteURL>http://www.ub.uni-paderborn.de/</dv:ownerSiteURL>
+                                <dv:ownerContact>bibliothek@ub.uni-paderborn.de</dv:ownerContact>
+                                <dv:license>reserved</dv:license>
+                            </dv:rights>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:rightsMD>
+                <mets:digiprovMD ID="digiprov1051940">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="OTHER"
+                                 OTHERMDTYPE="DVLINKS">
+                        <mets:xmlData>
+                            <dv:links xmlns:dv="http://dfg-viewer.de/">
+                                <dv:reference>                                    
+                                    http://katalog.ub.uni-paderborn.de/searches?q=noah%3A1051940&amp;scope=catalog
+                                </dv:reference>
+                                <dv:presentation>https://digital.ub.uni-paderborn.de/id/1051940</dv:presentation>
+                                <dv:iiif>                                    
+                                    https://digital.ub.uni-paderborn.de/i3f/v20/1051940/manifest
+                                </dv:iiif>
+                            </dv:links>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:digiprovMD>
+            </mets:amdSec>
+            <mets:fileSec>
+                <mets:fileGrp USE="MASTER">
+                    <mets:file MIMETYPE="application/pdf"
+                               CHECKSUM="5e759bf13d21b24f512b8565254d9864bd335560"
+                               CREATED="2014-04-09T11:57:54.819700Z"
+                               CHECKSUMTYPE="SHA-1"
+                               SIZE="1963012"
+                               ID="PDF_1051940">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1051940?downloadFilename=vlid"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                </mets:fileGrp>
+            </mets:fileSec>
+            <mets:structMap TYPE="LOGICAL">
+                <mets:div ID="log714467"
+                          TYPE="periodical"
+                          LABEL="Jahresbericht / Fakultät für Elektrotechnik, Informatik und Mathematik, Universität Paderborn"
+                          ORDER="1">
+                    <mets:mptr LOCTYPE="URL"
+                               xlink:href="https://digital.ub.uni-paderborn.de/oai/?verb=GetRecord&amp;metadataPrefix=arcmets&amp;identifier=714467" />
+                    <mets:div ID="log1051940"
+                              DMDID="md1051940"
+                              ADMID="amd1051940"
+                              TYPE="volume"
+                              LABEL="2013"
+                              ORDER="1"
+                              CONTENTIDS="urn:nbn:de:hbz:466:2-49970">
+                        <mets:fptr FILEID="PDF_1051940" />
+                    </mets:div>
+                </mets:div>
+            </mets:structMap>
+        </mets:mets>
+    </metadata>
+</record>
