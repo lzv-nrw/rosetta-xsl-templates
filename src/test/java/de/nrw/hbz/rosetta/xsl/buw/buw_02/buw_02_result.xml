@@ -1,0 +1,333 @@
+<mets:mets xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:dv="http://dfg-viewer.de/"
+           xmlns:vl="http://visuallibrary.net/vl"
+           xmlns:vls="http://semantics.de/vls"
+           xmlns:marcxml="http://www.loc.gov/MARC21/slim"
+           xmlns:epicur="urn:nbn:de:1111-2004033116"
+           xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+           xmlns:zvdd="http://zvdd.gdz-cms.de/"
+           xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:vlz="http://visuallibrary.net/vlz/1.0"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mix="http://www.loc.gov/mix/v20"
+           xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <mets:dmdSec ID="ie-dmd">
+        <mets:mdWrap MDTYPE="DC">
+            <mets:xmlData>
+                <dc:record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <dc:title>Kulturelle Identität zwischen aufgehender und untergehender Sonne</dc:title>
+                    <dc:creator>Chung, Jae-hee</dc:creator>
+                    <dc:description>Jae-hee Chung</dc:description>
+                    <dc:description>Wuppertal, Univ., Diss., 2004</dc:description>
+                    <dc:description>Systemvoraussetzungen Internet-Anschluss; Acrobat-Reader</dc:description>
+                    <dc:date>2004</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:type>thesis</dc:type>
+                    <dc:type>thesis</dc:type>
+                    <dc:type>doctoralThesis</dc:type>
+                    <dc:type>single unit</dc:type>
+                    <dc:language>ger</dc:language>
+                    <dc:format>electronic</dc:format>
+                    <dc:format>Elektronische Ressource</dc:format>
+                    <dc:format>electronic resource</dc:format>
+                    <dc:format>remote</dc:format>
+                    <dc:subject>Westliche Welt</dc:subject>
+                    <dc:subject>Kulturelle Identität</dc:subject>
+                    <dc:subject>Ferner Osten</dc:subject>
+                    <dc:subject>Online-Ressource</dc:subject>
+                    <dc:subject>Wuppertal</dc:subject>
+                    <dc:subject>100 700</dc:subject>
+                    <dc:subject>DDC: 600</dc:subject>
+                    <dc:subject>Technik, Technologie</dc:subject>
+                    <dc:identifier>urn:nbn:de:hbz:468-20050284</dc:identifier>
+                    <dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:468-20050284</dc:identifier>
+                    <dc:identifier>oclc: 1068917678</dc:identifier>
+                    <dc:identifier>local: 990139550820206441</dc:identifier>
+                    <dc:identifier>sys: HT014511325</dc:identifier>
+                    <dc:identifier>HT014511325</dc:identifier>
+                    <dc:rights>Open Access</dc:rights>
+                    <dc:rights>RS INC 1.0</dc:rights>
+                    <dc:rights>https://rightsstatements.org/vocab/InC/1.0/</dc:rights>
+                </dc:record>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="ie-amd">
+        <mets:techMD ID="ie-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="objectIdentifier">
+                            <record>
+                                <key id="objectIdentifierType">OAI</key>
+                                <key id="objectIdentifierValue">oai:elekpub.bib.uni-wuppertal.de:3552570</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:rightsMD ID="ie-amd-rights">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="accessRightsPolicy" />
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:sourceMD ID="ie-amd-source-MODS">
+            <mets:mdWrap MDTYPE="MODS">
+                <mets:xmlData>
+                    <mets:dmdSec ID="md3552570"
+                                 xmlns="http://www.openarchives.org/OAI/2.0/"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <mets:mdWrap MDTYPE="MODS"
+                                     MIMETYPE="text/xml">
+                            <mets:xmlData>
+                                <mods:mods version="3.8"
+                                           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd">
+                                    <mods:titleInfo>
+                                        <mods:title>Kulturelle Identität zwischen aufgehender und untergehender Sonne</mods:title>
+                                    </mods:titleInfo>
+                                    <mods:name authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               type="personal"
+                                               usage="primary"
+                                               valueURI="http://d-nb.info/gnd/130377694">
+                                        <mods:displayForm>Chung, Jae-hee</mods:displayForm>
+                                        <mods:role>
+                                            <mods:roleTerm type="text">Verfasser</mods:roleTerm>
+                                        </mods:role>
+                                        <mods:role>
+                                            <mods:roleTerm authority="marcrelator"
+                                                           type="code">aut</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:typeOfResource>text</mods:typeOfResource>
+                                    <mods:genre authority="marcgt">thesis</mods:genre>
+                                    <mods:genre authority="lcgft">thesis</mods:genre>
+                                    <mods:genre authority="dini">doctoralThesis</mods:genre>
+                                    <mods:originInfo>
+                                        <mods:place>
+                                            <mods:placeTerm authority="marccountry"
+                                                            type="code">gw</mods:placeTerm>
+                                        </mods:place>
+                                        <mods:place>
+                                            <mods:placeTerm authority="iso3166"
+                                                            type="code">XA-DE</mods:placeTerm>
+                                        </mods:place>
+                                        <mods:dateIssued keyDate="yes">2004</mods:dateIssued>
+                                        <mods:issuance>single unit</mods:issuance>
+                                    </mods:originInfo>
+                                    <mods:language>
+                                        <mods:languageTerm authority="iso639-2b"
+                                                           type="code">ger</mods:languageTerm>
+                                    </mods:language>
+                                    <mods:physicalDescription>
+                                        <mods:form authority="marcform">electronic</mods:form>
+                                        <mods:form authority="gmd">Elektronische Ressource</mods:form>
+                                        <mods:form authority="marccategory">electronic resource</mods:form>
+                                        <mods:form authority="marcsmd">remote</mods:form>
+                                    </mods:physicalDescription>
+                                    <mods:note altRepGroup="00"
+                                               type="statement of responsibility">Jae-hee Chung</mods:note>
+                                    <mods:note type="thesis statement">Wuppertal, Univ., Diss., 2004</mods:note>
+                                    <mods:note type="system details">Systemvoraussetzungen Internet-Anschluss; Acrobat-Reader</mods:note>
+                                    <mods:subject>
+                                        <mods:geographic authority="gnd"
+                                                         authorityURI="http://d-nb.info/gnd/"
+                                                         valueURI="http://d-nb.info/gnd/4079237-7">Westliche Welt</mods:geographic>
+                                        <mods:topic authority="gnd"
+                                                    authorityURI="http://d-nb.info/gnd/"
+                                                    valueURI="http://d-nb.info/gnd/4033542-2">Kulturelle Identität</mods:topic>
+                                        <mods:geographic authority="gnd"
+                                                         authorityURI="http://d-nb.info/gnd/"
+                                                         valueURI="http://d-nb.info/gnd/4016795-1">Ferner Osten</mods:geographic>
+                                        <mods:topic>Online-Ressource</mods:topic>
+                                    </mods:subject>
+                                    <mods:subject>
+                                        <mods:geographic authority="gnd"
+                                                         authorityURI="http://d-nb.info/gnd/"
+                                                         valueURI="http://d-nb.info/gnd/4067084-3">Wuppertal</mods:geographic>
+                                    </mods:subject>
+                                    <mods:classification authority="z">100 700</mods:classification>
+                                    <mods:identifier type="urn">urn:nbn:de:hbz:468-20050284</mods:identifier>
+                                    <mods:identifier type="oclc">1068917678</mods:identifier>
+                                    <mods:identifier type="local">990139550820206441</mods:identifier>
+                                    <mods:identifier type="sys">HT014511325</mods:identifier>
+                                    <mods:relatedItem displayLabel="Erscheint auch als"
+                                                      otherType="Erscheint auch als"
+                                                      type="otherFormat">
+                                        <mods:titleInfo>
+                                            <mods:title>Chung, Jae-hee: Kulturelle Identität zwischen aufgehender und untergehender Sonne</mods:title>
+                                        </mods:titleInfo>
+                                        <mods:note>Druckausg. u.d.T.</mods:note>
+                                        <mods:recordInfo>
+                                            <mods:recordIdentifier>HT014511230</mods:recordIdentifier>
+                                        </mods:recordInfo>
+                                    </mods:relatedItem>
+                                    <mods:location>
+                                        <mods:url displayLabel="electronic resource"
+                                                  usage="primary display">http://nbn-resolving.de/urn:nbn:de:hbz:468-20050284</mods:url>
+                                    </mods:location>
+                                    <mods:location>
+                                        <mods:url displayLabel="electronic resource"
+                                                  note="kostenfrei">http://elpub.bib.uni-wuppertal.de/edocs/dokumente/fbf/kommunikationsdesign/diss2004/chung</mods:url>
+                                    </mods:location>
+                                    <mods:location>
+                                        <mods:url displayLabel="electronic resource">http://deposit.ddb.de/cgi-bin/dokserv?idn=976507854</mods:url>
+                                    </mods:location>
+                                    <mods:accessCondition type="restriction on access">Open Access</mods:accessCondition>
+                                    <mods:accessCondition displayLabel="Urheberrechtsschutz"
+                                                          type="use and reproduction"
+                                                          xlink:href="https://rightsstatements.org/vocab/InC/1.0/">RS INC 1.0</mods:accessCondition>
+                                    <mods:extension>
+                                        <vlz:info version="2"
+                                                  xmlns:vlz="http://visuallibrary.net/vlz/1.0/" />
+                                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                                        <vl:licence>public</vl:licence>
+                                    </mods:extension>
+                                    <mods:recordInfo>
+                                        <mods:descriptionStandard>rakddb</mods:descriptionStandard>
+                                        <mods:recordCreationDate encoding="marc">051006</mods:recordCreationDate>
+                                        <mods:recordChangeDate encoding="iso8601">20250111104013.0</mods:recordChangeDate>
+                                        <mods:recordIdentifier source="ubwhsmig">HT014511325</mods:recordIdentifier>
+                                        <mods:languageOfCataloging>
+                                            <mods:languageTerm authority="iso639-2b"
+                                                               type="code">ger</mods:languageTerm>
+                                        </mods:languageOfCataloging>
+                                    </mods:recordInfo>
+                                    <mods:classification authority="ddc"
+                                                         displayLabel="Technik, Technologie">600</mods:classification>
+                                </mods:mods>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:dmdSec>
+                    <mets:amdSec ID="amd3552570"
+                                 xmlns="http://www.openarchives.org/OAI/2.0/"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <mets:rightsMD ID="rights3552570">
+                            <mets:mdWrap MDTYPE="OTHER"
+                                         MIMETYPE="text/xml"
+                                         OTHERMDTYPE="DVRIGHTS">
+                                <mets:xmlData>
+                                    <dv:rights>
+                                        <dv:ownerLogo>https://elekpub.bib.uni-wuppertal.de//domainresource/static/graphics/connectors/viewerLogo.gif</dv:ownerLogo>
+                                        <dv:owner>Wuppertal : Bergische Universität Wuppertal</dv:owner>
+                                        <dv:license>reserved</dv:license>
+                                    </dv:rights>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:rightsMD>
+                        <mets:digiprovMD ID="digiprov3552570">
+                            <mets:mdWrap MDTYPE="OTHER"
+                                         MIMETYPE="text/xml"
+                                         OTHERMDTYPE="DVLINKS">
+                                <mets:xmlData>
+                                    <dv:links>
+                                        <dv:reference>https://ub-wuppertal.digibib.net/search/katalog/record/(DE-605)HT014511325</dv:reference>
+                                        <dv:presentation>https://elekpub.bib.uni-wuppertal.de/id/3552570</dv:presentation>
+                                        <dv:iiif>https://elekpub.bib.uni-wuppertal.de/i3f/v20/3552570/manifest</dv:iiif>
+                                        <dv:sru>https://elekpub.bib.uni-wuppertal.de/proto_ftsearch/3552570</dv:sru>
+                                    </dv:links>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:digiprovMD>
+                    </mets:amdSec>
+                    <mets:structMap TYPE="LOGICAL"
+                                    xmlns="http://www.openarchives.org/OAI/2.0/"
+                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <mets:div ADMID="amd3552570"
+                                  CONTENTIDS="urn:nbn:de:hbz:468-20050284"
+                                  DMDID="md3552570"
+                                  ID="log3552570"
+                                  LABEL="Kulturelle Identität zwischen aufgehender und untergehender Sonne"
+                                  ORDER="1"
+                                  TYPE="document">
+                            <mets:fptr FILEID="PDF_3552570" />
+                        </mets:div>
+                    </mets:structMap>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:sourceMD>
+        <mets:digiprovMD ID="ie-amd-digiprov">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="rep1-amd">
+        <mets:techMD ID="rep1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalRepCharacteristics">
+                            <record>
+                                <key id="label">PDF</key>
+                                <key id="preservationType">PRESERVATION_MASTER</key>
+                                <key id="representationEntityType">MASTER</key>
+                                <key id="usageType">VIEW</key>
+                                <key id="DigitalOriginal">false</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid1-1-amd">
+        <mets:techMD ID="fid1-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="label">Kulturelle Identität zwischen aufgehender und untergehender Sonne</key>
+                                <key id="fileMIMEType">application/pdf</key>
+                                <key id="note">PDF_3552570</key>
+                                <key id="fileSizeBytes">2358905</key>
+                                <key id="fileCreationDate">2022-03-02T17:45:42.550000Z</key>
+                            </record>
+                        </section>
+                        <section id="fileFixity">
+                            <record>
+                                <key id="fixityType">SHA-1</key>
+                                <key id="fixityValue">aa69714e8719e25eaff7f559b08ed8067f2ec304</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="VIEW"
+                      ID="rep1"
+                      ADMID="rep1-amd">
+            <mets:file MIMETYPE="application/pdf"
+                       ID="fid1-1"
+                       ADMID="fid1-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://elekpub.bib.uni-wuppertal.de/download/pdf/3552570?downloadFilename=vlid" />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL"
+                    ID="rep1-1">
+        <mets:div>
+            <mets:div TYPE="FILE"
+                      LABEL="Kulturelle Identität zwischen aufgehender und untergehender Sonne">
+                <mets:fptr FILEID="fid1-1" />
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

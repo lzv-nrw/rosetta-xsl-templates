@@ -1,6 +1,38 @@
 # Collection of XSL scripts for various OAI-PMH slangs
 
+XSLT files and corresponding tests created within the context of LZV.nrw are published here.
 
+## Instructions
+
+Under the path src/test/java/de/nrw/hbz/rosetta/xsl the subdirectories have a structure like
+```
+...
+xsl
+├── institution_1
+│   ├── institution_1.xml
+│   ├── institution_1.xsl
+│   ├── institution_1_result.xml
+│   ├── set_1
+│   │   ├── set_1.xml
+│   │   ├── set_1.xsl
+│   │   ├── set_1_result.xml
+│   └── set_2
+│       ├── set_2.xml
+│       ├── set_2.xsl
+│       └── set_2_result.xml
+├── institution_2
+│   ├── source_template.xml
+│   ...
+...
+└── TestXslTransformations.java
+```
+The files `institution_x.xml`, `institution_x.xsl` and `institution_x_result.xml` here serve as templates.
+The source metadata to be transformed should be inserted in `institution_x.xml` and the XSLT code for the transformation in `institution_x.xsl`. The result will be saved by the program itself in `institution_x_result.xml`. 
+Afterwards, to perform a transformation, uncomment the corresponding test for the institution in the `TestXslTransformations.java` file and execute it.
+The directory `set_x` contains an example transformation for a set with associated XSLT.
+
+
+# Legacy
 ## Opus 4
 1. <https://opus.bibliothek.fh-aachen.de/opus4/oai?verb=ListRecords&metadataPrefix=oai_dc>
 1. <https://pub.h-brs.de/oai?verb=ListRecords&metadataPrefix=oai_dc>

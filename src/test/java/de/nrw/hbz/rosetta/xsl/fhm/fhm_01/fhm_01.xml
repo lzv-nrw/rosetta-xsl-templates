@@ -1,0 +1,119 @@
+<record xmlns="http://www.openarchives.org/OAI/2.0/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <identifier>oai:fh-muenster.de:16826</identifier>
+        <datestamp>2024-05-06</datestamp>
+        <setSpec>doc-type:bookPart</setSpec>
+        <setSpec>bibliography:false</setSpec>
+        <setSpec>open_access</setSpec>
+        <setSpec>open_access:open_access</setSpec>
+    </header>
+    <metadata>
+        <xMetaDiss:xMetaDiss xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/ https://d-nb.info/standards/schema/xmetadissplus.xsd"
+                             xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/"
+                             xmlns:cc="http://www.d-nb.de/standards/cc/"
+                             xmlns:dc="http://purl.org/dc/elements/1.1/"
+                             xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+                             xmlns:dcterms="http://purl.org/dc/terms/"
+                             xmlns:pc="http://www.d-nb.de/standards/pc/"
+                             xmlns:urn="http://www.d-nb.de/standards/urn/"
+                             xmlns:hdl="http://www.d-nb.de/standards/hdl/"
+                             xmlns:doi="http://www.d-nb.de/standards/doi/"
+                             xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+                             xmlns:ddb="http://www.d-nb.de/standards/ddb/"
+                             xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/"
+                             xmlns="http://www.d-nb.de/standards/subject/">
+            <dc:title xsi:type="ddb:titleISO639-2"
+                      lang="ger">Lessons Learned – Erfahrungen und Erkenntnisse im Rückblick auf die Förderlinie</dc:title>
+            <dc:creator xsi:type="pc:MetaPers">
+                <pc:person>
+                    <pc:name type="nameUsedByThePerson">
+                        <pc:foreName>Julia</pc:foreName>
+                        <pc:surName>Kastrup</pc:surName>
+                    </pc:name>
+                </pc:person>
+            </dc:creator>
+            <dc:creator xsi:type="pc:MetaPers">
+                <pc:person>
+                    <pc:name type="nameUsedByThePerson">
+                        <pc:foreName>Werner</pc:foreName>
+                        <pc:surName>Kuhlmeier</pc:surName>
+                    </pc:name>
+                </pc:person>
+            </dc:creator>
+            <dc:creator xsi:type="pc:MetaPers">
+                <pc:person>
+                    <pc:name type="nameUsedByThePerson">
+                        <pc:foreName>Marie</pc:foreName>
+                        <pc:surName>Nölle-Krug</pc:surName>
+                    </pc:name>
+                </pc:person>
+            </dc:creator>
+            <dc:creator xsi:type="pc:MetaPers">
+                <pc:person>
+                    <pc:name type="nameUsedByThePerson">
+                        <pc:foreName>Marc</pc:foreName>
+                        <pc:surName>Casper</pc:surName>
+                    </pc:name>
+                </pc:person>
+            </dc:creator>
+            <dc:creator xsi:type="pc:MetaPers">
+                <pc:person>
+                    <pc:name type="nameUsedByThePerson">
+                        <pc:foreName>Christina</pc:foreName>
+                        <pc:surName>Strotmann</pc:surName>
+                    </pc:name>
+                </pc:person>
+            </dc:creator>
+            <dc:creator xsi:type="pc:MetaPers">
+                <pc:person>
+                    <pc:name type="nameUsedByThePerson">
+                        <pc:foreName>Moritz</pc:foreName>
+                        <pc:surName>Ansmann</pc:surName>
+                    </pc:name>
+                </pc:person>
+            </dc:creator>
+            <dc:subject xsi:type="xMetaDiss:noScheme">Lessons Learned</dc:subject>
+            <dc:subject xsi:type="xMetaDiss:noScheme">Gestaltungsorientierte Forschung</dc:subject>
+            <dc:subject xsi:type="xMetaDiss:noScheme">Wissenschafts-Praxis-Kooperation</dc:subject>
+            <dc:subject xsi:type="xMetaDiss:noScheme">Digitalisierung</dc:subject>
+            <dc:subject xsi:type="xMetaDiss:noScheme">Qualifizierung Berufsbildungspersonal</dc:subject>
+            <dc:publisher xsi:type="cc:Publisher"
+                          type="dcterms:ISO3166">
+                <cc:universityOrInstitution>
+                    <cc:name>FH Münster - University of Applied Sciences</cc:name>
+                    <cc:place>Münster</cc:place>
+                </cc:universityOrInstitution>
+                <cc:address cc:Scheme="DIN5008">Corrensstr. 25, 48151 Münster</cc:address>
+            </dc:publisher>
+            <dc:contributor xsi:type="pc:Contributor"
+                            type="dcterms:ISO3166"
+                            thesis:role="editor">
+                <pc:person>
+                    <pc:name type="nameUsedByThePerson">
+                        <pc:foreName>Moritz</pc:foreName>
+                        <pc:surName>Ansmann</pc:surName>
+                    </pc:name>
+                </pc:person>
+            </dc:contributor>
+            <dcterms:issued xsi:type="dcterms:W3CDTF">2023-07-11</dcterms:issued>
+            <dc:type xsi:type="dini:PublType">bookPart</dc:type>
+            <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+            <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:836-opus-168263</dc:identifier>
+            <dcterms:medium xsi:type="dcterms:IMT">application/pdf</dcterms:medium>
+            <dc:source xsi:type="ddb:noScheme">Berufliche Handlungskompetenz für nachhaltige Entwicklung - Die Modellversuche in Lebensmittelhandwerk und -industrie, S. 233-241</dc:source>
+            <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+            <dc:rights>Creative Commons - Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International (CC BY-NC-ND 4.0)</dc:rights>
+            <ddb:contact ddb:contactID="L6000-5076" />
+            <ddb:fileNumber>1</ddb:fileNumber>
+            <ddb:fileProperties ddb:fileName="Lessons-learnded-Berufliche Handlungskompetenz für nachhaltige Entwicklung.pdf"
+                                ddb:fileSize="213607"
+                                ddb:fileID="file16826-0" />
+            <ddb:transfer ddb:type="dcterms:URI">https://www.hb.fh-muenster.de/opus4/oai/container/index/docId/16826</ddb:transfer>
+            <ddb:identifier ddb:type="URL">https://www.bibb.de/dienst/publikationen/de/18613</ddb:identifier>
+            <ddb:identifier ddb:type="URL">https://www.hb.fh-muenster.de/opus4/frontdoor/index/index/docId/16826</ddb:identifier>
+            <ddb:identifier ddb:type="DOI">10.25974/fhms-16826</ddb:identifier>
+            <ddb:rights ddb:kind="free" />
+        </xMetaDiss:xMetaDiss>
+    </metadata>
+</record>

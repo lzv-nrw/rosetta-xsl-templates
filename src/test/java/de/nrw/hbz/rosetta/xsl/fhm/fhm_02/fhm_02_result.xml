@@ -1,0 +1,214 @@
+<mets:mets xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/"
+           xmlns:pc="http://www.d-nb.de/standards/pc/"
+           xmlns:cc="http://www.d-nb.de/standards/cc/"
+           xmlns:ddb="http://www.d-nb.de/standards/ddb/"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:mets="http://www.loc.gov/METS/">
+    <mets:dmdSec ID="ie-dmd">
+        <mets:mdWrap MDTYPE="DC">
+            <mets:xmlData>
+                <dc:record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <dc:title>Unimorph deformable mirror for space telescopes: environmental testing</dc:title>
+                    <dc:creator>Rausch, Peter</dc:creator>
+                    <dc:creator>Verpoort, Sven</dc:creator>
+                    <dc:creator>Wittrock, Ulrich</dc:creator>
+                    <dcterms:created>2016-01-21</dcterms:created>
+                    <dc:subject>620</dc:subject>
+                    <dc:subject>active or adaptive optics</dc:subject>
+                    <dc:subject>telescopes thermal effects vibration analysis</dc:subject>
+                    <dc:subject>radiation</dc:subject>
+                    <dc:subject>space optics</dc:subject>
+                    <dc:subject>space instrumentation</dc:subject>
+                    <dcterms:abstract>We have developed and manufactured a unimorph deformable mirror for space telescopes based on piezoelectric actuation. The mirror features 44 actuators, has an aperture of 50 mm, and is designed to reproduce low-order Zernike modes with a stroke of several tens of µm. We assessed the space compliance by operating the mirror in thermal vacuum, and exposing it to random and sinusoidal vibrations, as well as to ionizing irradiation. Additionally, the operational life time and the laser power handling capability were tested. The mirror was successfully operated in thermal vacuum at 100 K. We report on the conducted tests and the methods used to evaluate the mirror&amp;#180;s performance, and discuss the compliance with the demanded requirements</dcterms:abstract>
+                    <dc:publisher>FH Münster - University of Applied Sciences</dc:publisher>
+                    <dc:type>article</dc:type>
+                    <dc:type>Text</dc:type>
+                    <dc:identifier>URN: urn:nbn:de:hbz:836-opus-8530</dc:identifier>
+                    <dcterms:medium>application/pdf</dcterms:medium>
+                    <dc:language>ger</dc:language>
+                    <dc:source>Opt. Expr., 24, S. 1528-1542</dc:source>
+                    <dc:rights>Zweitveroeffentlichung (https://www.hb.fh-muenster.de/opus4/default/license/index/licId/11)</dc:rights>
+                    <dc:identifier>URI: https://www.hb.fh-muenster.de/opus4/oai/container/index/docId/853</dc:identifier>
+                    <dc:identifier>URL: https://www.hb.fh-muenster.de/opus4/frontdoor/index/index/docId/853</dc:identifier>
+                    <dc:identifier>DOI: 10.25974/fhms-853</dc:identifier>
+                    <dc:rights>free</dc:rights>
+                </dc:record>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="ie-amd">
+        <mets:techMD ID="ie-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="objectIdentifier">
+                            <record>
+                                <key id="objectIdentifierType">OAI</key>
+                                <key id="objectIdentifierValue">oai:fh-muenster.de:853</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:rightsMD ID="ie-amd-rights">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="accessRightsPolicy" />
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:sourceMD ID="ie-amd-source-OTHER">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="Text">
+                <mets:xmlData>
+                    <record xmlns="http://www.openarchives.org/OAI/2.0/"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <header>
+                            <identifier>oai:fh-muenster.de:853</identifier>
+                            <datestamp>2025-02-26</datestamp>
+                            <setSpec>doc-type:article</setSpec>
+                            <setSpec>bibliography:false</setSpec>
+                            <setSpec>ddc</setSpec>
+                            <setSpec>ddc:620</setSpec>
+                        </header>
+                        <metadata>
+                            <xMetaDiss:xMetaDiss xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/ https://d-nb.info/standards/schema/xmetadissplus.xsd"
+                                                 xmlns="http://www.d-nb.de/standards/subject/"
+                                                 xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+                                                 xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/"
+                                                 xmlns:doi="http://www.d-nb.de/standards/doi/"
+                                                 xmlns:hdl="http://www.d-nb.de/standards/hdl/"
+                                                 xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+                                                 xmlns:urn="http://www.d-nb.de/standards/urn/">
+                                <dc:title lang="ger"
+                                          xsi:type="ddb:titleISO639-2">Unimorph deformable mirror for space telescopes: environmental testing</dc:title>
+                                <dc:creator xsi:type="pc:MetaPers">
+                                    <pc:person>
+                                        <pc:name type="nameUsedByThePerson">
+                                            <pc:foreName>Peter</pc:foreName>
+                                            <pc:surName>Rausch</pc:surName>
+                                        </pc:name>
+                                    </pc:person>
+                                </dc:creator>
+                                <dc:creator xsi:type="pc:MetaPers">
+                                    <pc:person>
+                                        <pc:name type="nameUsedByThePerson">
+                                            <pc:foreName>Sven</pc:foreName>
+                                            <pc:surName>Verpoort</pc:surName>
+                                        </pc:name>
+                                    </pc:person>
+                                </dc:creator>
+                                <dc:creator xsi:type="pc:MetaPers">
+                                    <pc:person>
+                                        <pc:name type="nameUsedByThePerson">
+                                            <pc:foreName>Ulrich</pc:foreName>
+                                            <pc:surName>Wittrock</pc:surName>
+                                        </pc:name>
+                                    </pc:person>
+                                </dc:creator>
+                                <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+                                <dc:subject xsi:type="xMetaDiss:noScheme">active or adaptive optics</dc:subject>
+                                <dc:subject xsi:type="xMetaDiss:noScheme">telescopes thermal effects vibration analysis</dc:subject>
+                                <dc:subject xsi:type="xMetaDiss:noScheme">radiation</dc:subject>
+                                <dc:subject xsi:type="xMetaDiss:noScheme">space optics</dc:subject>
+                                <dc:subject xsi:type="xMetaDiss:noScheme">space instrumentation</dc:subject>
+                                <dcterms:abstract ddb:type="noScheme"
+                                                  lang="eng"
+                                                  xsi:type="ddb:contentISO639-2">We have developed and manufactured a unimorph deformable mirror for space telescopes based on piezoelectric actuation. The mirror features 44 actuators, has an aperture of 50 mm, and is designed to reproduce low-order Zernike modes with a stroke of several tens of µm. We assessed the space compliance by operating the mirror in thermal vacuum, and exposing it to random and sinusoidal vibrations, as well as to ionizing irradiation. Additionally, the operational life time and the laser power handling capability were tested. The mirror was successfully operated in thermal vacuum at 100 K. We report on the conducted tests and the methods used to evaluate the mirror&amp;#180;s performance, and discuss the compliance with the demanded requirements</dcterms:abstract>
+                                <dc:publisher type="dcterms:ISO3166"
+                                              xsi:type="cc:Publisher">
+                                    <cc:universityOrInstitution>
+                                        <cc:name>FH Münster - University of Applied Sciences</cc:name>
+                                        <cc:place>Münster</cc:place>
+                                    </cc:universityOrInstitution>
+                                    <cc:address cc:Scheme="DIN5008">Corrensstr. 25, 48151 Münster</cc:address>
+                                </dc:publisher>
+                                <dcterms:issued xsi:type="dcterms:W3CDTF">2016-01-21</dcterms:issued>
+                                <dc:type xsi:type="dini:PublType">article</dc:type>
+                                <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+                                <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:836-opus-8530</dc:identifier>
+                                <dcterms:medium xsi:type="dcterms:IMT">application/pdf</dcterms:medium>
+                                <dc:source xsi:type="ddb:noScheme">Opt. Expr., 24, S. 1528-1542</dc:source>
+                                <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+                                <dc:rights>Zweitveroeffentlichung</dc:rights>
+                                <ddb:contact ddb:contactID="L6000-5076" />
+                                <ddb:fileNumber>1</ddb:fileNumber>
+                                <ddb:fileProperties ddb:fileID="file853-0"
+                                                    ddb:fileName="PR_2016_01_20_Opt_Expr_Unimorph_def_mirror_for_space_telescopes_environmental_testing.pdf"
+                                                    ddb:fileSize="15311839" />
+                                <ddb:transfer ddb:type="dcterms:URI">https://www.hb.fh-muenster.de/opus4/oai/container/index/docId/853</ddb:transfer>
+                                <ddb:identifier ddb:type="URL">https://www.hb.fh-muenster.de/opus4/frontdoor/index/index/docId/853</ddb:identifier>
+                                <ddb:identifier ddb:type="DOI">10.25974/fhms-853</ddb:identifier>
+                                <ddb:rights ddb:kind="free" />
+                            </xMetaDiss:xMetaDiss>
+                        </metadata>
+                    </record>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:sourceMD>
+        <mets:digiprovMD ID="ie-amd-digiprov">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="rep1-amd">
+        <mets:techMD ID="rep1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalRepCharacteristics">
+                            <record>
+                                <key id="preservationType">PRESERVATION_MASTER</key>
+                                <key id="usageType">VIEW</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fid1-1-amd">
+        <mets:techMD ID="fid1-1-amd-tech">
+            <mets:mdWrap MDTYPE="OTHER"
+                         OTHERMDTYPE="dnx">
+                <mets:xmlData>
+                    <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+                        <section id="generalFileCharacteristics">
+                            <record>
+                                <key id="fileOriginalName">PR_2016_01_20_Opt_Expr_Unimorph_def_mirror_for_space_telescopes_environmental_testing.pdf</key>
+                                <key id="fileSizeBytes">15311839</key>
+                                <key id="note">Original File ID: file853-0</key>
+                            </record>
+                        </section>
+                    </dnx>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="VIEW"
+                      ID="rep1"
+                      ADMID="rep1-amd">
+            <mets:file ID="fid1-1"
+                       ADMID="fid1-1-amd">
+                <mets:FLocat LOCTYPE="URL"
+                             xlink:href="https://www.hb.fh-muenster.de/opus4/oai/container/index/docId/853" />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+</mets:mets>

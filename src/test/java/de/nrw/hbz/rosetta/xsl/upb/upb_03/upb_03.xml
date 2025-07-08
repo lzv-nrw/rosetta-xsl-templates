@@ -1,0 +1,1398 @@
+<record xmlns="http://www.openarchives.org/OAI/2.0/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <identifier>oai:digital.ub.uni-paderborn.de:1138340</identifier>
+        <datestamp>2014-06-13T08:53:19Z</datestamp>
+        <setSpec>ubpbihd</setSpec>
+        <setSpec>book</setSpec>
+    </header>
+    <metadata>
+        <mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version112/mets.xsd"
+                   OBJID="8"
+                   LABEL="UB Digital"
+                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns:mets="http://www.loc.gov/METS/"
+                   xmlns:mods="http://www.loc.gov/mods/v3">
+            <mets:metsHdr CREATEDATE="2025-06-23T08:49:29">
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="SOFTWARE">
+                    <mets:name>vls/2412</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="INSTANCE">
+                    <mets:name>noah</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="REPOSITORY">
+                    <mets:name>digital.ub.uni-paderborn.de</mets:name>
+                </mets:agent>
+                <mets:agent ROLE="OTHER"
+                            TYPE="OTHER"
+                            OTHERTYPE="BUILDER">
+                    <mets:name>arc</mets:name>
+                </mets:agent>
+            </mets:metsHdr>
+            <mets:dmdSec ID="md1138340">
+                <mets:mdWrap MIMETYPE="text/xml"
+                             MDTYPE="MODS">
+                    <mets:xmlData>
+                        <mods:mods version="3.8"
+                                   xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd">
+                            <mods:titleInfo>
+                                <mods:title>
+                                    Studienordnung für den Ergänzungsstudiengang
+                                    Maschinenbau an der Universität-Gesamthochschule Paderborn mit
+                                    dem Abschluß Diplom-Ingenieurin bzw. Diplom-Ingenieur
+                                </mods:title>
+                                <mods:subTitle>vom 18. Sept. 1995</mods:subTitle>
+                            </mods:titleInfo>
+                            <mods:name type="corporate"
+                                       authority="gnd"
+                                       authorityURI="http://d-nb.info/gnd/"
+                                       valueURI="http://d-nb.info/gnd/64857-7">
+                                <mods:namePart>Universität Paderborn</mods:namePart>
+                                <mods:role>
+                                    <mods:roleTerm type="code"
+                                                   authority="marcrelator">cre</mods:roleTerm>
+                                </mods:role>
+                            </mods:name>
+                            <mods:typeOfResource>text</mods:typeOfResource>
+                            <mods:genre authority="marcgt">book</mods:genre>
+                            <mods:originInfo>
+                                <mods:place>
+                                    <mods:placeTerm type="text">Paderborn</mods:placeTerm>
+                                </mods:place>
+                                <mods:publisher>
+                                    Rektorat der Universität - Gesamthochschule -
+                                    Paderborn
+                                </mods:publisher>
+                                <mods:dateIssued encoding="w3cdtf"
+                                                 keyDate="yes">1995</mods:dateIssued>
+                                <mods:issuance>monographic</mods:issuance>
+                            </mods:originInfo>
+                            <mods:originInfo>
+                                <mods:edition>[Electronic ed.]</mods:edition>
+                                <mods:place>
+                                    <mods:placeTerm type="text">Paderborn</mods:placeTerm>
+                                </mods:place>
+                                <mods:publisher>Universitätsbibliothek Paderborn</mods:publisher>
+                                <mods:dateIssued>2014</mods:dateIssued>
+                            </mods:originInfo>
+                            <mods:language>
+                                <mods:languageTerm authority="iso639-2b"
+                                                   type="code">ger</mods:languageTerm>
+                            </mods:language>
+                            <mods:physicalDescription>
+                                <mods:extent>8, [6] S.</mods:extent>
+                            </mods:physicalDescription>
+                            <mods:identifier type="eki">HBZHT017591605</mods:identifier>
+                            <mods:identifier type="urn">urn:nbn:de:hbz:466:1-25818</mods:identifier>
+                            <mods:identifier type="hbz-idn">CT006001796</mods:identifier>
+                            <mods:relatedItem type="series">
+                                <mods:titleInfo>
+                                    <mods:title>Amtliche Mitteilungen</mods:title>
+                                    <mods:subTitle>Verkündungsblatt der Universität Paderborn</mods:subTitle>
+                                </mods:titleInfo>
+                                <mods:titleInfo type="alternative">
+                                    <mods:title>Verkündungsblatt der Universität Paderborn</mods:title>
+                                </mods:titleInfo>
+                                <mods:titleInfo type="alternative">
+                                    <mods:title>
+                                        Verkündungsblatt der Universität-Gesamthochschule
+                                        Paderborn
+                                    </mods:title>
+                                </mods:titleInfo>
+                                <mods:name type="corporate"
+                                           authority="gnd"
+                                           authorityURI="http://d-nb.info/gnd/"
+                                           valueURI="http://d-nb.info/gnd/64857-7">
+                                    <mods:namePart>Universität Paderborn</mods:namePart>
+                                    <mods:role>
+                                        <mods:roleTerm type="code"
+                                                       authority="marcrelator">cre</mods:roleTerm>
+                                    </mods:role>
+                                </mods:name>
+                                <mods:typeOfResource>text</mods:typeOfResource>
+                                <mods:genre authority="marcgt">journal</mods:genre>
+                                <mods:originInfo>
+                                    <mods:place>
+                                        <mods:placeTerm type="text">Paderborn</mods:placeTerm>
+                                    </mods:place>
+                                    <mods:publisher>Univ.</mods:publisher>
+                                    <mods:dateIssued point="start"
+                                                     encoding="w3cdtf"
+                                                     keyDate="yes">                                        
+                                        1980
+                                    </mods:dateIssued>
+                                    <mods:dateIssued point="end"
+                                                     encoding="w3cdtf">2013</mods:dateIssued>
+                                    <mods:issuance>continuing</mods:issuance>
+                                    <mods:frequency authority="marcfrequency">Completely irregular</mods:frequency>
+                                </mods:originInfo>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b"
+                                                       type="code">ger</mods:languageTerm>
+                                </mods:language>
+                                <mods:physicalDescription>
+                                    <mods:extent>21 cm</mods:extent>
+                                </mods:physicalDescription>
+                                <mods:note type="date/sequential designation">1980 - 2013</mods:note>
+                                <mods:note type="former title">
+                                    Zusatz anfangs: Verkündungsblatt der
+                                    Universität-Gesamthochschule Paderborn
+                                </mods:note>
+                                <mods:note type="numbering">
+                                    1989,14 nicht ersch.; Periodizität:
+                                    unregelmäßig
+                                </mods:note>
+                                <mods:note type="editorial note">(Abl.) 466!(18-05-14)</mods:note>
+                                <mods:subject authority="gnd"
+                                              authorityURI="http://d-nb.info/gnd/">
+                                    <mods:name authority="gnd"
+                                               authorityURI="http://d-nb.info/gnd/"
+                                               valueURI="http://d-nb.info/gnd/64857-7">
+                                        <mods:namePart>Universität Paderborn</mods:namePart>
+                                    </mods:name>
+                                    <mods:topic valueURI="http://d-nb.info/gnd/4025254-1">                                        
+                                        Hochschulrecht
+                                    </mods:topic>
+                                    <mods:topic valueURI="http://d-nb.info/gnd/4072563-7">                                        
+                                        Hochschulverwaltung
+                                    </mods:topic>
+                                    <mods:genre>Zeitschrift</mods:genre>
+                                </mods:subject>
+                                <mods:subject authority="gnd"
+                                              authorityURI="http://d-nb.info/gnd/"
+                                              valueURI="http://d-nb.info/gnd/4044283-4">
+                                    <mods:hierarchicalGeographic>
+                                        <mods:city>Paderborn</mods:city>
+                                    </mods:hierarchicalGeographic>
+                                </mods:subject>
+                                <mods:classification authority="other">|22 ; DNB</mods:classification>
+                                <mods:classification authority="other">|370 ; DNB</mods:classification>
+                                <mods:classification authority="other">|370 ; ZDB</mods:classification>
+                                <mods:classification authority="nwbib">793000</mods:classification>
+                                <mods:classification authority="nwbib">794010</mods:classification>
+                                <mods:relatedItem type="preceding">
+                                    <mods:titleInfo>
+                                        <mods:title>
+                                            Gesamthochschule Paderborn: Amtliche
+                                            Mitteilungen der Gesamthochschule Paderborn
+                                        </mods:title>
+                                    </mods:titleInfo>
+                                    <mods:recordInfo>
+                                        <mods:recordIdentifier source="hbz">HT007064102</mods:recordIdentifier>
+                                    </mods:recordInfo>
+                                </mods:relatedItem>
+                                <mods:relatedItem type="succeeding">
+                                    <mods:titleInfo>
+                                        <mods:title>Universität Paderborn: Amtliche Mitteilungen</mods:title>
+                                    </mods:titleInfo>
+                                    <mods:recordInfo>
+                                        <mods:recordIdentifier source="hbz">HT013403478</mods:recordIdentifier>
+                                    </mods:recordInfo>
+                                </mods:relatedItem>
+                                <mods:identifier type="zdb">1160856-0</mods:identifier>
+                                <mods:identifier type="eki">ZDB1160856-0</mods:identifier>
+                                <mods:location>
+                                    <mods:physicalLocation authority="local library code">51</mods:physicalLocation>
+                                    <mods:shelfLocator>4 Zs 1507</mods:shelfLocator>
+                                </mods:location>
+                                <mods:location>
+                                    <mods:physicalLocation authority="local library code">466</mods:physicalLocation>
+                                    <mods:shelfLocator>P 30/52 p 1</mods:shelfLocator>
+                                </mods:location>
+                                <mods:location>
+                                    <mods:physicalLocation authority="local library code">6</mods:physicalLocation>
+                                    <mods:shelfLocator>XB 1726</mods:shelfLocator>
+                                </mods:location>
+                                <mods:part>
+                                    <mods:detail type="volume">
+                                        <mods:number>1995,4</mods:number>
+                                    </mods:detail>
+                                </mods:part>
+                                <mods:extension>
+                                    <vlz:info version="2"
+                                              xmlns:vlz="http://visuallibrary.net/vlz/1.0/" />
+                                </mods:extension>
+                                <mods:recordInfo>
+                                    <mods:recordCreationDate encoding="marc">19991121</mods:recordCreationDate>
+                                    <mods:recordChangeDate encoding="marc">20160704</mods:recordChangeDate>
+                                    <mods:recordIdentifier source="hbz">HT007061007</mods:recordIdentifier>
+                                </mods:recordInfo>
+                            </mods:relatedItem>
+                            <mods:location>
+                                <mods:physicalLocation authority="local library code">466</mods:physicalLocation>
+                                <mods:holdingSimple>
+                                    <mods:copyInformation>
+                                        <mods:subLocation>30</mods:subLocation>
+                                        <mods:shelfLocator>52p1</mods:shelfLocator>
+                                    </mods:copyInformation>
+                                </mods:holdingSimple>
+                            </mods:location>
+                            <mods:accessCondition type="use and reproduction"
+                                                  xlink:href="https://creativecommons.org/licenses/by/4.0/"
+                                                  displayLabel="Creative Commons Namensnennung 4.0 International Lizenz">
+                                CC
+                                BY 4.0
+                            </mods:accessCondition>
+                            <mods:extension>
+                                <vlz:info version="2"
+                                          xmlns:vlz="http://visuallibrary.net/vlz/1.0/" />
+                            </mods:extension>
+                            <mods:recordInfo>
+                                <mods:recordCreationDate encoding="marc">20130326</mods:recordCreationDate>
+                                <mods:recordChangeDate encoding="marc">20140616</mods:recordChangeDate>
+                                <mods:recordIdentifier source="ubpbihd">HT017591605</mods:recordIdentifier>
+                                <mods:descriptionStandard>rak</mods:descriptionStandard>
+                            </mods:recordInfo>
+                        </mods:mods>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:amdSec ID="amd1138340">
+                <mets:rightsMD ID="rights1138340">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="OTHER"
+                                 OTHERMDTYPE="DVRIGHTS">
+                        <mets:xmlData>
+                            <dv:rights xmlns:dv="http://dfg-viewer.de/">
+                                <dv:ownerLogo>                                    
+                                    https://digital.ub.uni-paderborn.de//domainresource/static/graphics/connectors/viewerLogo.gif
+                                </dv:ownerLogo>
+                                <dv:owner>Paderborn : Universitätsbibliothek Paderborn</dv:owner>
+                                <dv:ownerSiteURL>http://www.ub.uni-paderborn.de/</dv:ownerSiteURL>
+                                <dv:ownerContact>bibliothek@ub.uni-paderborn.de</dv:ownerContact>
+                                <dv:license>cc-by</dv:license>
+                            </dv:rights>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:rightsMD>
+                <mets:digiprovMD ID="digiprov1138340">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="OTHER"
+                                 OTHERMDTYPE="DVLINKS">
+                        <mets:xmlData>
+                            <dv:links xmlns:dv="http://dfg-viewer.de/">
+                                <dv:reference>                                    
+                                    http://katalog.ub.uni-paderborn.de/searches?q=HT017591605&amp;scope=catalog
+                                </dv:reference>
+                                <dv:presentation>https://digital.ub.uni-paderborn.de/id/1138340</dv:presentation>
+                                <dv:iiif>                                    
+                                    https://digital.ub.uni-paderborn.de/i3f/v20/1138340/manifest
+                                </dv:iiif>
+                                <dv:sru>https://digital.ub.uni-paderborn.de/proto_ftsearch/1138340</dv:sru>
+                            </dv:links>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:digiprovMD>
+            </mets:amdSec>
+            <mets:amdSec ID="imageInfo">
+                <mets:techMD ID="IMGINF1139040">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139040</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12505826</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1685</mix:imageWidth>
+                                        <mix:imageHeight>2470</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.617</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.233</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139041">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139041</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12473488</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1682</mix:imageWidth>
+                                        <mix:imageHeight>2468</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.607</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.227</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139042">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139042</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12505826</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1685</mix:imageWidth>
+                                        <mix:imageHeight>2470</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.617</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.233</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139043">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139043</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12506178</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1683</mix:imageWidth>
+                                        <mix:imageHeight>2473</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.610</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.243</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139044">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139044</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12528776</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1684</mix:imageWidth>
+                                        <mix:imageHeight>2476</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.613</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.253</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139045">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139045</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12506178</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1683</mix:imageWidth>
+                                        <mix:imageHeight>2473</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.610</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.243</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139046">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139046</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12518656</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1684</mix:imageWidth>
+                                        <mix:imageHeight>2474</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.613</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.247</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139047">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139047</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>13047458</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1741</mix:imageWidth>
+                                        <mix:imageHeight>2498</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.803</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.327</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139048">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139048</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12547954</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1690</mix:imageWidth>
+                                        <mix:imageHeight>2471</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.633</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.237</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139049">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139049</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12609566</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1699</mix:imageWidth>
+                                        <mix:imageHeight>2470</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.663</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.233</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139050">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139050</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12535044</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1691</mix:imageWidth>
+                                        <mix:imageHeight>2467</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.637</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.223</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139051">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139051</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12642516</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1700</mix:imageWidth>
+                                        <mix:imageHeight>2475</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.667</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.250</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139052">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139052</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12462996</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1684</mix:imageWidth>
+                                        <mix:imageHeight>2463</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.613</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.210</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139037">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139037</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12458326</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1682</mix:imageWidth>
+                                        <mix:imageHeight>2465</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.607</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.217</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139038">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139038</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12505826</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1685</mix:imageWidth>
+                                        <mix:imageHeight>2470</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.617</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.233</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+                <mets:techMD ID="IMGINF1139039">
+                    <mets:mdWrap MIMETYPE="text/xml"
+                                 MDTYPE="NISOIMG">
+                        <mets:xmlData>
+                            <mix:mix xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd"
+                                     xmlns:mix="http://www.loc.gov/mix/v20">
+                                <mix:BasicDigitalObjectInformation>
+                                    <mix:ObjectIdentifier>
+                                        <mix:objectIdentifierType>otid</mix:objectIdentifierType>
+                                        <mix:objectIdentifierValue>1139039</mix:objectIdentifierValue>
+                                    </mix:ObjectIdentifier>
+                                    <mix:fileSize>12475836</mix:fileSize>
+                                    <mix:FormatDesignation>
+                                        <mix:formatName>image/tiff</mix:formatName>
+                                    </mix:FormatDesignation>
+                                </mix:BasicDigitalObjectInformation>
+                                <mix:BasicImageInformation>
+                                    <mix:BasicImageCharacteristics>
+                                        <mix:imageWidth>1683</mix:imageWidth>
+                                        <mix:imageHeight>2467</mix:imageHeight>
+                                        <mix:PhotometricInterpretation>
+                                            <mix:colorSpace>rgb</mix:colorSpace>
+                                        </mix:PhotometricInterpretation>
+                                    </mix:BasicImageCharacteristics>
+                                </mix:BasicImageInformation>
+                                <mix:ImageCaptureMetadata>
+                                    <mix:SourceInformation>
+                                        <mix:SourceSize>
+                                            <mix:SourceXDimension>
+                                                <mix:sourceXDimensionValue>5.610</mix:sourceXDimensionValue>
+                                                <mix:sourceXDimensionUnit>in.</mix:sourceXDimensionUnit>
+                                            </mix:SourceXDimension>
+                                            <mix:SourceYDimension>
+                                                <mix:sourceYDimensionValue>8.223</mix:sourceYDimensionValue>
+                                                <mix:sourceYDimensionUnit>in.</mix:sourceYDimensionUnit>
+                                            </mix:SourceYDimension>
+                                        </mix:SourceSize>
+                                    </mix:SourceInformation>
+                                </mix:ImageCaptureMetadata>
+                            </mix:mix>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:techMD>
+            </mets:amdSec>
+            <mets:fileSec>
+                <mets:fileGrp USE="DOWNLOAD">
+                    <mets:file MIMETYPE="application/pdf"
+                               CHECKSUM="3bbbca68bd0285aebd4851111868e2fa7f3bb3ee"
+                               CREATED="2015-08-10T12:28:01.931100Z"
+                               CHECKSUMTYPE="SHA-1"
+                               SIZE="4023619"
+                               ID="PDF_1138340">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/pdf/1138340?downloadFilename=vlid"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                </mets:fileGrp>
+                <mets:fileGrp USE="MASTER">
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12458326"
+                               CREATED="2014-06-10T20:04:08.427200Z"
+                               ID="IMG_MA_1139037">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139037"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12505826"
+                               CREATED="2014-06-10T20:04:08.733100Z"
+                               ID="IMG_MA_1139038">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139038"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12475836"
+                               CREATED="2014-06-10T20:04:09.049700Z"
+                               ID="IMG_MA_1139039">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139039"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12505826"
+                               CREATED="2014-06-10T20:04:09.344200Z"
+                               ID="IMG_MA_1139040">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139040"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12473488"
+                               CREATED="2014-06-10T20:04:09.664400Z"
+                               ID="IMG_MA_1139041">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139041"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12505826"
+                               CREATED="2014-06-10T20:04:09.969100Z"
+                               ID="IMG_MA_1139042">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139042"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12506178"
+                               CREATED="2014-06-10T20:04:10.282300Z"
+                               ID="IMG_MA_1139043">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139043"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12528776"
+                               CREATED="2014-06-10T20:04:10.698300Z"
+                               ID="IMG_MA_1139044">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139044"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12506178"
+                               CREATED="2014-06-10T20:04:11.465800Z"
+                               ID="IMG_MA_1139045">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139045"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12518656"
+                               CREATED="2014-06-10T20:04:12.006000Z"
+                               ID="IMG_MA_1139046">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139046"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="13047458"
+                               CREATED="2014-06-13T08:51:52.280000Z"
+                               ID="IMG_MA_1139047">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139047"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12547954"
+                               CREATED="2014-06-10T20:04:12.691600Z"
+                               ID="IMG_MA_1139048">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139048"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12609566"
+                               CREATED="2014-06-10T20:04:13.029500Z"
+                               ID="IMG_MA_1139049">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139049"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12535044"
+                               CREATED="2014-06-10T20:04:13.338700Z"
+                               ID="IMG_MA_1139050">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139050"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12642516"
+                               CREATED="2014-06-10T20:04:13.659700Z"
+                               ID="IMG_MA_1139051">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139051"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="image/tiff"
+                               SIZE="12462996"
+                               CREATED="2014-06-10T20:04:13.937500Z"
+                               ID="IMG_MA_1139052">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/archive/1139052"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                </mets:fileGrp>
+                <mets:fileGrp USE="FULLTEXT">
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:10:43.467600Z"
+                               ID="ALTO1139037">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139037"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:10:48.555600Z"
+                               ID="ALTO1139038">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139038"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:10:54.804000Z"
+                               ID="ALTO1139039">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139039"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:11:04.500000Z"
+                               ID="ALTO1139040">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139040"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:11:13.227600Z"
+                               ID="ALTO1139041">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139041"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:11:24.343700Z"
+                               ID="ALTO1139042">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139042"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:11:35.139800Z"
+                               ID="ALTO1139043">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139043"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:11:45.763700Z"
+                               ID="ALTO1139044">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139044"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:11:52.619600Z"
+                               ID="ALTO1139045">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139045"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:12:01.115600Z"
+                               ID="ALTO1139046">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139046"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:12:10.539700Z"
+                               ID="ALTO1139047">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139047"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:12:21.151900Z"
+                               ID="ALTO1139048">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139048"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:12:30.847700Z"
+                               ID="ALTO1139049">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139049"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:12:39.679700Z"
+                               ID="ALTO1139050">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139050"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:12:49.235800Z"
+                               ID="ALTO1139051">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139051"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                    <mets:file MIMETYPE="text/xml"
+                               CREATED="2014-06-20T12:12:57.355600Z"
+                               ID="ALTO1139052">
+                        <mets:FLocat xlink:href="https://digital.ub.uni-paderborn.de/download/fulltext/alto3/1139052"
+                                     LOCTYPE="URL" />
+                    </mets:file>
+                </mets:fileGrp>
+            </mets:fileSec>
+            <mets:structMap TYPE="PHYSICAL">
+                <mets:div TYPE="physSequence"
+                          ID="physroot">
+                    <mets:div ID="phys1139037"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="1"
+                              ADMID="IMGINF1139037">
+                        <mets:fptr FILEID="IMG_MA_1139037" />
+                        <mets:fptr FILEID="ALTO1139037" />
+                    </mets:div>
+                    <mets:div ID="phys1139038"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="2"
+                              ADMID="IMGINF1139038">
+                        <mets:fptr FILEID="IMG_MA_1139038" />
+                        <mets:fptr FILEID="ALTO1139038" />
+                    </mets:div>
+                    <mets:div ID="phys1139039"
+                              TYPE="page"
+                              LABEL="Seite 1"
+                              ORDER="3"
+                              ORDERLABEL="1"
+                              ADMID="IMGINF1139039">
+                        <mets:fptr FILEID="IMG_MA_1139039" />
+                        <mets:fptr FILEID="ALTO1139039" />
+                    </mets:div>
+                    <mets:div ID="phys1139040"
+                              TYPE="page"
+                              LABEL="Seite 2"
+                              ORDER="4"
+                              ORDERLABEL="2"
+                              ADMID="IMGINF1139040">
+                        <mets:fptr FILEID="IMG_MA_1139040" />
+                        <mets:fptr FILEID="ALTO1139040" />
+                    </mets:div>
+                    <mets:div ID="phys1139041"
+                              TYPE="page"
+                              LABEL="Seite 3"
+                              ORDER="5"
+                              ORDERLABEL="3"
+                              ADMID="IMGINF1139041">
+                        <mets:fptr FILEID="IMG_MA_1139041" />
+                        <mets:fptr FILEID="ALTO1139041" />
+                    </mets:div>
+                    <mets:div ID="phys1139042"
+                              TYPE="page"
+                              LABEL="Seite 4"
+                              ORDER="6"
+                              ORDERLABEL="4"
+                              ADMID="IMGINF1139042">
+                        <mets:fptr FILEID="IMG_MA_1139042" />
+                        <mets:fptr FILEID="ALTO1139042" />
+                    </mets:div>
+                    <mets:div ID="phys1139043"
+                              TYPE="page"
+                              LABEL="Seite 5"
+                              ORDER="7"
+                              ORDERLABEL="5"
+                              ADMID="IMGINF1139043">
+                        <mets:fptr FILEID="IMG_MA_1139043" />
+                        <mets:fptr FILEID="ALTO1139043" />
+                    </mets:div>
+                    <mets:div ID="phys1139044"
+                              TYPE="page"
+                              LABEL="Seite 6"
+                              ORDER="8"
+                              ORDERLABEL="6"
+                              ADMID="IMGINF1139044">
+                        <mets:fptr FILEID="IMG_MA_1139044" />
+                        <mets:fptr FILEID="ALTO1139044" />
+                    </mets:div>
+                    <mets:div ID="phys1139045"
+                              TYPE="page"
+                              LABEL="Seite 7"
+                              ORDER="9"
+                              ORDERLABEL="7"
+                              ADMID="IMGINF1139045">
+                        <mets:fptr FILEID="IMG_MA_1139045" />
+                        <mets:fptr FILEID="ALTO1139045" />
+                    </mets:div>
+                    <mets:div ID="phys1139046"
+                              TYPE="page"
+                              LABEL="Seite 8"
+                              ORDER="10"
+                              ORDERLABEL="8"
+                              ADMID="IMGINF1139046">
+                        <mets:fptr FILEID="IMG_MA_1139046" />
+                        <mets:fptr FILEID="ALTO1139046" />
+                    </mets:div>
+                    <mets:div ID="phys1139047"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="11"
+                              ADMID="IMGINF1139047">
+                        <mets:fptr FILEID="IMG_MA_1139047" />
+                        <mets:fptr FILEID="ALTO1139047" />
+                    </mets:div>
+                    <mets:div ID="phys1139048"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="12"
+                              ADMID="IMGINF1139048">
+                        <mets:fptr FILEID="IMG_MA_1139048" />
+                        <mets:fptr FILEID="ALTO1139048" />
+                    </mets:div>
+                    <mets:div ID="phys1139049"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="13"
+                              ADMID="IMGINF1139049">
+                        <mets:fptr FILEID="IMG_MA_1139049" />
+                        <mets:fptr FILEID="ALTO1139049" />
+                    </mets:div>
+                    <mets:div ID="phys1139050"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="14"
+                              ADMID="IMGINF1139050">
+                        <mets:fptr FILEID="IMG_MA_1139050" />
+                        <mets:fptr FILEID="ALTO1139050" />
+                    </mets:div>
+                    <mets:div ID="phys1139051"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="15"
+                              ADMID="IMGINF1139051">
+                        <mets:fptr FILEID="IMG_MA_1139051" />
+                        <mets:fptr FILEID="ALTO1139051" />
+                    </mets:div>
+                    <mets:div ID="phys1139052"
+                              TYPE="page"
+                              LABEL="[Seite]"
+                              ORDER="16"
+                              ADMID="IMGINF1139052">
+                        <mets:fptr FILEID="IMG_MA_1139052" />
+                        <mets:fptr FILEID="ALTO1139052" />
+                    </mets:div>
+                </mets:div>
+            </mets:structMap>
+            <mets:structMap TYPE="LOGICAL">
+                <mets:div ID="log1138340"
+                          DMDID="md1138340"
+                          ADMID="amd1138340"
+                          TYPE="monograph"
+                          LABEL="Studienordnung für den Ergänzungsstudiengang Maschinenbau an der Universität-Gesamthochschule Paderborn mit dem Abschluß Diplom-Ingenieurin bzw. Diplom-Ingenieur"
+                          ORDER="1"
+                          CONTENTIDS="urn:nbn:de:hbz:466:1-25818">
+                    <mets:fptr FILEID="PDF_1138340" />
+                </mets:div>
+            </mets:structMap>
+            <mets:structLink>
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="physroot" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139037" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139038" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139039" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139040" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139041" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139042" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139043" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139044" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139045" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139046" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139047" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139048" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139049" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139050" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139051" />
+                <mets:smLink xlink:from="log1138340"
+                             xlink:to="phys1139052" />
+            </mets:structLink>
+        </mets:mets>
+    </metadata>
+</record>

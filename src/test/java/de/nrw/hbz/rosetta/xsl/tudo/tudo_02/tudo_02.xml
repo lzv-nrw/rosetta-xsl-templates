@@ -1,0 +1,105 @@
+<record xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+        xmlns="http://www.openarchives.org/OAI/2.0/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <datestamp>2024-11-22T11:40:36Z</datestamp>
+        <identifier>doi:10.17877/RTG2624-2024-M3SLH6UA</identifier>
+    </header>
+    <metadata>
+        <mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd"
+              xmlns:dc="http://purl.org/dc/elements/1.1/"
+              xmlns:mets="http://www.loc.gov/METS/"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mets:metsHdr CREATEDATE="2024-11-22T11:40:36Z">
+                <mets:agent ROLE="CUSTODIAN"
+                            TYPE="ORGANIZATION">TUDOdata</mets:agent>
+            </mets:metsHdr>
+            <mets:dmdSec ID="DMD_RTG2624_2024_M3SLH6UA">
+                <mets:mdWrap MDTYPE="DC">
+                    <mets:xmlData>
+                        <oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"
+                                   xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+                            <oai_dc:description>This data set includes cytotoxicity concentration-response data of HepG2 cells exposed to valproic acid (VPA) for two different concentration sets. For the first concentration set (vpa-1) 4 different experiments were conducted, for the second set (vpa-2) 2 different experiments were conducted.</oai_dc:description>
+                            <oai_dc:extent>4 file(s)</oai_dc:extent>
+                            <oai_dc:date>2024-11-22T11:40:36Z</oai_dc:date>
+                            <oai_dc:rights>http://creativecommons.org/licenses/by/4.0</oai_dc:rights>
+                            <oai_dc:title>Experimental data for: Design of optimal concentrations for in vitro cytotoxicity experiments</oai_dc:title>
+                            <oai_dc:publisher>TUDOdata: GRK 2624: Biostatistische Methoden für hochdimensionale Daten in der Toxikologie</oai_dc:publisher>
+                            <oai_dc:creator>Peng, Chen</oai_dc:creator>
+                            <oai_dc:creator>Albrecht, Wiebke</oai_dc:creator>
+                            <oai_dc:creator>Brecklinghaus, Tim</oai_dc:creator>
+                            <oai_dc:identifier type="id">doi:10.17877/RTG2624-2024-M3SLH6UA</oai_dc:identifier>
+                            <oai_dc:identifier type="doi">10.17877/RTG2624-2024-M3SLH6UA</oai_dc:identifier>
+                        </oai_dc:dc>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:fileSec>
+                <mets:fileGrp USE="ORIGINAL">
+                    <mets:file CHECKSUM="d194f6de3d05ae942112ec5f633ac332"
+                               CHECKSUMTYPE="MD5"
+                               CREATED="2024-11-22"
+                               ID="FILE_10255"
+                               MIMETYPE="text/plain"
+                               SIZE="19023">
+                        <mets:FLocat LOCTYPE="URL"
+                                     xlink:href="https://data.tu-dortmund.de/api/access/datafile/10255?format=original"
+                                     xlink:type="simple" />
+                    </mets:file>
+                    <mets:file CHECKSUM="3dce3919e71cb0b1831a6dd7ad07e4b8"
+                               CHECKSUMTYPE="MD5"
+                               CREATED="2024-11-22"
+                               ID="FILE_10254"
+                               MIMETYPE="text/plain"
+                               SIZE="2147">
+                        <mets:FLocat LOCTYPE="URL"
+                                     xlink:href="https://data.tu-dortmund.de/api/access/datafile/10254?format=original"
+                                     xlink:type="simple" />
+                    </mets:file>
+                    <mets:file CHECKSUM="9128ab06dd4a12ad07fa0081f39a8b68"
+                               CHECKSUMTYPE="MD5"
+                               CREATED="2024-11-22"
+                               ID="FILE_10257"
+                               MIMETYPE="text/csv"
+                               SIZE="10615">
+                        <mets:FLocat LOCTYPE="URL"
+                                     xlink:href="https://data.tu-dortmund.de/api/access/datafile/10257?format=original"
+                                     xlink:type="simple" />
+                    </mets:file>
+                    <mets:file CHECKSUM="75e33d05ca5c492a32c2187260303936"
+                               CHECKSUMTYPE="MD5"
+                               CREATED="2024-11-22"
+                               ID="FILE_10256"
+                               MIMETYPE="text/csv"
+                               SIZE="7647">
+                        <mets:FLocat LOCTYPE="URL"
+                                     xlink:href="https://data.tu-dortmund.de/api/access/datafile/10256?format=original"
+                                     xlink:type="simple" />
+                    </mets:file>
+                </mets:fileGrp>
+            </mets:fileSec>
+            <mets:structMap TYPE="physical">
+                <mets:div DMDID="DMD_RTG2624_2024_M3SLH6UA"
+                          LABEL="Experimental data for: Design of optimal concentrations for in vitro cytotoxicity experiments"
+                          TYPE="dataset">
+                    <mets:div LABEL="LICENSE-CC_BY_4.0_en.txt"
+                              TYPE="file">
+                        <mets:fptr FILEID="FILE_10255" />
+                    </mets:div>
+                    <mets:div LABEL="readme.txt"
+                              TYPE="file">
+                        <mets:fptr FILEID="FILE_10254" />
+                    </mets:div>
+                    <mets:div LABEL="vpa-1.csv"
+                              TYPE="file">
+                        <mets:fptr FILEID="FILE_10257" />
+                    </mets:div>
+                    <mets:div LABEL="vpa-2.csv"
+                              TYPE="file">
+                        <mets:fptr FILEID="FILE_10256" />
+                    </mets:div>
+                </mets:div>
+            </mets:structMap>
+        </mets>
+    </metadata>
+</record>
