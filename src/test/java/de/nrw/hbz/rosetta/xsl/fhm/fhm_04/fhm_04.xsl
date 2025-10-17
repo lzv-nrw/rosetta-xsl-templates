@@ -11,29 +11,69 @@
                 version="1.0">
     <xsl:output method="xml"
                 indent="yes"
-                encoding="UTF-8" />
+                encoding="UTF-8"/>
     <xsl:template match="/">
-        <xsl:apply-templates select="//oai_dc:dc" />
+        <xsl:apply-templates select="//oai_dc:dc"/>
     </xsl:template>
     <xsl:template name="replace-string">
-        <xsl:param name="text" />
-        <xsl:param name="replace" />
-        <xsl:param name="with" />
+        <xsl:param name="text"/>
+        <xsl:param name="replace"/>
+        <xsl:param name="with"/>
         <xsl:choose>
             <xsl:when test="contains($text,$replace)">
-                <xsl:value-of select="substring-before($text,$replace)" />
-                <xsl:value-of select="$with" />
+                <xsl:value-of select="substring-before($text,$replace)"/>
+                <xsl:value-of select="$with"/>
                 <xsl:call-template name="replace-string">
                     <xsl:with-param name="text"
-                                    select="substring-after($text,$replace)" />
+                                    select="substring-after($text,$replace)"/>
                     <xsl:with-param name="replace"
-                                    select="$replace" />
+                                    select="$replace"/>
                     <xsl:with-param name="with"
-                                    select="$with" />
+                                    select="$with"/>
                 </xsl:call-template>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="$text" />
+                <xsl:value-of select="$text"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <!-- template for splitting string by delimiter and and to shorten if necessary -->
+    <xsl:template name="tokenize">
+        <xsl:param name="text"/>
+        <xsl:param name="delimiter"
+                   select="&apos;; &apos;"/>
+        <xsl:choose>
+            <xsl:when test="contains($text, $delimiter)">
+                <xsl:variable name="tmp">
+                    <xsl:value-of select="substring-after($text, $delimiter)"/>
+                </xsl:variable>
+                <field>
+                    <xsl:choose>
+                        <xsl:when test="string-length(substring-before($text, $delimiter)) &lt; 250">
+                            <xsl:value-of select="substring-before($text, $delimiter)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat(substring(substring-before($text, $delimiter), 1, 150), &apos;[...]&apos;)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </field>
+                <!-- recursive call -->
+                <xsl:call-template name="tokenize">
+                    <xsl:with-param name="text"
+                                    select="$tmp"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+                <field>
+                    <xsl:choose>
+                        <xsl:when test="string-length($text) &lt; 250">
+                            <xsl:value-of select="$text"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat(substring($text, 1, 150), &apos;[...]&apos;)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </field>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -47,96 +87,87 @@
                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                             <xsl:for-each select="./dc:title">
                                 <dc:title>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:title>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:creator">
                                 <dc:creator>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:creator>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:contributor">
                                 <dc:contributor>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:contributor>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:subject">
                                 <dc:subject>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:subject>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:description">
                                 <dc:description>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:description>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:publisher">
                                 <dc:publisher>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:publisher>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:date">
                                 <dc:date>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:date>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:type">
                                 <dc:type>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:type>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:format">
                                 <dc:format>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:format>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:identifier">
                                 <dc:identifier>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:identifier>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:language">
                                 <dc:language>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:language>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:relation">
                                 <dc:relation>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:relation>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:rights">
                                 <dc:rights>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:rights>
                             </xsl:for-each>
                             <xsl:for-each select="./dc:source">
                                 <dc:source>
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="."/>
                                 </dc:source>
                             </xsl:for-each>
-                            <xsl:for-each select="./dc:source">
-                                <xsl:if test="contains(. , 'Paramedic Science') and not(contains(./@xml:lang, 'en'))">
-                                    <!-- First replace any semicolon by backslash and store in variable -->
-                                    <xsl:variable name="replaceSemicolon">
-                                        <xsl:call-template name="replace-string">
+                            <xsl:variable name="collection">
+                                <xsl:for-each select="./dc:source">
+                                    <xsl:if test="contains(. , &apos;Paramedic Science&apos;) and not(contains(./@xml:lang, &apos;en&apos;))">
+                                        <xsl:call-template name="tokenize">
                                             <xsl:with-param name="text"
-                                                            select="." />
-                                            <xsl:with-param name="replace"
-                                                            select="'; '" />
-                                            <xsl:with-param name="with"
-                                                            select="'\'" />
+                                                            select="."/>
                                         </xsl:call-template>
-                                    </xsl:variable>
-                                    <!-- replace any colon from variable by slash and store in variable -->
-                                    <!-- <xsl:variable name="replaceColon">											<xsl:call-template name="replace-string">											  <xsl:with-param name="text" select="$replaceSemicolon"/>											  <xsl:with-param name="replace" select="&quot;): &quot;" />											  <xsl:with-param name="with" select="&quot;)/&quot;"/>											</xsl:call-template>										</xsl:variable> -->
-                                    <xsl:variable name="isPartOf"
-                                                  select="$replaceSemicolon" />
-                                    <dc:collection>
-                                        <xsl:value-of select="$isPartOf" />
-                                    </dc:collection>
-                                </xsl:if>
-                            </xsl:for-each>
+                                    </xsl:if>
+                                </xsl:for-each>
+                            </xsl:variable>
+                            <dc:collection>
+                                <xsl:value-of select="string-join($collection/field,&apos;\&apos;)"/>
+                            </dc:collection>
                         </dc:record>
                     </mets:xmlData>
                 </mets:mdWrap>
@@ -148,7 +179,7 @@
                                  OTHERMDTYPE="dnx">
                         <mets:xmlData>
                             <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
-                                <section id="objectIdentifier" />
+                                <section id="objectIdentifier"/>
                             </dnx>
                         </mets:xmlData>
                     </mets:mdWrap>
@@ -158,7 +189,7 @@
                                  OTHERMDTYPE="dnx">
                         <mets:xmlData>
                             <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
-                                <section id="accessRightsPolicy" />
+                                <section id="accessRightsPolicy"/>
                             </dnx>
                         </mets:xmlData>
                     </mets:mdWrap>
@@ -167,7 +198,7 @@
                     <mets:mdWrap MDTYPE="OTHER"
                                  OTHERMDTYPE="dnx">
                         <mets:xmlData>
-                            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
                         </mets:xmlData>
                     </mets:mdWrap>
                 </mets:digiprovMD>
@@ -197,20 +228,20 @@
                               ID="rep1"
                               ADMID="rep1-amd">
                     <xsl:for-each select="//dc:relation">
-                        <xsl:if test="contains(., 'article/view')">
+                        <xsl:if test="contains(., &apos;article/view&apos;)">
                             <xsl:variable name="filePos"
-                                          select="position()" />
-                            <xsl:if test="../dc:format[$filePos]!='text/html'">
+                                          select="position()"/>
+                            <xsl:if test="../dc:format[$filePos]!=&apos;text/html&apos;">
                                 <mets:file>
                                     <xsl:attribute name="ID">
-                                        <xsl:value-of select="concat('fid', position(), '-1')" />
+                                        <xsl:value-of select="concat(&apos;fid&apos;, position(), &apos;-1&apos;)"/>
                                     </xsl:attribute>
                                     <mets:FLocat>
                                         <xsl:attribute name="LOCTYPE">
                                             <xsl:text>URL</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="xlink:href">
-                                            <xsl:value-of select="." />
+                                            <xsl:value-of select="."/>
                                         </xsl:attribute>
                                     </mets:FLocat>
                                 </mets:file>
@@ -222,24 +253,24 @@
             <!-- mets:structMap LOGICAL Section -->
             <mets:structMap>
                 <xsl:attribute name="TYPE">
-                    <xsl:value-of select="'LOGICAL'" />
+                    <xsl:value-of select="&apos;LOGICAL&apos;"/>
                 </xsl:attribute>
                 <xsl:attribute name="ID">
-                    <xsl:value-of select="'rep1-1'" />
+                    <xsl:value-of select="&apos;rep1-1&apos;"/>
                 </xsl:attribute>
                 <mets:div>
                     <xsl:for-each select="//dc:relation">
-                        <xsl:if test="contains(., 'article/view')">
+                        <xsl:if test="contains(., &apos;article/view&apos;)">
                             <xsl:variable name="filePos"
-                                          select="position()" />
-                            <xsl:if test="not(../dc:format[$filePos]='text/html')">
+                                          select="position()"/>
+                            <xsl:if test="not(../dc:format[$filePos]=&apos;text/html&apos;)">
                                 <mets:div>
                                     <xsl:attribute name="TYPE">
-                                        <xsl:value-of select="'FILE'" />
+                                        <xsl:value-of select="&apos;FILE&apos;"/>
                                     </xsl:attribute>
                                     <mets:fptr>
                                         <xsl:attribute name="FILEID">
-                                            <xsl:value-of select="concat('fid', $filePos, '-', 1)" />
+                                            <xsl:value-of select="concat(&apos;fid&apos;, $filePos, &apos;-&apos;, 1)"/>
                                         </xsl:attribute>
                                     </mets:fptr>
                                 </mets:div>

@@ -17,15 +17,15 @@
                 version="1.0">
     <xsl:output method="xml"
                 indent="yes"
-                encoding="UTF-8" />
+                encoding="UTF-8"/>
     <xsl:variable name="oai_id"
-                  select="//oai:record/oai:header/oai:identifier" />
+                  select="//oai:record/oai:header/oai:identifier"/>
     <xsl:variable name="dmd_id"
-                  select="concat('md',substring-after($oai_id,'de:'))" />
+                  select="concat(&apos;md&apos;,substring-after($oai_id,&apos;de:&apos;))"/>
     <xsl:variable name="rel_dmd_id"
-                  select="//mets:structMap/mets:div/mets:div/@DMDID" />
+                  select="//mets:structMap/mets:div/mets:div/@DMDID"/>
     <xsl:template match="/">
-        <xsl:apply-templates select="//mets:mets" />
+        <xsl:apply-templates select="//mets:mets"/>
     </xsl:template>
     <xsl:template match="//mets:mets">
         <mets:mets xmlns:mets="http://www.loc.gov/METS/">
@@ -35,12 +35,12 @@
                         <dc:record xmlns:dc="http://purl.org/dc/elements/1.1/"
                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                             <!-- map mods md into dc -->
-                            <xsl:apply-templates select="mets:dmdSec[@ID=$dmd_id]/mets:mdWrap[@MDTYPE='MODS']/mets:xmlData/mods:mods"
-                                                 mode="mods2dc" />
-                            <xsl:if test="mets:structMap/mets:div/mets:div/@TYPE='multivolumework'">
+                            <xsl:apply-templates select="mets:dmdSec[@ID=$dmd_id]/mets:mdWrap[@MDTYPE=&apos;MODS&apos;]/mets:xmlData/mods:mods"
+                                                 mode="mods2dc"/>
+                            <xsl:if test="mets:structMap/mets:div/mets:div/@TYPE=&apos;multivolumework&apos;">
                                 <xsl:if test="mets:structMap/mets:div/mets:div/@DMDID=$dmd_id">
-                                    <xsl:apply-templates select="mets:dmdSec[not(@ID=$dmd_id)]/mets:mdWrap[@MDTYPE='MODS']/mets:xmlData/mods:mods/*"
-                                                         mode="mods2dc" />
+                                    <xsl:apply-templates select="mets:dmdSec[not(@ID=$dmd_id)]/mets:mdWrap[@MDTYPE=&apos;MODS&apos;]/mets:xmlData/mods:mods/*"
+                                                         mode="mods2dc"/>
                                 </xsl:if>
                             </xsl:if>
                         </dc:record>
@@ -54,7 +54,7 @@
                                  OTHERMDTYPE="dnx">
                         <mets:xmlData>
                             <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
-                                <section id="objectIdentifier" />
+                                <section id="objectIdentifier"/>
                             </dnx>
                         </mets:xmlData>
                     </mets:mdWrap>
@@ -64,7 +64,7 @@
                                  OTHERMDTYPE="dnx">
                         <mets:xmlData>
                             <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
-                                <section id="accessRightsPolicy" />
+                                <section id="accessRightsPolicy"/>
                             </dnx>
                         </mets:xmlData>
                     </mets:mdWrap>
@@ -73,14 +73,14 @@
                     <mets:mdWrap MDTYPE="MODS">
                         <mets:xmlData>
                             <!-- copy dmdSec to sourceMD -->
-                            <xsl:apply-templates select="mets:dmdSec" />
+                            <xsl:apply-templates select="mets:dmdSec"/>
                             <!-- copy amdSec to sourceMD -->
-                            <xsl:apply-templates select="mets:amdSec" />
+                            <xsl:apply-templates select="mets:amdSec"/>
                             <!-- copy fileSec to sourceMD -->
-                            <xsl:apply-templates select="mets:fileSec" />
+                            <xsl:apply-templates select="mets:fileSec"/>
                             <!-- copy structMap ID="LOGICAL" to sourceMD -->
-                            <xsl:apply-templates select="mets:structMap[@TYPE='LOGICAL']"
-                                                 mode="structMap" />
+                            <xsl:apply-templates select="mets:structMap[@TYPE=&apos;LOGICAL&apos;]"
+                                                 mode="structMap"/>
                         </mets:xmlData>
                     </mets:mdWrap>
                 </mets:sourceMD>
@@ -88,58 +88,58 @@
                     <mets:mdWrap MDTYPE="OTHER"
                                  OTHERMDTYPE="dnx">
                         <mets:xmlData>
-                            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx" />
+                            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
                         </mets:xmlData>
                     </mets:mdWrap>
                 </mets:digiprovMD>
             </mets:amdSec>
-            <xsl:if test="mets:structMap/mets:div/mets:div/@TYPE='multivolumework'">
+            <xsl:if test="mets:structMap/mets:div/mets:div/@TYPE=&apos;multivolumework&apos;">
                 <xsl:if test="not(mets:structMap/mets:div/mets:div/@DMDID=$dmd_id)">
                     <xsl:apply-templates select="mets:fileSec"
-                                         mode="fileSec" />
+                                         mode="fileSec"/>
                 </xsl:if>
             </xsl:if>
-            <xsl:if test="not(mets:structMap/mets:div/mets:div/@TYPE='multivolumework')">
+            <xsl:if test="not(mets:structMap/mets:div/mets:div/@TYPE=&apos;multivolumework&apos;)">
                 <xsl:apply-templates select="mets:fileSec"
-                                     mode="fileSec" />
+                                     mode="fileSec"/>
             </xsl:if>
         </mets:mets>
     </xsl:template>
     <!-- mods SECTION Copy original dmdSec Data to sourceMD/dmdSec -->
     <xsl:template match="mets:dmdSec">
-        <xsl:copy-of select="." />
+        <xsl:copy-of select="."/>
     </xsl:template>
     <!-- mods SECTION Copy original amdSec Data to sourceMD/admSec -->
     <xsl:template match="mets:amdSec">
-        <xsl:copy-of select="." />
+        <xsl:copy-of select="."/>
     </xsl:template>
     <!-- mods SECTION Copy original fileSec Data to sourceMD/fileSec -->
     <xsl:template match="mets:fileSec">
-        <xsl:copy-of select="." />
+        <xsl:copy-of select="."/>
     </xsl:template>
     <!-- mods SECTION Copy original structMap Data to sourceMD/structMap -->
-    <xsl:template match="mets:structMap[@TYPE='LOGICAL']"
+    <xsl:template match="mets:structMap[@TYPE=&apos;LOGICAL&apos;]"
                   mode="structMap">
-        <xsl:copy-of select="." />
+        <xsl:copy-of select="."/>
     </xsl:template>
     <!-- DVRights Section -->
     <xsl:template match="mets:amdSec/mets:rightsMD">
         <mets:rightsMD>
             <xsl:attribute name="ID">
-                <xsl:value-of select="./@ID" />
+                <xsl:value-of select="./@ID"/>
             </xsl:attribute>
             <xsl:for-each select="mets:mdWrap">
                 <xsl:attribute name="MIMETYPE">
-                    <xsl:value-of select="./@MIMETYPE" />
+                    <xsl:value-of select="./@MIMETYPE"/>
                 </xsl:attribute>
                 <xsl:attribute name="MDTYPE">
-                    <xsl:value-of select="./@MDTYPE" />
+                    <xsl:value-of select="./@MDTYPE"/>
                 </xsl:attribute>
                 <xsl:attribute name="OTHERMDTYPE">
-                    <xsl:value-of select="./@OTHERMDTYPE" />
+                    <xsl:value-of select="./@OTHERMDTYPE"/>
                 </xsl:attribute>
                 <mets:mdWrap>
-                    <xsl:copy-of select="mets:xmlData" />
+                    <xsl:copy-of select="mets:xmlData"/>
                 </mets:mdWrap>
             </xsl:for-each>
         </mets:rightsMD>
@@ -148,20 +148,20 @@
     <xsl:template match="mets:amdSec/mets:digiprovMD">
         <mets:digiprovMD>
             <xsl:attribute name="ID">
-                <xsl:value-of select="./@ID" />
+                <xsl:value-of select="./@ID"/>
             </xsl:attribute>
             <xsl:for-each select="mets:mdWrap">
                 <xsl:attribute name="MIMETYPE">
-                    <xsl:value-of select="./@MIMETYPE" />
+                    <xsl:value-of select="./@MIMETYPE"/>
                 </xsl:attribute>
                 <xsl:attribute name="MDTYPE">
-                    <xsl:value-of select="./@MDTYPE" />
+                    <xsl:value-of select="./@MDTYPE"/>
                 </xsl:attribute>
                 <xsl:attribute name="OTHERMDTYPE">
-                    <xsl:value-of select="./@OTHERMDTYPE" />
+                    <xsl:value-of select="./@OTHERMDTYPE"/>
                 </xsl:attribute>
                 <mets:mdWrap>
-                    <xsl:copy-of select="mets:xmlData" />
+                    <xsl:copy-of select="mets:xmlData"/>
                 </mets:mdWrap>
             </xsl:for-each>
         </mets:digiprovMD>
@@ -170,16 +170,16 @@
     <xsl:template match="mets:fileSec/mets:fileGrp"
                   mode="repres">
         <xsl:variable name="representationID"
-                      select="concat('rep', position(), '-amd')" />
+                      select="concat(&apos;rep&apos;, position(), &apos;-amd&apos;)"/>
         <xsl:variable name="preservationType"
-                      select="./@USE" />
+                      select="./@USE"/>
         <mets:amdSec>
             <xsl:attribute name="ID">
-                <xsl:value-of select="$representationID" />
+                <xsl:value-of select="$representationID"/>
             </xsl:attribute>
             <mets:techMD>
                 <xsl:attribute name="ID">
-                    <xsl:value-of select="concat($representationID, '-tech')" />
+                    <xsl:value-of select="concat($representationID, &apos;-tech&apos;)"/>
                 </xsl:attribute>
                 <mets:mdWrap MDTYPE="OTHER"
                              OTHERMDTYPE="dnx">
@@ -188,25 +188,25 @@
                             <section id="generalRepCharacteristics">
                                 <record>
                                     <xsl:choose>
-                                        <xsl:when test="$preservationType = 'MASTER'">
+                                        <xsl:when test="$preservationType = &apos;MASTER&apos;">
                                             <key id="label">TIFF</key>
                                             <key id="preservationType">PRESERVATION_MASTER</key>
                                             <key id="representationEntityType">
-                                                <xsl:value-of select="$preservationType" />
+                                                <xsl:value-of select="$preservationType"/>
                                             </key>
                                         </xsl:when>
-                                        <xsl:when test="$preservationType = 'DOWNLOAD'">
+                                        <xsl:when test="$preservationType = &apos;DOWNLOAD&apos;">
                                             <key id="label">PDF</key>
                                             <key id="preservationType">MODIFIED_MASTER</key>
                                             <key id="representationEntityType">
-                                                <xsl:value-of select="$preservationType" />
+                                                <xsl:value-of select="$preservationType"/>
                                             </key>
                                         </xsl:when>
-                                        <xsl:when test="$preservationType = 'FULLTEXT'">
+                                        <xsl:when test="$preservationType = &apos;FULLTEXT&apos;">
                                             <key id="label">XML</key>
                                             <key id="preservationType">MODIFIED_MASTER_02</key>
                                             <key id="representationEntityType">
-                                                <xsl:value-of select="$preservationType" />
+                                                <xsl:value-of select="$preservationType"/>
                                             </key>
                                         </xsl:when>
                                     </xsl:choose>
@@ -224,31 +224,31 @@
     <xsl:template match="mets:fileSec/mets:fileGrp"
                   mode="file">
         <xsl:variable name="representationPos"
-                      select="position()" />
+                      select="position()"/>
         <xsl:for-each select="./mets:file">
             <xsl:variable name="fileMIMEType"
-                          select=".//@MIMETYPE" />
+                          select=".//@MIMETYPE"/>
             <xsl:variable name="fileFixityType"
-                          select="./@CHECKSUMTYPE" />
+                          select="./@CHECKSUMTYPE"/>
             <xsl:variable name="fileChecksum"
-                          select="./@CHECKSUM" />
+                          select="./@CHECKSUM"/>
             <xsl:variable name="fileName"
-                          select="./mets:FLocat/@xlink:href" />
+                          select="./mets:FLocat/@xlink:href"/>
             <xsl:variable name="filePos"
-                          select="position()" />
+                          select="position()"/>
             <xsl:variable name="fileID"
-                          select="./@ID" />
+                          select="./@ID"/>
             <xsl:variable name="fileSizeBytes"
-                          select="./@SIZE" />
+                          select="./@SIZE"/>
             <xsl:variable name="fileCreationDate"
-                          select="./@CREATED" />
+                          select="./@CREATED"/>
             <mets:amdSec>
                 <xsl:attribute name="ID">
-                    <xsl:value-of select="concat('fid', $filePos, '-', $representationPos, '-amd')" />
+                    <xsl:value-of select="concat(&apos;fid&apos;, $filePos, &apos;-&apos;, $representationPos, &apos;-amd&apos;)"/>
                 </xsl:attribute>
                 <mets:techMD>
                     <xsl:attribute name="ID">
-                        <xsl:value-of select="concat('fid', $filePos, '-', $representationPos, '-amd-tech')" />
+                        <xsl:value-of select="concat(&apos;fid&apos;, $filePos, &apos;-&apos;, $representationPos, &apos;-amd-tech&apos;)"/>
                     </xsl:attribute>
                     <mets:mdWrap MDTYPE="OTHER"
                                  OTHERMDTYPE="dnx">
@@ -258,48 +258,48 @@
                                     <record>
                                         <key id="label">
                                             <xsl:choose>
-                                                <xsl:when test="../@USE='MASTER'">
-                                                    <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='PHYSICAL']/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)" />
+                                                <xsl:when test="../@USE=&apos;MASTER&apos;">
+                                                    <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;PHYSICAL&apos;]/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)"/>
                                                 </xsl:when>
-                                                <xsl:when test="../@USE='DOWNLOAD'">
+                                                <xsl:when test="../@USE=&apos;DOWNLOAD&apos;">
                                                     <xsl:choose>
-                                                        <xsl:when test="../../../mets:dmdSec//mods:relatedItem[@type='host']">
-                                                            <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='LOGICAL']/mets:div/mets:div/@LABEL)" />
+                                                        <xsl:when test="../../../mets:dmdSec//mods:relatedItem[@type=&apos;host&apos;]">
+                                                            <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;LOGICAL&apos;]/mets:div/mets:div/@LABEL)"/>
                                                         </xsl:when>
                                                         <xsl:otherwise>
-                                                            <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='LOGICAL']/mets:div/@LABEL)" />
+                                                            <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;LOGICAL&apos;]/mets:div/@LABEL)"/>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
                                                 </xsl:when>
-                                                <xsl:when test="../@USE='FULLTEXT'">
-                                                    <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='PHYSICAL']/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)" />
+                                                <xsl:when test="../@USE=&apos;FULLTEXT&apos;">
+                                                    <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;PHYSICAL&apos;]/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)"/>
                                                 </xsl:when>
                                             </xsl:choose>
                                         </key>
                                         <key id="fileMIMEType">
-                                            <xsl:value-of select="$fileMIMEType" />
+                                            <xsl:value-of select="$fileMIMEType"/>
                                         </key>
                                         <xsl:if test="$fileSizeBytes">
                                             <key id="fileSizeBytes">
-                                                <xsl:value-of select="$fileSizeBytes" />
+                                                <xsl:value-of select="$fileSizeBytes"/>
                                             </key>
                                         </xsl:if>
                                         <xsl:if test="$fileCreationDate">
                                             <key id="fileCreationDate">
-                                                <xsl:value-of select="$fileCreationDate" />
+                                                <xsl:value-of select="$fileCreationDate"/>
                                             </key>
                                         </xsl:if>
                                     </record>
                                 </section>
                                 <xsl:choose>
-                                    <xsl:when test="$fileChecksum != ''">
+                                    <xsl:when test="$fileChecksum != &apos;&apos;">
                                         <section id="fileFixity">
                                             <record>
                                                 <key id="fixityType">
-                                                    <xsl:value-of select="$fileFixityType" />
+                                                    <xsl:value-of select="$fileFixityType"/>
                                                 </key>
                                                 <key id="fixityValue">
-                                                    <xsl:value-of select="$fileChecksum" />
+                                                    <xsl:value-of select="$fileChecksum"/>
                                                 </key>
                                             </record>
                                         </section>
@@ -316,39 +316,39 @@
     <xsl:template match="mets:fileSec"
                   mode="fileSec">
         <xsl:apply-templates select="mets:fileGrp"
-                             mode="repres" />
+                             mode="repres"/>
         <xsl:apply-templates select="mets:fileGrp"
-                             mode="file" />
+                             mode="file"/>
         <mets:fileSec>
             <xsl:for-each select="mets:fileGrp">
                 <xsl:variable name="pos"
-                              select="position()" />
+                              select="position()"/>
                 <mets:fileGrp>
                     <xsl:attribute name="USE">
-                        <xsl:value-of select="'VIEW'" />
+                        <xsl:value-of select="&apos;VIEW&apos;"/>
                     </xsl:attribute>
                     <xsl:attribute name="ID">
-                        <xsl:value-of select="concat('rep', $pos)" />
+                        <xsl:value-of select="concat(&apos;rep&apos;, $pos)"/>
                     </xsl:attribute>
                     <xsl:attribute name="ADMID">
-                        <xsl:value-of select="concat('rep', $pos, '-amd')" />
+                        <xsl:value-of select="concat(&apos;rep&apos;, $pos, &apos;-amd&apos;)"/>
                     </xsl:attribute>
                     <xsl:for-each select="mets:file">
                         <xsl:variable name="filePos">
-                            <xsl:value-of select="position()" />
+                            <xsl:value-of select="position()"/>
                         </xsl:variable>
                         <mets:file>
                             <xsl:attribute name="MIMETYPE">
-                                <xsl:value-of select="./@MIMETYPE" />
+                                <xsl:value-of select="./@MIMETYPE"/>
                             </xsl:attribute>
                             <xsl:attribute name="ID">
-                                <xsl:value-of select="concat('fid', $filePos, '-', $pos)" />
+                                <xsl:value-of select="concat(&apos;fid&apos;, $filePos, &apos;-&apos;, $pos)"/>
                             </xsl:attribute>
                             <xsl:attribute name="ADMID">
-                                <xsl:value-of select="concat('fid', $filePos, '-', $pos, '-amd')" />
+                                <xsl:value-of select="concat(&apos;fid&apos;, $filePos, &apos;-&apos;, $pos, &apos;-amd&apos;)"/>
                             </xsl:attribute>
                             <xsl:copy-of select="mets:FLocat"
-                                         copy-namespaces="no" />
+                                         copy-namespaces="no"/>
                         </mets:file>
                     </xsl:for-each>
                 </mets:fileGrp>
@@ -357,49 +357,49 @@
         <!-- mets:structMap LOGICAL Section -->
         <xsl:for-each select="mets:fileGrp">
             <xsl:variable name="pos"
-                          select="position()" />
+                          select="position()"/>
             <mets:structMap>
                 <xsl:attribute name="TYPE">
-                    <xsl:value-of select="'LOGICAL'" />
+                    <xsl:value-of select="&apos;LOGICAL&apos;"/>
                 </xsl:attribute>
                 <xsl:attribute name="ID">
-                    <xsl:value-of select="concat('rep', $pos, '-1')" />
+                    <xsl:value-of select="concat(&apos;rep&apos;, $pos, &apos;-1&apos;)"/>
                 </xsl:attribute>
                 <mets:div>
                     <xsl:for-each select="./mets:file">
                         <xsl:variable name="fileMIMEType"
-                                      select="./@MIMETYPE" />
+                                      select="./@MIMETYPE"/>
                         <xsl:variable name="fileID"
-                                      select="./@ID" />
+                                      select="./@ID"/>
                         <xsl:variable name="filePos"
-                                      select="position()" />
+                                      select="position()"/>
                         <mets:div>
                             <xsl:attribute name="TYPE">
-                                <xsl:value-of select="'FILE'" />
+                                <xsl:value-of select="&apos;FILE&apos;"/>
                             </xsl:attribute>
                             <xsl:attribute name="LABEL">
                                 <xsl:choose>
-                                    <xsl:when test="../@USE='MASTER'">
-                                        <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='PHYSICAL']/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)" />
+                                    <xsl:when test="../@USE=&apos;MASTER&apos;">
+                                        <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;PHYSICAL&apos;]/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)"/>
                                     </xsl:when>
-                                    <xsl:when test="../@USE='DOWNLOAD'">
+                                    <xsl:when test="../@USE=&apos;DOWNLOAD&apos;">
                                         <xsl:choose>
-                                            <xsl:when test="../../../mets:dmdSec//mods:relatedItem[@type='host']">
-                                                <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='LOGICAL']/mets:div/mets:div/@LABEL)" />
+                                            <xsl:when test="../../../mets:dmdSec//mods:relatedItem[@type=&apos;host&apos;]">
+                                                <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;LOGICAL&apos;]/mets:div/mets:div/@LABEL)"/>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='LOGICAL']/mets:div/@LABEL)" />
+                                                <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;LOGICAL&apos;]/mets:div/@LABEL)"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:when>
-                                    <xsl:when test="../@USE='FULLTEXT'">
-                                        <xsl:value-of select="concat(../@USE, ': ', ../../../mets:structMap[@TYPE='PHYSICAL']/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)" />
+                                    <xsl:when test="../@USE=&apos;FULLTEXT&apos;">
+                                        <xsl:value-of select="concat(../@USE, &apos;: &apos;, ../../../mets:structMap[@TYPE=&apos;PHYSICAL&apos;]/mets:div/mets:div/mets:fptr[@FILEID=$fileID]/../@LABEL)"/>
                                     </xsl:when>
                                 </xsl:choose>
                             </xsl:attribute>
                             <mets:fptr>
                                 <xsl:attribute name="FILEID">
-                                    <xsl:value-of select="concat('fid', $filePos, '-', $pos)" />
+                                    <xsl:value-of select="concat(&apos;fid&apos;, $filePos, &apos;-&apos;, $pos)"/>
                                 </xsl:attribute>
                             </mets:fptr>
                         </mets:div>
@@ -413,204 +413,328 @@
                   mode="mods">
         <xsl:element name="mods:{name()}"
                      namespace="http://www.loc.gov/mods/v3">
-            <xsl:copy-of select="namespace::*" />
-            <xsl:apply-templates mode="mods" />
+            <xsl:copy-of select="namespace::*"/>
+            <xsl:apply-templates mode="mods"/>
         </xsl:element>
     </xsl:template>
     <xsl:template match="@*|text()"
                   mode="copy">
         <xsl:copy>
-            <xsl:apply-templates mode="copy" />
+            <xsl:apply-templates mode="copy"/>
         </xsl:copy>
     </xsl:template>
     <xsl:template match="*"
                   mode="copy">
         <xsl:element name="{name()}">
-            <xsl:apply-templates mode="copy" />
+            <xsl:apply-templates mode="copy"/>
         </xsl:element>
     </xsl:template>
     <!-- DMD section - generate DC from mods -->
     <!-- Set mapping -->
-    <xsl:template match="mets:dmdSec[@ID=$dmd_id]/mets:mdWrap[@MDTYPE='MODS']/mets:xmlData/mods:mods"
+    <xsl:template match="mets:dmdSec[@ID=$dmd_id]/mets:mdWrap[@MDTYPE=&apos;MODS&apos;]/mets:xmlData/mods:mods"
                   mode="mods2dc">
         <!-- Title -->
         <!-- If mods:titleInfo has attribute type="alternative" map to dcterms:alternative -->
         <!-- else map to dc:title -->
-        <xsl:for-each select="./mods:titleInfo">
-            <xsl:choose>
-                <xsl:when test="./@type='alternative'">
+        <xsl:choose>
+            <!-- check if title exist, else get from mods:relatedItem[@type=&apos;host&apos;] -->
+            <xsl:when test="./mods:titleInfo">
+                <xsl:for-each select="./mods:titleInfo">
                     <xsl:choose>
-                        <xsl:when test="./mods:subTitle">
-                            <dcterms:alternative>
-                                <xsl:choose>
-                                    <xsl:when test="./mods:nonSort">
-                                        <xsl:value-of select="concat(./mods:nonSort,./mods:title,' : ',./mods:subTitle)" />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="concat(./mods:title,' : ',./mods:subTitle)" />
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </dcterms:alternative>
+                        <xsl:when test="./@type=&apos;alternative&apos;">
+                            <xsl:choose>
+                                <xsl:when test="./mods:subTitle">
+                                    <dcterms:alternative>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dcterms:alternative>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <dcterms:alternative>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="./mods:title"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dcterms:alternative>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                        <xsl:when test="./@type=&apos;translated&apos;">
+                            <xsl:choose>
+                                <xsl:when test="./mods:subTitle">
+                                    <dcterms:alternative>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dcterms:alternative>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <dcterms:alternative>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="./mods:title"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dcterms:alternative>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
-                            <dcterms:alternative>
-                                <xsl:choose>
-                                    <xsl:when test="./mods:nonSort">
-                                        <xsl:value-of select="concat(./mods:nonSort,' ',./mods:title)" />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="./mods:title" />
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </dcterms:alternative>
+                            <!-- Check if mods:subTitle exist. If yes, connect with title -->
+                            <xsl:choose>
+                                <xsl:when test="./mods:subTitle">
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="./mods:title"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:otherwise>
                     </xsl:choose>
-                </xsl:when>
-                <xsl:when test="./@type='translated'">
-                    <xsl:choose>
-                        <xsl:when test="./mods:subTitle">
-                            <dcterms:alternative>
-                                <xsl:choose>
-                                    <xsl:when test="./mods:nonSort">
-                                        <xsl:value-of select="concat(./mods:nonSort,' ',./mods:title,' : ',./mods:subTitle)" />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="concat(./mods:title,' : ',./mods:subTitle)" />
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </dcterms:alternative>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <dcterms:alternative>
-                                <xsl:choose>
-                                    <xsl:when test="./mods:nonSort">
-                                        <xsl:value-of select="concat(./mods:nonSort,' ',./mods:title)" />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="./mods:title" />
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </dcterms:alternative>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:when>
-                <xsl:otherwise>
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:for-each select="./mods:relatedItem[@type=&apos;host&apos;]/mods:titleInfo[not(@*)]">
                     <!-- Check if mods:subTitle exist. If yes, connect with title -->
                     <xsl:choose>
-                        <xsl:when test="./mods:subTitle">
-                            <dc:title>
-                                <xsl:choose>
-                                    <xsl:when test="./mods:nonSort">
-                                        <xsl:value-of select="concat(./mods:nonSort,' ',./mods:title,' : ',./mods:subTitle)" />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="concat(./mods:title,' : ',./mods:subTitle)" />
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </dc:title>
+                        <xsl:when test="(../../mods:part/mods:detail/mods:number) and (../../mods:part/mods:detail/mods:number!=&apos;&apos;)">
+                            <xsl:choose>
+                                <xsl:when test="./mods:subTitle">
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;,./mods:subTitle,&apos; : &apos;, ../../mods:part/mods:detail/mods:number)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title,&apos; : &apos;,./mods:subTitle,&apos; : &apos;, ../../mods:part/mods:detail/mods:number)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;, ../../mods:part/mods:detail/mods:number)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title, &apos; : &apos;, ../../mods:part/mods:detail/mods:number)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                        <xsl:when test="../../mods:part/mods:detail/mods:title">
+                            <xsl:choose>
+                                <xsl:when test="./mods:subTitle">
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;,./mods:subTitle,&apos; : &apos;, ../../mods:part/mods:detail/mods:title)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title,&apos; : &apos;,./mods:subTitle,&apos; : &apos;, ../../mods:part/mods:detail/mods:title)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;, ../../mods:part/mods:detail/mods:title)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title, &apos; : &apos;, ../../mods:part/mods:detail/mods:title)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                        <xsl:when test="../../mods:part/mods:date">
+                            <xsl:choose>
+                                <xsl:when test="./mods:subTitle">
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;,./mods:subTitle,&apos; : &apos;, ../../mods:part/mods:date)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title,&apos; : &apos;,./mods:subTitle,&apos; : &apos;, ../../mods:part/mods:date)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;, ../../mods:part/mods:date)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title, &apos; : &apos;, ../../mods:part/mods:date)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
-                            <dc:title>
-                                <xsl:choose>
-                                    <xsl:when test="./mods:nonSort">
-                                        <xsl:value-of select="concat(./mods:nonSort,' ',./mods:title)" />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="./mods:title" />
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </dc:title>
+                            <xsl:choose>
+                                <xsl:when test="./mods:subTitle">
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <dc:title>
+                                        <xsl:choose>
+                                            <xsl:when test="./mods:nonSort">
+                                                <xsl:value-of select="concat(./mods:nonSort,&apos; &apos;,./mods:title)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="./mods:title"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </dc:title>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:otherwise>
                     </xsl:choose>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:for-each>
+                </xsl:for-each>
+            </xsl:otherwise>
+        </xsl:choose>
         <!-- Creator / Contributor -->
         <!-- Differentiate between creator and contributor via the role -->
-        <xsl:for-each select="./mods:name[@type='personal']/mods:displayForm">
+        <xsl:for-each select="./mods:name[@type=&apos;personal&apos;]/mods:displayForm">
             <!-- Store value of mods:roleTerm in variable -->
             <xsl:variable name="role"
-                          select="../mods:role/mods:roleTerm" />
+                          select="../mods:role/mods:roleTerm"/>
             <xsl:choose>
-                <xsl:when test="$role='arc' or $role='art' or $role='aus' or $role='aut' or $role='cmp'">
+                <xsl:when test="$role=&apos;arc&apos; or $role=&apos;art&apos; or $role=&apos;aus&apos; or $role=&apos;aut&apos; or $role=&apos;cmp&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
-                <xsl:when test="$role='com' or $role='cre' or $role='ctg' or $role='lyr' or $role='pht'">
+                <xsl:when test="$role=&apos;com&apos; or $role=&apos;cre&apos; or $role=&apos;ctg&apos; or $role=&apos;lyr&apos; or $role=&apos;pht&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
                 <xsl:otherwise>
                     <dc:contributor>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:contributor>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
-        <xsl:for-each select="./mods:name[@type='personal']/mods:namePart">
+        <xsl:for-each select="./mods:name[@type=&apos;personal&apos;]/mods:namePart">
             <!-- Store value of mods:roleTerm in variable -->
             <xsl:variable name="role"
-                          select="../mods:role/mods:roleTerm" />
+                          select="../mods:role/mods:roleTerm"/>
             <xsl:choose>
-                <xsl:when test="$role='arc' or $role='art' or $role='aus' or $role='aut' or $role='cmp'">
+                <xsl:when test="$role=&apos;arc&apos; or $role=&apos;art&apos; or $role=&apos;aus&apos; or $role=&apos;aut&apos; or $role=&apos;cmp&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
-                <xsl:when test="$role='com' or $role='cre' or $role='ctg' or $role='lyr' or $role='pht'">
+                <xsl:when test="$role=&apos;com&apos; or $role=&apos;cre&apos; or $role=&apos;ctg&apos; or $role=&apos;lyr&apos; or $role=&apos;pht&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
                 <xsl:otherwise>
                     <dc:contributor>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:contributor>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
-        <xsl:for-each select="./mods:name[@type='corporate']/mods:displayForm">
+        <xsl:for-each select="./mods:name[@type=&apos;corporate&apos;]/mods:displayForm">
             <!-- Store value of mods:roleTerm in variable -->
             <xsl:variable name="role"
-                          select="../mods:role/mods:roleTerm" />
+                          select="../mods:role/mods:roleTerm"/>
             <xsl:choose>
-                <xsl:when test="$role='arc' or $role='art' or $role='aus' or $role='aut' or $role='cmp'">
+                <xsl:when test="$role=&apos;arc&apos; or $role=&apos;art&apos; or $role=&apos;aus&apos; or $role=&apos;aut&apos; or $role=&apos;cmp&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
-                <xsl:when test="$role='com' or $role='cre' or $role='ctg' or $role='lyr' or $role='pht'">
+                <xsl:when test="$role=&apos;com&apos; or $role=&apos;cre&apos; or $role=&apos;ctg&apos; or $role=&apos;lyr&apos; or $role=&apos;pht&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
                 <xsl:otherwise>
                     <dc:contributor>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:contributor>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
-        <xsl:for-each select="./mods:name[@type='corporate']/mods:namePart">
+        <xsl:for-each select="./mods:name[@type=&apos;corporate&apos;]/mods:namePart">
             <!-- Store value of mods:roleTerm in variable -->
             <xsl:variable name="role"
-                          select="../mods:role/mods:roleTerm" />
+                          select="../mods:role/mods:roleTerm"/>
             <xsl:choose>
-                <xsl:when test="$role='arc' or $role='art' or $role='aus' or $role='aut' or $role='cmp'">
+                <xsl:when test="$role=&apos;arc&apos; or $role=&apos;art&apos; or $role=&apos;aus&apos; or $role=&apos;aut&apos; or $role=&apos;cmp&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
-                <xsl:when test="$role='com' or $role='cre' or $role='ctg' or $role='lyr' or $role='pht'">
+                <xsl:when test="$role=&apos;com&apos; or $role=&apos;cre&apos; or $role=&apos;ctg&apos; or $role=&apos;lyr&apos; or $role=&apos;pht&apos;">
                     <dc:creator>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:creator>
                 </xsl:when>
                 <xsl:otherwise>
                     <dc:contributor>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:contributor>
                 </xsl:otherwise>
             </xsl:choose>
@@ -618,33 +742,33 @@
         <!-- Abstract -->
         <xsl:for-each select="./mods:abstract[@type=&quot;content&quot;]">
             <dcterms:abstract>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dcterms:abstract>
         </xsl:for-each>
         <!-- Description -->
         <xsl:for-each select="./mods:note">
             <dc:description>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:description>
         </xsl:for-each>
         <xsl:for-each select="./mods:originInfo/mods:edition">
             <dc:description>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:description>
         </xsl:for-each>
         <!-- Date -->
         <xsl:variable name="countDate"
-                      select="count(./mods:originInfo/mods:dateIssued)" />
+                      select="count(./mods:originInfo/mods:dateIssued)"/>
         <xsl:choose>
             <xsl:when test="$countDate = &quot;1&quot;">
                 <dc:date>
-                    <xsl:value-of select="./mods:originInfo/mods:dateIssued" />
+                    <xsl:value-of select="./mods:originInfo/mods:dateIssued"/>
                 </dc:date>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:for-each select="./mods:originInfo/mods:dateIssued[@keyDate=&quot;yes&quot;]">
                     <dc:date>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:date>
                 </xsl:for-each>
             </xsl:otherwise>
@@ -652,35 +776,35 @@
         <!-- Publisher -->
         <xsl:for-each select="./mods:originInfo/mods:publisher">
             <dc:publisher>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:publisher>
         </xsl:for-each>
         <!-- Type -->
         <xsl:for-each select="./mods:typeOfResource">
             <dc:type>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:type>
         </xsl:for-each>
         <xsl:for-each select="./mods:genre">
             <dc:type>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:type>
         </xsl:for-each>
         <xsl:for-each select="./mods:originInfo/mods:issuance">
             <dc:type>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:type>
         </xsl:for-each>
         <!-- Language -->
         <xsl:for-each select="./mods:language/mods:languageTerm">
             <dc:language>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:language>
         </xsl:for-each>
         <!-- Format -->
         <xsl:for-each select="./mods:physicalDescription/child::*">
             <dc:format>
-                <xsl:value-of select="." />
+                <xsl:value-of select="."/>
             </dc:format>
         </xsl:for-each>
         <!-- Subject -->
@@ -689,119 +813,176 @@
             <xsl:choose>
                 <xsl:when test="./child::*">
                     <dc:subject>
-                        <xsl:value-of select="./child::*" />
+                        <xsl:value-of select="./child::*"/>
                     </dc:subject>
                 </xsl:when>
                 <xsl:otherwise>
                     <dc:subject>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="."/>
                     </dc:subject>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
         <xsl:for-each select="./mods:classification">
             <dc:subject>
-                <xsl:value-of select="concat('[',./@authority,'=',.,'] ',./@displayLabel)" />
+                <xsl:value-of select="concat(&apos;[&apos;,./@authority,&apos;=&apos;,.,&apos;] &apos;,./@displayLabel)"/>
             </dc:subject>
         </xsl:for-each>
         <!-- Identifier -->
         <xsl:for-each select="./mods:identifier">
             <xsl:choose>
-                <xsl:when test="./@type = 'urn'">
-                    <xsl:if test="contains(., 'urn:nbn:de:')">
+                <xsl:when test="./@type = &apos;urn&apos;">
+                    <xsl:if test="contains(., &apos;urn:nbn:de:&apos;)">
                         <dc:identifier>
-                            <xsl:value-of select="concat('[',./@type,'] ',.)" />
+                            <xsl:value-of select="concat(&apos;[&apos;,./@type,&apos;] &apos;,.)"/>
                         </dc:identifier>
                         <dc:identifier>
-                            <xsl:value-of select="concat('https://nbn-resolving.org/',.)" />
+                            <xsl:value-of select="concat(&apos;https://nbn-resolving.org/&apos;,.)"/>
                         </dc:identifier>
                     </xsl:if>
                 </xsl:when>
-                <xsl:when test="./@type = 'doi'">
+                <xsl:when test="./@type = &apos;doi&apos;">
                     <dc:identifier>
-                        <xsl:value-of select="concat('[',./@type,'] ',.)" />
+                        <xsl:value-of select="concat(&apos;[&apos;,./@type,&apos;] &apos;,.)"/>
                     </dc:identifier>
                     <dc:identifier>
-                        <xsl:value-of select="concat('https://doi.org/',.)" />
+                        <xsl:value-of select="concat(&apos;https://doi.org/&apos;,.)"/>
                     </dc:identifier>
                 </xsl:when>
                 <xsl:otherwise>
                     <dc:identifier>
-                        <xsl:value-of select="concat('[',./@type,'] ',.)" />
+                        <xsl:value-of select="concat(&apos;[&apos;,./@type,&apos;] &apos;,.)"/>
                     </dc:identifier>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
         <xsl:for-each select="./mods:recordInfo/mods:recordIdentifier">
             <dc:identifier>
-                <xsl:value-of select="concat('[',./@source,'] ',.)" />
+                <xsl:value-of select="concat(&apos;[&apos;,./@source,&apos;] &apos;,.)"/>
             </dc:identifier>
         </xsl:for-each>
         <!-- Rights -->
         <xsl:for-each select="./mods:accessCondition">
             <!-- Check, if value is not "free access" -->
-            <xsl:if test="not(.='free access')">
+            <xsl:if test="not(.=&apos;free access&apos;)">
                 <dc:rights>
-                    <xsl:value-of select="concat('[',.,'] ',./@displayLabel)" />
+                    <xsl:value-of select="concat(&apos;[&apos;,.,&apos;] &apos;,./@displayLabel)"/>
                 </dc:rights>
                 <xsl:if test="./@xlink:href">
                     <dc:rights>
-                        <xsl:value-of select="./@xlink:href" />
+                        <xsl:value-of select="./@xlink:href"/>
                     </dc:rights>
                 </xsl:if>
             </xsl:if>
         </xsl:for-each>
         <!-- isPartOf -->
-        <xsl:for-each select="./mods:relatedItem[@type='host']">
+        <xsl:for-each select="./mods:relatedItem[@type=&apos;host&apos;]">
             <xsl:for-each select="./mods:titleInfo/mods:title">
                 <dcterms:isPartOf>
-                    <xsl:value-of select="." />
+                    <xsl:value-of select="."/>
                 </dcterms:isPartOf>
             </xsl:for-each>
             <xsl:variable name="countDate"
-                          select="count(./mods:originInfo/mods:dateIssued)" />
+                          select="count(./mods:originInfo/mods:dateIssued)"/>
             <xsl:choose>
                 <xsl:when test="$countDate = &quot;1&quot;">
                     <dc:date>
-                        <xsl:value-of select="./mods:originInfo/mods:dateIssued" />
+                        <xsl:value-of select="./mods:originInfo/mods:dateIssued"/>
                     </dc:date>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:for-each select="./mods:originInfo/mods:dateIssued[@keyDate=&quot;yes&quot;]">
                         <dc:date>
-                            <xsl:value-of select="." />
+                            <xsl:value-of select="."/>
                         </dc:date>
                     </xsl:for-each>
                 </xsl:otherwise>
             </xsl:choose>
             <xsl:for-each select="./mods:identifier">
                 <dcterms:isPartOf>
-                    <xsl:value-of select="concat('[',./@type,'] ',.)" />
+                    <xsl:value-of select="concat(&apos;[&apos;,./@type,&apos;] &apos;,.)"/>
                 </dcterms:isPartOf>
             </xsl:for-each>
             <xsl:for-each select="./mods:part/mods:detail[@type=&quot;issue&quot;]/child::*">
                 <dcterms:isPartOf>
-                    <xsl:value-of select="." />
+                    <xsl:value-of select="."/>
                 </dcterms:isPartOf>
             </xsl:for-each>
             <xsl:for-each select="./mods:part/mods:detail[@type=&quot;volume&quot;]/child::*">
                 <dcterms:isPartOf>
-                    <xsl:value-of select="." />
+                    <xsl:value-of select="."/>
                 </dcterms:isPartOf>
             </xsl:for-each>
         </xsl:for-each>
         <!-- collection -->
         <xsl:choose>
-            <xsl:when test="./mods:relatedItem[@type='host']">
-                <xsl:for-each select="./mods:relatedItem[@type='host']/mods:titleInfo[not(@*)]">
+            <xsl:when test="./mods:relatedItem[@type=&apos;host&apos;]">
+                <xsl:for-each select="./mods:relatedItem[@type=&apos;host&apos;]/mods:titleInfo[not(@*)]">
                     <dc:collection>
-                        <xsl:value-of select="concat('UPb_03-Digitale Sammlungen Retrodigitalisate','\',./mods:title)" />
+                        <xsl:choose>
+                            <xsl:when test="./mods:subTitle">
+                                <xsl:choose>
+                                    <xsl:when test="./mods:nonSort">
+                                        <xsl:variable name="collectionTitle"
+                                                      select="concat(./mods:nonSort,&apos; &apos;,./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                        <xsl:choose>
+                                            <xsl:when test="string-length($collectionTitle) &lt; 250">
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,$collectionTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,substring($collectionTitle, 1, 150),&apos;[...] [&apos;,../mods:identifier[@type=&apos;urn&apos;],&apos;]&apos;)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:variable name="collectionTitle"
+                                                      select="concat(./mods:title,&apos; : &apos;,./mods:subTitle)"/>
+                                        <xsl:choose>
+                                            <xsl:when test="string-length($collectionTitle) &lt; 250">
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,$collectionTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,substring($collectionTitle, 1, 150),&apos;[...] [&apos;,../mods:identifier[@type=&apos;urn&apos;],&apos;]&apos;)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:choose>
+                                    <xsl:when test="./mods:nonSort">
+                                        <xsl:variable name="collectionTitle"
+                                                      select="concat(./mods:nonSort,&apos; &apos;,./mods:title)"/>
+                                        <xsl:choose>
+                                            <xsl:when test="string-length($collectionTitle) &lt; 250">
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,$collectionTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,substring($collectionTitle, 1, 150),&apos;[...] [&apos;,../mods:identifier[@type=&apos;urn&apos;],&apos;]&apos;)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:variable name="collectionTitle"
+                                                      select="./mods:title"/>
+                                        <xsl:choose>
+                                            <xsl:when test="string-length($collectionTitle) &lt; 250">
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,$collectionTitle)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="concat(&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;,&apos;\&apos;,substring($collectionTitle, 1, 150),&apos;[...] [&apos;,../mods:identifier[@type=&apos;urn&apos;],&apos;]&apos;)"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </dc:collection>
                 </xsl:for-each>
             </xsl:when>
             <xsl:otherwise>
                 <dc:collection>
-                    <xsl:value-of select="'UPb_03-Digitale Sammlungen Retrodigitalisate'" />
+                    <xsl:value-of select="&apos;UPb_03-Digitale Sammlungen Retrodigitalisate&apos;"/>
                 </dc:collection>
             </xsl:otherwise>
         </xsl:choose>
@@ -809,49 +990,49 @@
     <!-- </xsl:template> -->
     <xsl:template match="node()"
                   mode="mods2dc">
-        <xsl:apply-templates mode="mods2dc" />
+        <xsl:apply-templates mode="mods2dc"/>
     </xsl:template>
     <!-- mets:structMap PHYSICAL Section -->
-    <xsl:template match="mets:structMap[@TYPE='PHYSICAL']">
+    <xsl:template match="mets:structMap[@TYPE=&apos;PHYSICAL&apos;]">
         <mets:structMap>
             <xsl:attribute name="TYPE">
-                <xsl:value-of select="./@TYPE" />
+                <xsl:value-of select="./@TYPE"/>
             </xsl:attribute>
             <xsl:attribute name="ID">
-                <xsl:value-of select="concat('structMap-', ./@TYPE, '-', position())" />
+                <xsl:value-of select="concat(&apos;structMap-&apos;, ./@TYPE, &apos;-&apos;, position())"/>
             </xsl:attribute>
             <mets:div>
                 <xsl:apply-templates select="mets:div/mets:div"
-                                     mode="phys" />
+                                     mode="phys"/>
             </mets:div>
         </mets:structMap>
     </xsl:template>
     <!-- mets:structMap LOGICAL Section -->
-    <xsl:template match="mets:structMap[@TYPE='LOGICAL']">
+    <xsl:template match="mets:structMap[@TYPE=&apos;LOGICAL&apos;]">
         <mets:structMap>
             <xsl:attribute name="TYPE">
-                <xsl:value-of select="./@TYPE" />
+                <xsl:value-of select="./@TYPE"/>
             </xsl:attribute>
             <xsl:attribute name="ID">
-                <xsl:value-of select="concat('structMap-', ./@TYPE, '-', position())" />
+                <xsl:value-of select="concat(&apos;structMap-&apos;, ./@TYPE, &apos;-&apos;, position())"/>
             </xsl:attribute>
             <mets:div>
                 <xsl:apply-templates select="mets:div/mets:div"
-                                     mode="logic" />
+                                     mode="logic"/>
             </mets:div>
         </mets:structMap>
     </xsl:template>
-    <!-- List file labels -->
+    <!--  List file labels -->
     <!-- Master -->
     <xsl:variable name="LabelMaster">
-        <xsl:for-each select="//mets:structMap[@TYPE='PHYSICAL']/mets:div">
+        <xsl:for-each select="//mets:structMap[@TYPE=&apos;PHYSICAL&apos;]/mets:div">
             <FileLabel label="{./mets:fptr/@FILEID}">
                 <xsl:choose>
                     <xsl:when test="not(./@LABEL)">
                         <xsl:text>No label</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="./@LABEL" />
+                        <xsl:value-of select="./@LABEL"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </FileLabel>
@@ -866,12 +1047,12 @@
                         <xsl:text>No label</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="./@LABEL" />
+                        <xsl:value-of select="./@LABEL"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </FileLabel>
         </xsl:for-each>
     </xsl:variable>
     <!-- Templates by default : do nothing -->
-    <xsl:template match="@*|node()" />
+    <xsl:template match="@*|node()"/>
 </xsl:stylesheet>
